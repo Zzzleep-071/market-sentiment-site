@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>美股市场状态</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data/latest-data.js"></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="crumbs" aria-label="当前位置">
+        <a href="#">总览</a>
+        <span>/</span>
+        <strong>美股市场状态</strong>
+      </nav>
+      <div class="status-pill" id="updateStatus">等待数据</div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-panel">
+        <p>U.S. MARKET DASHBOARD</p>
+        <h1>美股市场状态</h1>
+      </section>
+
+      <section class="gauge-panel" aria-labelledby="gaugeTitle">
+        <div class="gauge-wrap">
+          <svg class="vix-gauge" id="vixGauge" viewBox="0 0 360 210" role="img" aria-labelledby="gaugeTitle gaugeDesc">
+            <title id="gaugeTitle">VIX 恐慌指数</title>
+            <desc id="gaugeDesc">按常态、观察、压力、极端压力四段显示当前 VIX 所在区间。</desc>
+          </svg>
+          <div class="gauge-copy">
+            <div class="gauge-value" id="vixValue">--</div>
+            <div class="gauge-zone" id="vixZone">等待更新</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metric-grid" aria-label="核心指标">
+        <article class="metric-card">
+          <p>VIX近10年分位</p>
+          <strong id="vixPercentile">--</strong>
+          <span>分位越高，当前波动率越少见。</span>
+        </article>
+        <article class="metric-card">
+          <p>VIX 5日变化（点）</p>
+          <strong id="vixChange">--</strong>
+          <span>点数上升代表波动预期升温。</span>
+        </article>
+        <article class="metric-card">
+          <p>标普500近1个月表现</p>
+          <strong id="spyReturn">--</strong>
+          <span>近20个交易日涨跌幅，观察美股近期方向。</span>
+        </article>
+        <article class="metric-card">
+          <p>数据日期</p>
+          <strong id="asOfDate">--</strong>
+          <span id="dataLabel">公开数据源自动生成。</span>
+        </article>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="vixSpyTitle">
+        <div class="section-head">
+          <div>
+            <h2 id="vixSpyTitle">VIX 与标普500走势对比</h2>
+            <p>左轴 VIX 点位；右轴标普500指数相对区间起点涨跌幅，作为 SPY 走势代理。</p>
+          </div>
+          <div class="segmented" id="vixRange" role="group" aria-label="VIX与SPY时间范围">
+            <button type="button" data-range="1m">1月</button>
+            <button type="button" data-range="3m" class="active">3月</button>
+            <button type="button" data-range="1y">1年</button>
+            <button type="button" data-range="3y">3年</button>
+            <button type="button" data-range="5y">5年</button>
+          </div>
+        </div>
+        <div class="chart-box">
+          <canvas id="vixSpyChart" width="1100" height="420"></canvas>
+          <div class="chart-empty" id="vixSpyEmpty" hidden>暂无可用数据</div>
+        </div>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="deviationTitle">
+        <div class="section-head">
+          <div>
+            <h2 id="deviationTitle">纳指100乖离率</h2>
+            <p id="deviationSubtitle">收盘价相对均线的偏离幅度；灰线为价格。</p>
+          </div>
+          <div class="segmented wide" id="deviationRange" role="group" aria-label="纳指100乖离率时间范围">
+            <button type="button" data-range="1y">1年</button>
+            <button type="button" data-range="3y" class="active">3年</button>
+            <button type="button" data-range="5y">5年</button>
+          </div>
+        </div>
+        <div class="legend-row" id="deviationLegend" aria-label="图例">
+          <span><i class="line red"></i>20日</span>
+          <span><i class="line green"></i>60日</span>
+          <span><i class="line blue"></i>120日</span>
+          <span><i class="line purple"></i>200日</span>
+          <span><i class="line gray"></i>价格</span>
+        </div>
+        <div class="chart-box tall">
+          <canvas id="deviationChart" width="1100" height="470"></canvas>
+          <div class="chart-empty" id="deviationEmpty" hidden>暂无可用数据</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footnote">
+      <span id="sourceLine">数据来源：Cboe VIX、FRED SP500/NASDAQ100。</span>
+      <span>页面仅用于个人研究，不构成投资建议。</span>
+    </footer>
+  </body>
+</html>
