@@ -2,6 +2,11 @@ name: Update market sentiment data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "data/**"
   schedule:
     # 08:30 Beijing time. This runs after the prior U.S. cash session has closed.
     - cron: "30 0 * * *"

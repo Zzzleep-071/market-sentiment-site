@@ -198,7 +198,7 @@ async function loadFredSeries(series, previousRows = [], startDate = "2019-01-01
       })
       .filter((item) => item.date && Number.isFinite(item.close))
       .sort((a, b) => a.date.localeCompare(b.date));
-    return dedupeByDate(rows);
+    return dedupeByDate([...(previousRows || []), ...rows]);
   }
 
   if (Array.isArray(previousRows) && previousRows.length >= 30) {
@@ -232,6 +232,12 @@ function percentile(values, current) {
 function yearsBefore(date, years) {
   const result = new Date(`${date}T00:00:00Z`);
   result.setUTCFullYear(result.getUTCFullYear() - years);
+  return result.toISOString().slice(0, 10);
+}
+
+function daysBefore(date, days) {
+  const result = new Date(`${date}T00:00:00Z`);
+  result.setUTCDate(result.getUTCDate() - days);
   return result.toISOString().slice(0, 10);
 }
 
@@ -340,11 +346,13 @@ async function buildData() {
     date: row.date,
     close: row.close
   }));
+  const sp500StartDate = previousSp500Rows?.length ? daysBefore(latest(previousSp500Rows).date, 45) : "2020-01-01";
+  const nasdaqStartDate = previousNasdaqRows?.length ? daysBefore(latest(previousNasdaqRows).date, 45) : "2020-01-01";
 
   const [vixRows, sp500Rows, nasdaqRows, dgs10, dgs2] = await Promise.all([
     loadVixSeries(previousData),
-    loadFredSeries("SP500", previousSp500Rows, "2020-01-01"),
-    loadFredSeries("NASDAQ100", previousNasdaqRows, "2020-01-01"),
+    loadFredSeries("SP500", previousSp500Rows, sp500StartDate),
+    loadFredSeries("NASDAQ100", previousNasdaqRows, nasdaqStartDate),
     loadFredSeries("DGS10", [], "2024-01-01").catch(() => []),
     loadFredSeries("DGS2", [], "2024-01-01").catch(() => [])
   ]);
