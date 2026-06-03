@@ -6,10 +6,12 @@ const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputJson = resolve(rootDir, "data", "market-sentiment.json");
 const outputJs = resolve(rootDir, "data", "latest-data.js");
 const dailyLogJson = resolve(rootDir, "data", "daily-log.json");
+const fallbackWarnings = [];
 
 const SOURCES = {
   cboeVix: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
-  fredSeries: (series) => `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(series)}`
+  fredSeries: (series, startDate = "2019-01-01") =>
+    `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${encodeURIComponent(series)}&cosd=${encodeURIComponent(startDate)}`
 };
 
 const sourceList = [
@@ -23,20 +25,54 @@ const sourceList = [
   }
 ];
 
-async function fetchText(url, label) {
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": "market-sentiment-dashboard/1.0"
+async function fetchText(url, label, options = {}) {
+  const attempts = options.attempts || 3;
+  const timeoutMs = options.timeoutMs || 20000;
+  let lastError;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      console.log(`Fetching ${label} (${attempt}/${attempts})`);
+      const response = await fetch(url, {
+        headers: {
+          "user-agent": "market-sentiment-dashboard/1.0"
+        },
+        signal: controller.signal
+      });
+      clearTimeout(timeout);
+      if (!response.ok) {
+        throw new Error(`${label} returned ${response.status} ${response.statusText}`);
+      }
+      const text = await response.text();
+      if (!text.trim() || /^No data/i.test(text.trim())) {
+        throw new Error(`${label} returned empty data`);
+      }
+      return text;
+    } catch (error) {
+      clearTimeout(timeout);
+      lastError = error;
+      if (attempt < attempts) await wait(1500 * attempt);
     }
-  });
-  if (!response.ok) {
-    throw new Error(`${label} returned ${response.status} ${response.statusText}`);
   }
-  const text = await response.text();
-  if (!text.trim() || /^No data/i.test(text.trim())) {
-    throw new Error(`${label} returned empty data`);
+
+  throw lastError;
+}
+
+function wait(ms) {
+  return new Promise((resolveWait) => setTimeout(resolveWait, ms));
+}
+
+async function fetchOptionalText(url, label, options = {}) {
+  try {
+    return await fetchText(url, label, options);
+  } catch (error) {
+    const message = `${label} unavailable: ${error.message}`;
+    fallbackWarnings.push(message);
+    console.warn(message);
+    return null;
   }
-  return text;
 }
 
 function parseCsv(text) {
@@ -132,18 +168,45 @@ function dedupeByDate(rows) {
   return [...map.values()].sort((a, b) => a.date.localeCompare(b.date));
 }
 
-async function loadFredSeries(series) {
-  const text = await fetchText(SOURCES.fredSeries(series), `FRED ${series}`);
-  const rows = parseCsv(text)
-    .map((row) => {
-      const date = toIsoDate(row.observation_date || row.DATE || row.Date);
-      const raw = String(row[series] || "").trim();
-      const value = raw && raw !== "." ? Number(raw) : NaN;
-      return { date, close: value };
-    })
-    .filter((item) => item.date && Number.isFinite(item.close))
-    .sort((a, b) => a.date.localeCompare(b.date));
-  return dedupeByDate(rows);
+async function loadVixSeries(previousData) {
+  const text = await fetchOptionalText(SOURCES.cboeVix, "Cboe VIX", { timeoutMs: 20000, attempts: 3 });
+  if (text) return normalizePriceRows(parseCsv(text), "VIX");
+
+  const previousRows = previousData?.series?.vixSpy;
+  if (Array.isArray(previousRows) && previousRows.length >= 30) {
+    fallbackWarnings.push("Using previous VIX rows because Cboe VIX is unavailable.");
+    return previousRows
+      .map((row) => ({ date: row.date, close: row.vix }))
+      .filter((row) => row.date && Number.isFinite(row.close));
+  }
+
+  throw new Error("Cboe VIX is unavailable and no previous VIX data exists.");
+}
+
+async function loadFredSeries(series, previousRows = [], startDate = "2019-01-01") {
+  const text = await fetchOptionalText(SOURCES.fredSeries(series, startDate), `FRED ${series}`, {
+    timeoutMs: 20000,
+    attempts: 3
+  });
+  if (text) {
+    const rows = parseCsv(text)
+      .map((row) => {
+        const date = toIsoDate(row.observation_date || row.DATE || row.Date);
+        const raw = String(row[series] || "").trim();
+        const value = raw && raw !== "." ? Number(raw) : NaN;
+        return { date, close: value };
+      })
+      .filter((item) => item.date && Number.isFinite(item.close))
+      .sort((a, b) => a.date.localeCompare(b.date));
+    return dedupeByDate(rows);
+  }
+
+  if (Array.isArray(previousRows) && previousRows.length >= 30) {
+    fallbackWarnings.push(`Using previous ${series} rows because FRED ${series} is unavailable.`);
+    return dedupeByDate(previousRows).filter((row) => row.date && Number.isFinite(row.close));
+  }
+
+  throw new Error(`FRED ${series} is unavailable and no previous ${series} data exists.`);
 }
 
 function latest(rows) {
@@ -268,15 +331,24 @@ async function updateDailyLog(data) {
 }
 
 async function buildData() {
-  const [vixText, sp500Rows, nasdaqRows, dgs10, dgs2] = await Promise.all([
-    fetchText(SOURCES.cboeVix, "Cboe VIX"),
-    loadFredSeries("SP500"),
-    loadFredSeries("NASDAQ100"),
-    loadFredSeries("DGS10").catch(() => []),
-    loadFredSeries("DGS2").catch(() => [])
+  const previousData = await readJsonIfExists(outputJson, null);
+  const previousSp500Rows = previousData?.series?.vixSpy?.map((row) => ({
+    date: row.date,
+    close: Number.isFinite(row.marketClose) ? row.marketClose : 100 * (1 + (row.spyReturn || 0) / 100)
+  }));
+  const previousNasdaqRows = previousData?.series?.nasdaqDeviation?.map((row) => ({
+    date: row.date,
+    close: row.close
+  }));
+
+  const [vixRows, sp500Rows, nasdaqRows, dgs10, dgs2] = await Promise.all([
+    loadVixSeries(previousData),
+    loadFredSeries("SP500", previousSp500Rows, "2020-01-01"),
+    loadFredSeries("NASDAQ100", previousNasdaqRows, "2020-01-01"),
+    loadFredSeries("DGS10", [], "2024-01-01").catch(() => []),
+    loadFredSeries("DGS2", [], "2024-01-01").catch(() => [])
   ]);
 
-  const vixRows = normalizePriceRows(parseCsv(vixText), "VIX");
   const asOf = [latest(vixRows).date, latest(sp500Rows).date, latest(nasdaqRows).date].sort()[0];
   const vixUntilAsOf = vixRows.filter((row) => row.date <= asOf);
   const sp500UntilAsOf = sp500Rows.filter((row) => row.date <= asOf);
@@ -290,9 +362,10 @@ async function buildData() {
   return {
     generatedAt: new Date().toISOString(),
     asOf,
-    dataQuality: "live",
+    dataQuality: fallbackWarnings.length ? "partial" : "live",
     nasdaqLabel: "纳指100",
     sources: sourceList,
+    warnings: fallbackWarnings,
     metrics: {
       vix: round(currentVix, 2),
       vixZone: vixZone(currentVix),
