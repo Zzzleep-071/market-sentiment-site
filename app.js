@@ -359,8 +359,16 @@
     $("vixChange").textContent = formatNumber(metrics.vixFiveDayChange, 2);
     $("spyReturn").textContent = formatPercent(metrics.sp500TwentyDayReturn ?? metrics.spyTwentyDayReturn, 1, true);
     $("asOfDate").textContent = formatDate(data.asOf);
-    $("updateStatus").textContent = data.dataQuality === "live" ? `已更新 ${formatDate(data.asOf)}` : "预览数据";
-    $("dataLabel").textContent = data.dataQuality === "live" ? "定时任务已生成最新公开数据。" : "运行更新脚本后替换为实时公开数据。";
+    if (data.dataQuality === "live") {
+      $("updateStatus").textContent = `已更新 ${formatDate(data.asOf)}`;
+      $("dataLabel").textContent = "定时任务已生成最新公开数据。";
+    } else if (data.dataQuality === "partial") {
+      $("updateStatus").textContent = `部分更新 ${formatDate(data.asOf)}`;
+      $("dataLabel").textContent = "部分数据源临时不可用，已沿用最近一次成功数据。";
+    } else {
+      $("updateStatus").textContent = "预览数据";
+      $("dataLabel").textContent = "运行更新脚本后替换为实时公开数据。";
+    }
     $("deviationSubtitle").textContent = `${data.nasdaqLabel || "纳指100"}收盘价相对均线的偏离幅度；灰线为价格。`;
     $("sourceLine").textContent = `数据来源：${(data.sources || []).map((source) => source.name).join("、") || "公开数据源"}。`;
     drawGauge(metrics.vix);
