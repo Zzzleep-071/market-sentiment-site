@@ -1,6 +1,6 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-06-12T05:17:50.161Z",
-  "asOf": "2026-06-11",
+  "generatedAt": "2026-06-13T05:07:32.746Z",
+  "asOf": "2026-06-12",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
   "sources": [
@@ -15,7707 +15,7555 @@ window.MARKET_SENTIMENT_DATA = {
   ],
   "warnings": [],
   "metrics": {
-    "vix": 19.44,
+    "vix": 17.68,
     "vixZone": "<20：常态区间",
-    "vixPercentile10y": 66,
-    "vixFiveDayChange": 4.04,
-    "sp500TwentyDayReturn": -0.7,
-    "spyTwentyDayReturn": -0.7,
-    "tenYearYield": 4.55,
-    "twoTenSpread": 0.42
+    "vixPercentile10y": 55,
+    "vixFiveDayChange": -3.83,
+    "sp500TwentyDayReturn": -0.9,
+    "spyTwentyDayReturn": -0.9,
+    "tenYearYield": 4.45,
+    "twoTenSpread": 0.4
   },
   "series": {
     "vixSpy": [
       {
-        "date": "2021-06-11",
-        "vix": 15.65,
-        "marketClose": 4247.44,
-        "spyReturn": 0
-      },
-      {
         "date": "2021-06-14",
         "vix": 16.39,
         "marketClose": 4255.15,
-        "spyReturn": 0.18
+        "spyReturn": 0
       },
       {
         "date": "2021-06-15",
         "vix": 17.02,
         "marketClose": 4246.59,
-        "spyReturn": -0.02
+        "spyReturn": -0.2
       },
       {
         "date": "2021-06-16",
         "vix": 18.15,
         "marketClose": 4223.7,
-        "spyReturn": -0.56
+        "spyReturn": -0.74
       },
       {
         "date": "2021-06-17",
         "vix": 17.75,
         "marketClose": 4221.86,
-        "spyReturn": -0.6
+        "spyReturn": -0.78
       },
       {
         "date": "2021-06-18",
         "vix": 20.7,
         "marketClose": 4166.45,
-        "spyReturn": -1.91
+        "spyReturn": -2.08
       },
       {
         "date": "2021-06-21",
         "vix": 17.89,
         "marketClose": 4224.79,
-        "spyReturn": -0.53
+        "spyReturn": -0.71
       },
       {
         "date": "2021-06-22",
         "vix": 16.66,
         "marketClose": 4246.44,
-        "spyReturn": -0.02
+        "spyReturn": -0.2
       },
       {
         "date": "2021-06-23",
         "vix": 16.32,
         "marketClose": 4241.84,
-        "spyReturn": -0.13
+        "spyReturn": -0.31
       },
       {
         "date": "2021-06-24",
         "vix": 15.97,
         "marketClose": 4266.49,
-        "spyReturn": 0.45
+        "spyReturn": 0.27
       },
       {
         "date": "2021-06-25",
         "vix": 15.62,
         "marketClose": 4280.7,
-        "spyReturn": 0.78
+        "spyReturn": 0.6
       },
       {
         "date": "2021-06-28",
         "vix": 15.76,
         "marketClose": 4290.61,
-        "spyReturn": 1.02
+        "spyReturn": 0.83
       },
       {
         "date": "2021-06-29",
         "vix": 16.02,
         "marketClose": 4291.8,
-        "spyReturn": 1.04
+        "spyReturn": 0.86
       },
       {
         "date": "2021-06-30",
         "vix": 15.83,
         "marketClose": 4297.5,
-        "spyReturn": 1.18
+        "spyReturn": 1
       },
       {
         "date": "2021-07-01",
         "vix": 15.48,
         "marketClose": 4319.94,
-        "spyReturn": 1.71
+        "spyReturn": 1.52
       },
       {
         "date": "2021-07-02",
         "vix": 15.07,
         "marketClose": 4352.34,
-        "spyReturn": 2.47
+        "spyReturn": 2.28
       },
       {
         "date": "2021-07-06",
         "vix": 16.44,
         "marketClose": 4343.54,
-        "spyReturn": 2.26
+        "spyReturn": 2.08
       },
       {
         "date": "2021-07-07",
         "vix": 16.2,
         "marketClose": 4358.13,
-        "spyReturn": 2.61
+        "spyReturn": 2.42
       },
       {
         "date": "2021-07-08",
         "vix": 19,
         "marketClose": 4320.82,
-        "spyReturn": 1.73
+        "spyReturn": 1.54
       },
       {
         "date": "2021-07-09",
         "vix": 16.18,
         "marketClose": 4369.55,
-        "spyReturn": 2.87
+        "spyReturn": 2.69
       },
       {
         "date": "2021-07-12",
         "vix": 16.17,
         "marketClose": 4384.63,
-        "spyReturn": 3.23
+        "spyReturn": 3.04
       },
       {
         "date": "2021-07-13",
         "vix": 17.12,
         "marketClose": 4369.21,
-        "spyReturn": 2.87
+        "spyReturn": 2.68
       },
       {
         "date": "2021-07-14",
         "vix": 16.33,
         "marketClose": 4374.3,
-        "spyReturn": 2.99
+        "spyReturn": 2.8
       },
       {
         "date": "2021-07-15",
         "vix": 17.01,
         "marketClose": 4360.03,
-        "spyReturn": 2.65
+        "spyReturn": 2.46
       },
       {
         "date": "2021-07-16",
         "vix": 18.45,
         "marketClose": 4327.16,
-        "spyReturn": 1.88
+        "spyReturn": 1.69
       },
       {
         "date": "2021-07-19",
         "vix": 22.5,
         "marketClose": 4258.49,
-        "spyReturn": 0.26
+        "spyReturn": 0.08
       },
       {
         "date": "2021-07-20",
         "vix": 19.73,
         "marketClose": 4323.06,
-        "spyReturn": 1.78
+        "spyReturn": 1.6
       },
       {
         "date": "2021-07-21",
         "vix": 17.91,
         "marketClose": 4358.69,
-        "spyReturn": 2.62
+        "spyReturn": 2.43
       },
       {
         "date": "2021-07-22",
         "vix": 17.69,
         "marketClose": 4367.48,
-        "spyReturn": 2.83
+        "spyReturn": 2.64
       },
       {
         "date": "2021-07-23",
         "vix": 17.2,
         "marketClose": 4411.79,
-        "spyReturn": 3.87
+        "spyReturn": 3.68
       },
       {
         "date": "2021-07-26",
         "vix": 17.58,
         "marketClose": 4422.3,
-        "spyReturn": 4.12
+        "spyReturn": 3.93
       },
       {
         "date": "2021-07-27",
         "vix": 19.36,
         "marketClose": 4401.46,
-        "spyReturn": 3.63
+        "spyReturn": 3.44
       },
       {
         "date": "2021-07-28",
         "vix": 18.31,
         "marketClose": 4400.64,
-        "spyReturn": 3.61
+        "spyReturn": 3.42
       },
       {
         "date": "2021-07-29",
         "vix": 17.7,
         "marketClose": 4419.15,
-        "spyReturn": 4.04
+        "spyReturn": 3.85
       },
       {
         "date": "2021-07-30",
         "vix": 18.24,
         "marketClose": 4395.26,
-        "spyReturn": 3.48
+        "spyReturn": 3.29
       },
       {
         "date": "2021-08-02",
         "vix": 19.46,
         "marketClose": 4387.16,
-        "spyReturn": 3.29
+        "spyReturn": 3.1
       },
       {
         "date": "2021-08-03",
         "vix": 18.04,
         "marketClose": 4423.15,
-        "spyReturn": 4.14
+        "spyReturn": 3.95
       },
       {
         "date": "2021-08-04",
         "vix": 17.97,
         "marketClose": 4402.66,
-        "spyReturn": 3.65
+        "spyReturn": 3.47
       },
       {
         "date": "2021-08-05",
         "vix": 17.28,
         "marketClose": 4429.1,
-        "spyReturn": 4.28
+        "spyReturn": 4.09
       },
       {
         "date": "2021-08-06",
         "vix": 16.15,
         "marketClose": 4436.52,
-        "spyReturn": 4.45
+        "spyReturn": 4.26
       },
       {
         "date": "2021-08-09",
         "vix": 16.72,
         "marketClose": 4432.35,
-        "spyReturn": 4.35
+        "spyReturn": 4.16
       },
       {
         "date": "2021-08-10",
         "vix": 16.79,
         "marketClose": 4436.75,
-        "spyReturn": 4.46
+        "spyReturn": 4.27
       },
       {
         "date": "2021-08-11",
         "vix": 16.06,
         "marketClose": 4447.7,
-        "spyReturn": 4.71
+        "spyReturn": 4.53
       },
       {
         "date": "2021-08-12",
         "vix": 15.59,
         "marketClose": 4460.83,
-        "spyReturn": 5.02
+        "spyReturn": 4.83
       },
       {
         "date": "2021-08-13",
         "vix": 15.45,
         "marketClose": 4468,
-        "spyReturn": 5.19
+        "spyReturn": 5
       },
       {
         "date": "2021-08-16",
         "vix": 16.12,
         "marketClose": 4479.71,
-        "spyReturn": 5.47
+        "spyReturn": 5.28
       },
       {
         "date": "2021-08-17",
         "vix": 17.91,
         "marketClose": 4448.08,
-        "spyReturn": 4.72
+        "spyReturn": 4.53
       },
       {
         "date": "2021-08-18",
         "vix": 21.57,
         "marketClose": 4400.27,
-        "spyReturn": 3.6
+        "spyReturn": 3.41
       },
       {
         "date": "2021-08-19",
         "vix": 21.67,
         "marketClose": 4405.8,
-        "spyReturn": 3.73
+        "spyReturn": 3.54
       },
       {
         "date": "2021-08-20",
         "vix": 18.56,
         "marketClose": 4441.67,
-        "spyReturn": 4.57
+        "spyReturn": 4.38
       },
       {
         "date": "2021-08-23",
         "vix": 17.15,
         "marketClose": 4479.53,
-        "spyReturn": 5.46
+        "spyReturn": 5.27
       },
       {
         "date": "2021-08-24",
         "vix": 17.22,
         "marketClose": 4486.23,
-        "spyReturn": 5.62
+        "spyReturn": 5.43
       },
       {
         "date": "2021-08-25",
         "vix": 16.79,
         "marketClose": 4496.19,
-        "spyReturn": 5.86
+        "spyReturn": 5.66
       },
       {
         "date": "2021-08-26",
         "vix": 18.84,
         "marketClose": 4470,
-        "spyReturn": 5.24
+        "spyReturn": 5.05
       },
       {
         "date": "2021-08-27",
         "vix": 16.39,
         "marketClose": 4509.37,
-        "spyReturn": 6.17
+        "spyReturn": 5.97
       },
       {
         "date": "2021-08-30",
         "vix": 16.19,
         "marketClose": 4528.79,
-        "spyReturn": 6.62
+        "spyReturn": 6.43
       },
       {
         "date": "2021-08-31",
         "vix": 16.48,
         "marketClose": 4522.68,
-        "spyReturn": 6.48
+        "spyReturn": 6.29
       },
       {
         "date": "2021-09-01",
         "vix": 16.11,
         "marketClose": 4524.09,
-        "spyReturn": 6.51
+        "spyReturn": 6.32
       },
       {
         "date": "2021-09-02",
         "vix": 16.41,
         "marketClose": 4536.95,
-        "spyReturn": 6.82
+        "spyReturn": 6.62
       },
       {
         "date": "2021-09-03",
         "vix": 16.41,
         "marketClose": 4535.43,
-        "spyReturn": 6.78
+        "spyReturn": 6.59
       },
       {
         "date": "2021-09-07",
         "vix": 18.14,
         "marketClose": 4520.03,
-        "spyReturn": 6.42
+        "spyReturn": 6.22
       },
       {
         "date": "2021-09-08",
         "vix": 17.96,
         "marketClose": 4514.07,
-        "spyReturn": 6.28
+        "spyReturn": 6.08
       },
       {
         "date": "2021-09-09",
         "vix": 18.8,
         "marketClose": 4493.28,
-        "spyReturn": 5.79
+        "spyReturn": 5.6
       },
       {
         "date": "2021-09-10",
         "vix": 20.95,
         "marketClose": 4458.58,
-        "spyReturn": 4.97
+        "spyReturn": 4.78
       },
       {
         "date": "2021-09-13",
         "vix": 19.37,
         "marketClose": 4468.73,
-        "spyReturn": 5.21
+        "spyReturn": 5.02
       },
       {
         "date": "2021-09-14",
         "vix": 19.46,
         "marketClose": 4443.05,
-        "spyReturn": 4.61
+        "spyReturn": 4.42
       },
       {
         "date": "2021-09-15",
         "vix": 18.18,
         "marketClose": 4480.7,
-        "spyReturn": 5.49
+        "spyReturn": 5.3
       },
       {
         "date": "2021-09-16",
         "vix": 18.69,
         "marketClose": 4473.75,
-        "spyReturn": 5.33
+        "spyReturn": 5.14
       },
       {
         "date": "2021-09-17",
         "vix": 20.81,
         "marketClose": 4432.99,
-        "spyReturn": 4.37
+        "spyReturn": 4.18
       },
       {
         "date": "2021-09-20",
         "vix": 25.71,
         "marketClose": 4357.73,
-        "spyReturn": 2.6
+        "spyReturn": 2.41
       },
       {
         "date": "2021-09-21",
         "vix": 24.36,
         "marketClose": 4354.19,
-        "spyReturn": 2.51
+        "spyReturn": 2.33
       },
       {
         "date": "2021-09-22",
         "vix": 20.87,
         "marketClose": 4395.64,
-        "spyReturn": 3.49
+        "spyReturn": 3.3
       },
       {
         "date": "2021-09-23",
         "vix": 18.63,
         "marketClose": 4448.98,
-        "spyReturn": 4.74
+        "spyReturn": 4.56
       },
       {
         "date": "2021-09-24",
         "vix": 17.75,
         "marketClose": 4455.48,
-        "spyReturn": 4.9
+        "spyReturn": 4.71
       },
       {
         "date": "2021-09-27",
         "vix": 18.76,
         "marketClose": 4443.11,
-        "spyReturn": 4.61
+        "spyReturn": 4.42
       },
       {
         "date": "2021-09-28",
         "vix": 23.25,
         "marketClose": 4352.63,
-        "spyReturn": 2.48
+        "spyReturn": 2.29
       },
       {
         "date": "2021-09-29",
         "vix": 22.56,
         "marketClose": 4359.46,
-        "spyReturn": 2.64
+        "spyReturn": 2.45
       },
       {
         "date": "2021-09-30",
         "vix": 23.14,
         "marketClose": 4307.54,
-        "spyReturn": 1.41
+        "spyReturn": 1.23
       },
       {
         "date": "2021-10-01",
         "vix": 21.15,
         "marketClose": 4357.04,
-        "spyReturn": 2.58
+        "spyReturn": 2.39
       },
       {
         "date": "2021-10-04",
         "vix": 22.96,
         "marketClose": 4300.46,
-        "spyReturn": 1.25
+        "spyReturn": 1.06
       },
       {
         "date": "2021-10-05",
         "vix": 21.3,
         "marketClose": 4345.72,
-        "spyReturn": 2.31
+        "spyReturn": 2.13
       },
       {
         "date": "2021-10-06",
         "vix": 21,
         "marketClose": 4363.55,
-        "spyReturn": 2.73
+        "spyReturn": 2.55
       },
       {
         "date": "2021-10-07",
         "vix": 19.54,
         "marketClose": 4399.76,
-        "spyReturn": 3.59
+        "spyReturn": 3.4
       },
       {
         "date": "2021-10-08",
         "vix": 18.77,
         "marketClose": 4391.34,
-        "spyReturn": 3.39
+        "spyReturn": 3.2
       },
       {
         "date": "2021-10-11",
         "vix": 20,
         "marketClose": 4361.19,
-        "spyReturn": 2.68
+        "spyReturn": 2.49
       },
       {
         "date": "2021-10-12",
         "vix": 19.85,
         "marketClose": 4350.65,
-        "spyReturn": 2.43
+        "spyReturn": 2.24
       },
       {
         "date": "2021-10-13",
         "vix": 18.64,
         "marketClose": 4363.8,
-        "spyReturn": 2.74
+        "spyReturn": 2.55
       },
       {
         "date": "2021-10-14",
         "vix": 16.86,
         "marketClose": 4438.26,
-        "spyReturn": 4.49
+        "spyReturn": 4.3
       },
       {
         "date": "2021-10-15",
         "vix": 16.3,
         "marketClose": 4471.37,
-        "spyReturn": 5.27
+        "spyReturn": 5.08
       },
       {
         "date": "2021-10-18",
         "vix": 16.31,
         "marketClose": 4486.46,
-        "spyReturn": 5.63
+        "spyReturn": 5.44
       },
       {
         "date": "2021-10-19",
         "vix": 15.7,
         "marketClose": 4519.63,
-        "spyReturn": 6.41
+        "spyReturn": 6.22
       },
       {
         "date": "2021-10-20",
         "vix": 15.49,
         "marketClose": 4536.19,
-        "spyReturn": 6.8
+        "spyReturn": 6.6
       },
       {
         "date": "2021-10-21",
         "vix": 15.01,
         "marketClose": 4549.78,
-        "spyReturn": 7.12
+        "spyReturn": 6.92
       },
       {
         "date": "2021-10-22",
         "vix": 15.43,
         "marketClose": 4544.9,
-        "spyReturn": 7
+        "spyReturn": 6.81
       },
       {
         "date": "2021-10-25",
         "vix": 15.24,
         "marketClose": 4566.48,
-        "spyReturn": 7.51
+        "spyReturn": 7.32
       },
       {
         "date": "2021-10-26",
         "vix": 15.98,
         "marketClose": 4574.79,
-        "spyReturn": 7.71
+        "spyReturn": 7.51
       },
       {
         "date": "2021-10-27",
         "vix": 16.98,
         "marketClose": 4551.68,
-        "spyReturn": 7.16
+        "spyReturn": 6.97
       },
       {
         "date": "2021-10-28",
         "vix": 16.53,
         "marketClose": 4596.42,
-        "spyReturn": 8.22
+        "spyReturn": 8.02
       },
       {
         "date": "2021-10-29",
         "vix": 16.26,
         "marketClose": 4605.38,
-        "spyReturn": 8.43
+        "spyReturn": 8.23
       },
       {
         "date": "2021-11-01",
         "vix": 16.41,
         "marketClose": 4613.67,
-        "spyReturn": 8.62
+        "spyReturn": 8.43
       },
       {
         "date": "2021-11-02",
         "vix": 16.03,
         "marketClose": 4630.65,
-        "spyReturn": 9.02
+        "spyReturn": 8.82
       },
       {
         "date": "2021-11-03",
         "vix": 15.1,
         "marketClose": 4660.57,
-        "spyReturn": 9.73
+        "spyReturn": 9.53
       },
       {
         "date": "2021-11-04",
         "vix": 15.44,
         "marketClose": 4680.06,
-        "spyReturn": 10.19
+        "spyReturn": 9.99
       },
       {
         "date": "2021-11-05",
         "vix": 16.48,
         "marketClose": 4697.53,
-        "spyReturn": 10.6
+        "spyReturn": 10.4
       },
       {
         "date": "2021-11-08",
         "vix": 17.22,
         "marketClose": 4701.7,
-        "spyReturn": 10.69
+        "spyReturn": 10.49
       },
       {
         "date": "2021-11-09",
         "vix": 17.78,
         "marketClose": 4685.25,
-        "spyReturn": 10.31
+        "spyReturn": 10.11
       },
       {
         "date": "2021-11-10",
         "vix": 18.73,
         "marketClose": 4646.71,
-        "spyReturn": 9.4
+        "spyReturn": 9.2
       },
       {
         "date": "2021-11-11",
         "vix": 17.66,
         "marketClose": 4649.27,
-        "spyReturn": 9.46
+        "spyReturn": 9.26
       },
       {
         "date": "2021-11-12",
         "vix": 16.29,
         "marketClose": 4682.85,
-        "spyReturn": 10.25
+        "spyReturn": 10.05
       },
       {
         "date": "2021-11-15",
         "vix": 16.49,
         "marketClose": 4682.8,
-        "spyReturn": 10.25
+        "spyReturn": 10.05
       },
       {
         "date": "2021-11-16",
         "vix": 16.37,
         "marketClose": 4700.9,
-        "spyReturn": 10.68
+        "spyReturn": 10.48
       },
       {
         "date": "2021-11-17",
         "vix": 17.11,
         "marketClose": 4688.67,
-        "spyReturn": 10.39
+        "spyReturn": 10.19
       },
       {
         "date": "2021-11-18",
         "vix": 17.59,
         "marketClose": 4704.54,
-        "spyReturn": 10.76
+        "spyReturn": 10.56
       },
       {
         "date": "2021-11-19",
         "vix": 17.91,
         "marketClose": 4697.96,
-        "spyReturn": 10.61
+        "spyReturn": 10.41
       },
       {
         "date": "2021-11-22",
         "vix": 19.17,
         "marketClose": 4682.94,
-        "spyReturn": 10.25
+        "spyReturn": 10.05
       },
       {
         "date": "2021-11-23",
         "vix": 19.38,
         "marketClose": 4690.7,
-        "spyReturn": 10.44
+        "spyReturn": 10.24
       },
       {
         "date": "2021-11-24",
         "vix": 18.58,
         "marketClose": 4701.46,
-        "spyReturn": 10.69
+        "spyReturn": 10.49
       },
       {
         "date": "2021-11-26",
         "vix": 28.62,
         "marketClose": 4594.62,
-        "spyReturn": 8.17
+        "spyReturn": 7.98
       },
       {
         "date": "2021-11-29",
         "vix": 22.96,
         "marketClose": 4655.27,
-        "spyReturn": 9.6
+        "spyReturn": 9.4
       },
       {
         "date": "2021-11-30",
         "vix": 27.19,
         "marketClose": 4567,
-        "spyReturn": 7.52
+        "spyReturn": 7.33
       },
       {
         "date": "2021-12-01",
         "vix": 31.12,
         "marketClose": 4513.04,
-        "spyReturn": 6.25
+        "spyReturn": 6.06
       },
       {
         "date": "2021-12-02",
         "vix": 27.95,
         "marketClose": 4577.1,
-        "spyReturn": 7.76
+        "spyReturn": 7.57
       },
       {
         "date": "2021-12-03",
         "vix": 30.67,
         "marketClose": 4538.43,
-        "spyReturn": 6.85
+        "spyReturn": 6.66
       },
       {
         "date": "2021-12-06",
         "vix": 27.18,
         "marketClose": 4591.67,
-        "spyReturn": 8.1
+        "spyReturn": 7.91
       },
       {
         "date": "2021-12-07",
         "vix": 21.89,
         "marketClose": 4686.75,
-        "spyReturn": 10.34
+        "spyReturn": 10.14
       },
       {
         "date": "2021-12-08",
         "vix": 19.9,
         "marketClose": 4701.21,
-        "spyReturn": 10.68
+        "spyReturn": 10.48
       },
       {
         "date": "2021-12-09",
         "vix": 21.58,
         "marketClose": 4667.45,
-        "spyReturn": 9.89
+        "spyReturn": 9.69
       },
       {
         "date": "2021-12-10",
         "vix": 18.69,
         "marketClose": 4712.02,
-        "spyReturn": 10.94
+        "spyReturn": 10.74
       },
       {
         "date": "2021-12-13",
         "vix": 20.31,
         "marketClose": 4668.97,
-        "spyReturn": 9.92
+        "spyReturn": 9.73
       },
       {
         "date": "2021-12-14",
         "vix": 21.89,
         "marketClose": 4634.09,
-        "spyReturn": 9.1
+        "spyReturn": 8.91
       },
       {
         "date": "2021-12-15",
         "vix": 19.29,
         "marketClose": 4709.85,
-        "spyReturn": 10.89
+        "spyReturn": 10.69
       },
       {
         "date": "2021-12-16",
         "vix": 20.57,
         "marketClose": 4668.67,
-        "spyReturn": 9.92
+        "spyReturn": 9.72
       },
       {
         "date": "2021-12-17",
         "vix": 21.57,
         "marketClose": 4620.64,
-        "spyReturn": 8.79
+        "spyReturn": 8.59
       },
       {
         "date": "2021-12-20",
         "vix": 22.87,
         "marketClose": 4568.02,
-        "spyReturn": 7.55
+        "spyReturn": 7.35
       },
       {
         "date": "2021-12-21",
         "vix": 21.01,
         "marketClose": 4649.23,
-        "spyReturn": 9.46
+        "spyReturn": 9.26
       },
       {
         "date": "2021-12-22",
         "vix": 18.63,
         "marketClose": 4696.56,
-        "spyReturn": 10.57
+        "spyReturn": 10.37
       },
       {
         "date": "2021-12-23",
         "vix": 17.96,
         "marketClose": 4725.79,
-        "spyReturn": 11.26
+        "spyReturn": 11.06
       },
       {
         "date": "2021-12-27",
         "vix": 17.68,
         "marketClose": 4791.19,
-        "spyReturn": 12.8
+        "spyReturn": 12.6
       },
       {
         "date": "2021-12-28",
         "vix": 17.54,
         "marketClose": 4786.35,
-        "spyReturn": 12.69
+        "spyReturn": 12.48
       },
       {
         "date": "2021-12-29",
         "vix": 16.95,
         "marketClose": 4793.06,
-        "spyReturn": 12.85
+        "spyReturn": 12.64
       },
       {
         "date": "2021-12-30",
         "vix": 17.33,
         "marketClose": 4778.73,
-        "spyReturn": 12.51
+        "spyReturn": 12.3
       },
       {
         "date": "2021-12-31",
         "vix": 17.22,
         "marketClose": 4766.18,
-        "spyReturn": 12.21
+        "spyReturn": 12.01
       },
       {
         "date": "2022-01-03",
         "vix": 16.6,
         "marketClose": 4796.56,
-        "spyReturn": 12.93
+        "spyReturn": 12.72
       },
       {
         "date": "2022-01-04",
         "vix": 16.91,
         "marketClose": 4793.54,
-        "spyReturn": 12.86
+        "spyReturn": 12.65
       },
       {
         "date": "2022-01-05",
         "vix": 19.73,
         "marketClose": 4700.58,
-        "spyReturn": 10.67
+        "spyReturn": 10.47
       },
       {
         "date": "2022-01-06",
         "vix": 19.61,
         "marketClose": 4696.05,
-        "spyReturn": 10.56
+        "spyReturn": 10.36
       },
       {
         "date": "2022-01-07",
         "vix": 18.76,
         "marketClose": 4677.03,
-        "spyReturn": 10.11
+        "spyReturn": 9.91
       },
       {
         "date": "2022-01-10",
         "vix": 19.4,
         "marketClose": 4670.29,
-        "spyReturn": 9.96
+        "spyReturn": 9.76
       },
       {
         "date": "2022-01-11",
         "vix": 18.41,
         "marketClose": 4713.07,
-        "spyReturn": 10.96
+        "spyReturn": 10.76
       },
       {
         "date": "2022-01-12",
         "vix": 17.62,
         "marketClose": 4726.35,
-        "spyReturn": 11.28
+        "spyReturn": 11.07
       },
       {
         "date": "2022-01-13",
         "vix": 20.31,
         "marketClose": 4659.03,
-        "spyReturn": 9.69
+        "spyReturn": 9.49
       },
       {
         "date": "2022-01-14",
         "vix": 19.19,
         "marketClose": 4662.85,
-        "spyReturn": 9.78
+        "spyReturn": 9.58
       },
       {
         "date": "2022-01-18",
         "vix": 22.79,
         "marketClose": 4577.11,
-        "spyReturn": 7.76
+        "spyReturn": 7.57
       },
       {
         "date": "2022-01-19",
         "vix": 23.85,
         "marketClose": 4532.76,
-        "spyReturn": 6.72
+        "spyReturn": 6.52
       },
       {
         "date": "2022-01-20",
         "vix": 25.59,
         "marketClose": 4482.73,
-        "spyReturn": 5.54
+        "spyReturn": 5.35
       },
       {
         "date": "2022-01-21",
         "vix": 28.85,
         "marketClose": 4397.94,
-        "spyReturn": 3.54
+        "spyReturn": 3.36
       },
       {
         "date": "2022-01-24",
         "vix": 29.9,
         "marketClose": 4410.13,
-        "spyReturn": 3.83
+        "spyReturn": 3.64
       },
       {
         "date": "2022-01-25",
         "vix": 31.16,
         "marketClose": 4356.45,
-        "spyReturn": 2.57
+        "spyReturn": 2.38
       },
       {
         "date": "2022-01-26",
         "vix": 31.96,
         "marketClose": 4349.93,
-        "spyReturn": 2.41
+        "spyReturn": 2.23
       },
       {
         "date": "2022-01-27",
         "vix": 30.49,
         "marketClose": 4326.51,
-        "spyReturn": 1.86
+        "spyReturn": 1.68
       },
       {
         "date": "2022-01-28",
         "vix": 27.66,
         "marketClose": 4431.85,
-        "spyReturn": 4.34
+        "spyReturn": 4.15
       },
       {
         "date": "2022-01-31",
         "vix": 24.83,
         "marketClose": 4515.55,
-        "spyReturn": 6.31
+        "spyReturn": 6.12
       },
       {
         "date": "2022-02-01",
         "vix": 21.96,
         "marketClose": 4546.54,
-        "spyReturn": 7.04
+        "spyReturn": 6.85
       },
       {
         "date": "2022-02-02",
         "vix": 22.09,
         "marketClose": 4589.38,
-        "spyReturn": 8.05
+        "spyReturn": 7.85
       },
       {
         "date": "2022-02-03",
         "vix": 24.35,
         "marketClose": 4477.44,
-        "spyReturn": 5.42
+        "spyReturn": 5.22
       },
       {
         "date": "2022-02-04",
         "vix": 23.22,
         "marketClose": 4500.53,
-        "spyReturn": 5.96
+        "spyReturn": 5.77
       },
       {
         "date": "2022-02-07",
         "vix": 22.86,
         "marketClose": 4483.87,
-        "spyReturn": 5.57
+        "spyReturn": 5.38
       },
       {
         "date": "2022-02-08",
         "vix": 21.44,
         "marketClose": 4521.54,
-        "spyReturn": 6.45
+        "spyReturn": 6.26
       },
       {
         "date": "2022-02-09",
         "vix": 19.96,
         "marketClose": 4587.18,
-        "spyReturn": 8
+        "spyReturn": 7.8
       },
       {
         "date": "2022-02-10",
         "vix": 23.91,
         "marketClose": 4504.08,
-        "spyReturn": 6.04
+        "spyReturn": 5.85
       },
       {
         "date": "2022-02-11",
         "vix": 27.36,
         "marketClose": 4418.64,
-        "spyReturn": 4.03
+        "spyReturn": 3.84
       },
       {
         "date": "2022-02-14",
         "vix": 28.33,
         "marketClose": 4401.67,
-        "spyReturn": 3.63
+        "spyReturn": 3.44
       },
       {
         "date": "2022-02-15",
         "vix": 25.7,
         "marketClose": 4471.07,
-        "spyReturn": 5.27
+        "spyReturn": 5.07
       },
       {
         "date": "2022-02-16",
         "vix": 24.29,
         "marketClose": 4475.01,
-        "spyReturn": 5.36
+        "spyReturn": 5.17
       },
       {
         "date": "2022-02-17",
         "vix": 28.11,
         "marketClose": 4380.26,
-        "spyReturn": 3.13
+        "spyReturn": 2.94
       },
       {
         "date": "2022-02-18",
         "vix": 27.75,
         "marketClose": 4348.87,
-        "spyReturn": 2.39
+        "spyReturn": 2.2
       },
       {
         "date": "2022-02-22",
         "vix": 28.81,
         "marketClose": 4304.76,
-        "spyReturn": 1.35
+        "spyReturn": 1.17
       },
       {
         "date": "2022-02-23",
         "vix": 31.02,
         "marketClose": 4225.5,
-        "spyReturn": -0.52
+        "spyReturn": -0.7
       },
       {
         "date": "2022-02-24",
         "vix": 30.32,
         "marketClose": 4288.7,
-        "spyReturn": 0.97
+        "spyReturn": 0.79
       },
       {
         "date": "2022-02-25",
         "vix": 27.59,
         "marketClose": 4384.65,
-        "spyReturn": 3.23
+        "spyReturn": 3.04
       },
       {
         "date": "2022-02-28",
         "vix": 30.15,
         "marketClose": 4373.94,
-        "spyReturn": 2.98
+        "spyReturn": 2.79
       },
       {
         "date": "2022-03-01",
         "vix": 33.32,
         "marketClose": 4306.26,
-        "spyReturn": 1.38
+        "spyReturn": 1.2
       },
       {
         "date": "2022-03-02",
         "vix": 30.74,
         "marketClose": 4386.54,
-        "spyReturn": 3.27
+        "spyReturn": 3.09
       },
       {
         "date": "2022-03-03",
         "vix": 30.48,
         "marketClose": 4363.49,
-        "spyReturn": 2.73
+        "spyReturn": 2.55
       },
       {
         "date": "2022-03-04",
         "vix": 31.98,
         "marketClose": 4328.87,
-        "spyReturn": 1.92
+        "spyReturn": 1.73
       },
       {
         "date": "2022-03-07",
         "vix": 36.45,
         "marketClose": 4201.09,
-        "spyReturn": -1.09
+        "spyReturn": -1.27
       },
       {
         "date": "2022-03-08",
         "vix": 35.13,
         "marketClose": 4170.7,
-        "spyReturn": -1.81
+        "spyReturn": -1.98
       },
       {
         "date": "2022-03-09",
         "vix": 32.45,
         "marketClose": 4277.88,
-        "spyReturn": 0.72
+        "spyReturn": 0.53
       },
       {
         "date": "2022-03-10",
         "vix": 30.23,
         "marketClose": 4259.52,
-        "spyReturn": 0.28
+        "spyReturn": 0.1
       },
       {
         "date": "2022-03-11",
         "vix": 30.75,
         "marketClose": 4204.31,
-        "spyReturn": -1.02
+        "spyReturn": -1.19
       },
       {
         "date": "2022-03-14",
         "vix": 31.77,
         "marketClose": 4173.11,
-        "spyReturn": -1.75
+        "spyReturn": -1.93
       },
       {
         "date": "2022-03-15",
         "vix": 29.83,
         "marketClose": 4262.45,
-        "spyReturn": 0.35
+        "spyReturn": 0.17
       },
       {
         "date": "2022-03-16",
         "vix": 26.67,
         "marketClose": 4357.86,
-        "spyReturn": 2.6
+        "spyReturn": 2.41
       },
       {
         "date": "2022-03-17",
         "vix": 25.67,
         "marketClose": 4411.67,
-        "spyReturn": 3.87
+        "spyReturn": 3.68
       },
       {
         "date": "2022-03-18",
         "vix": 23.87,
         "marketClose": 4463.12,
-        "spyReturn": 5.08
+        "spyReturn": 4.89
       },
       {
         "date": "2022-03-21",
         "vix": 23.53,
         "marketClose": 4461.18,
-        "spyReturn": 5.03
+        "spyReturn": 4.84
       },
       {
         "date": "2022-03-22",
         "vix": 22.94,
         "marketClose": 4511.61,
-        "spyReturn": 6.22
+        "spyReturn": 6.03
       },
       {
         "date": "2022-03-23",
         "vix": 23.57,
         "marketClose": 4456.24,
-        "spyReturn": 4.92
+        "spyReturn": 4.73
       },
       {
         "date": "2022-03-24",
         "vix": 21.67,
         "marketClose": 4520.16,
-        "spyReturn": 6.42
+        "spyReturn": 6.23
       },
       {
         "date": "2022-03-25",
         "vix": 20.81,
         "marketClose": 4543.06,
-        "spyReturn": 6.96
+        "spyReturn": 6.77
       },
       {
         "date": "2022-03-28",
         "vix": 19.63,
         "marketClose": 4575.52,
-        "spyReturn": 7.72
+        "spyReturn": 7.53
       },
       {
         "date": "2022-03-29",
         "vix": 18.9,
         "marketClose": 4631.6,
-        "spyReturn": 9.04
+        "spyReturn": 8.85
       },
       {
         "date": "2022-03-30",
         "vix": 19.33,
         "marketClose": 4602.45,
-        "spyReturn": 8.36
+        "spyReturn": 8.16
       },
       {
         "date": "2022-03-31",
         "vix": 20.56,
         "marketClose": 4530.41,
-        "spyReturn": 6.66
+        "spyReturn": 6.47
       },
       {
         "date": "2022-04-01",
         "vix": 19.63,
         "marketClose": 4545.86,
-        "spyReturn": 7.03
+        "spyReturn": 6.83
       },
       {
         "date": "2022-04-04",
         "vix": 18.57,
         "marketClose": 4582.64,
-        "spyReturn": 7.89
+        "spyReturn": 7.7
       },
       {
         "date": "2022-04-05",
         "vix": 21.03,
         "marketClose": 4525.12,
-        "spyReturn": 6.54
+        "spyReturn": 6.34
       },
       {
         "date": "2022-04-06",
         "vix": 22.1,
         "marketClose": 4481.15,
-        "spyReturn": 5.5
+        "spyReturn": 5.31
       },
       {
         "date": "2022-04-07",
         "vix": 21.55,
         "marketClose": 4500.21,
-        "spyReturn": 5.95
+        "spyReturn": 5.76
       },
       {
         "date": "2022-04-08",
         "vix": 21.16,
         "marketClose": 4488.28,
-        "spyReturn": 5.67
+        "spyReturn": 5.48
       },
       {
         "date": "2022-04-11",
         "vix": 24.37,
         "marketClose": 4412.53,
-        "spyReturn": 3.89
+        "spyReturn": 3.7
       },
       {
         "date": "2022-04-12",
         "vix": 24.26,
         "marketClose": 4397.45,
-        "spyReturn": 3.53
+        "spyReturn": 3.34
       },
       {
         "date": "2022-04-13",
         "vix": 21.82,
         "marketClose": 4446.59,
-        "spyReturn": 4.69
+        "spyReturn": 4.5
       },
       {
         "date": "2022-04-14",
         "vix": 22.7,
         "marketClose": 4392.59,
-        "spyReturn": 3.42
+        "spyReturn": 3.23
       },
       {
         "date": "2022-04-18",
         "vix": 22.17,
         "marketClose": 4391.69,
-        "spyReturn": 3.4
+        "spyReturn": 3.21
       },
       {
         "date": "2022-04-19",
         "vix": 21.37,
         "marketClose": 4462.21,
-        "spyReturn": 5.06
+        "spyReturn": 4.87
       },
       {
         "date": "2022-04-20",
         "vix": 20.32,
         "marketClose": 4459.45,
-        "spyReturn": 4.99
+        "spyReturn": 4.8
       },
       {
         "date": "2022-04-21",
         "vix": 22.68,
         "marketClose": 4393.66,
-        "spyReturn": 3.44
+        "spyReturn": 3.26
       },
       {
         "date": "2022-04-22",
         "vix": 28.21,
         "marketClose": 4271.78,
-        "spyReturn": 0.57
+        "spyReturn": 0.39
       },
       {
         "date": "2022-04-25",
         "vix": 27.02,
         "marketClose": 4296.12,
-        "spyReturn": 1.15
+        "spyReturn": 0.96
       },
       {
         "date": "2022-04-26",
         "vix": 33.52,
         "marketClose": 4175.2,
-        "spyReturn": -1.7
+        "spyReturn": -1.88
       },
       {
         "date": "2022-04-27",
         "vix": 31.6,
         "marketClose": 4183.96,
-        "spyReturn": -1.49
+        "spyReturn": -1.67
       },
       {
         "date": "2022-04-28",
         "vix": 29.99,
         "marketClose": 4287.5,
-        "spyReturn": 0.94
+        "spyReturn": 0.76
       },
       {
         "date": "2022-04-29",
         "vix": 33.4,
         "marketClose": 4131.93,
-        "spyReturn": -2.72
+        "spyReturn": -2.9
       },
       {
         "date": "2022-05-02",
         "vix": 32.34,
         "marketClose": 4155.38,
-        "spyReturn": -2.17
+        "spyReturn": -2.34
       },
       {
         "date": "2022-05-03",
         "vix": 29.25,
         "marketClose": 4175.48,
-        "spyReturn": -1.69
+        "spyReturn": -1.87
       },
       {
         "date": "2022-05-04",
         "vix": 25.42,
         "marketClose": 4300.17,
-        "spyReturn": 1.24
+        "spyReturn": 1.06
       },
       {
         "date": "2022-05-05",
         "vix": 31.2,
         "marketClose": 4146.87,
-        "spyReturn": -2.37
+        "spyReturn": -2.54
       },
       {
         "date": "2022-05-06",
         "vix": 30.19,
         "marketClose": 4123.34,
-        "spyReturn": -2.92
+        "spyReturn": -3.1
       },
       {
         "date": "2022-05-09",
         "vix": 34.75,
         "marketClose": 3991.24,
-        "spyReturn": -6.03
+        "spyReturn": -6.2
       },
       {
         "date": "2022-05-10",
         "vix": 32.99,
         "marketClose": 4001.05,
-        "spyReturn": -5.8
+        "spyReturn": -5.97
       },
       {
         "date": "2022-05-11",
         "vix": 32.56,
         "marketClose": 3935.18,
-        "spyReturn": -7.35
+        "spyReturn": -7.52
       },
       {
         "date": "2022-05-12",
         "vix": 31.77,
         "marketClose": 3930.08,
-        "spyReturn": -7.47
+        "spyReturn": -7.64
       },
       {
         "date": "2022-05-13",
         "vix": 28.87,
         "marketClose": 4023.89,
-        "spyReturn": -5.26
+        "spyReturn": -5.43
       },
       {
         "date": "2022-05-16",
         "vix": 27.47,
         "marketClose": 4008.01,
-        "spyReturn": -5.64
+        "spyReturn": -5.81
       },
       {
         "date": "2022-05-17",
         "vix": 26.1,
         "marketClose": 4088.85,
-        "spyReturn": -3.73
+        "spyReturn": -3.91
       },
       {
         "date": "2022-05-18",
         "vix": 30.96,
         "marketClose": 3923.68,
-        "spyReturn": -7.62
+        "spyReturn": -7.79
       },
       {
         "date": "2022-05-19",
         "vix": 29.35,
         "marketClose": 3900.79,
-        "spyReturn": -8.16
+        "spyReturn": -8.33
       },
       {
         "date": "2022-05-20",
         "vix": 29.43,
         "marketClose": 3901.36,
-        "spyReturn": -8.15
+        "spyReturn": -8.31
       },
       {
         "date": "2022-05-23",
         "vix": 28.48,
         "marketClose": 3973.75,
-        "spyReturn": -6.44
+        "spyReturn": -6.61
       },
       {
         "date": "2022-05-24",
         "vix": 29.45,
         "marketClose": 3941.48,
-        "spyReturn": -7.2
+        "spyReturn": -7.37
       },
       {
         "date": "2022-05-25",
         "vix": 28.37,
         "marketClose": 3978.73,
-        "spyReturn": -6.33
+        "spyReturn": -6.5
       },
       {
         "date": "2022-05-26",
         "vix": 27.5,
         "marketClose": 4057.84,
-        "spyReturn": -4.46
+        "spyReturn": -4.64
       },
       {
         "date": "2022-05-27",
         "vix": 25.72,
         "marketClose": 4158.24,
-        "spyReturn": -2.1
+        "spyReturn": -2.28
       },
       {
         "date": "2022-05-31",
         "vix": 26.19,
         "marketClose": 4132.15,
-        "spyReturn": -2.71
+        "spyReturn": -2.89
       },
       {
         "date": "2022-06-01",
         "vix": 25.69,
         "marketClose": 4101.23,
-        "spyReturn": -3.44
+        "spyReturn": -3.62
       },
       {
         "date": "2022-06-02",
         "vix": 24.72,
         "marketClose": 4176.82,
-        "spyReturn": -1.66
+        "spyReturn": -1.84
       },
       {
         "date": "2022-06-03",
         "vix": 24.79,
         "marketClose": 4108.54,
-        "spyReturn": -3.27
+        "spyReturn": -3.45
       },
       {
         "date": "2022-06-06",
         "vix": 25.07,
         "marketClose": 4121.43,
-        "spyReturn": -2.97
+        "spyReturn": -3.14
       },
       {
         "date": "2022-06-07",
         "vix": 24.02,
         "marketClose": 4160.68,
-        "spyReturn": -2.04
+        "spyReturn": -2.22
       },
       {
         "date": "2022-06-08",
         "vix": 23.96,
         "marketClose": 4115.77,
-        "spyReturn": -3.1
+        "spyReturn": -3.28
       },
       {
         "date": "2022-06-09",
         "vix": 26.09,
         "marketClose": 4017.82,
-        "spyReturn": -5.41
+        "spyReturn": -5.58
       },
       {
         "date": "2022-06-10",
         "vix": 27.75,
         "marketClose": 3900.86,
-        "spyReturn": -8.16
+        "spyReturn": -8.33
       },
       {
         "date": "2022-06-13",
         "vix": 34.02,
         "marketClose": 3749.63,
-        "spyReturn": -11.72
+        "spyReturn": -11.88
       },
       {
         "date": "2022-06-14",
         "vix": 32.69,
         "marketClose": 3735.48,
-        "spyReturn": -12.05
+        "spyReturn": -12.21
       },
       {
         "date": "2022-06-15",
         "vix": 29.62,
         "marketClose": 3789.99,
-        "spyReturn": -10.77
+        "spyReturn": -10.93
       },
       {
         "date": "2022-06-16",
         "vix": 32.95,
         "marketClose": 3666.77,
-        "spyReturn": -13.67
+        "spyReturn": -13.83
       },
       {
         "date": "2022-06-17",
         "vix": 31.13,
         "marketClose": 3674.84,
-        "spyReturn": -13.48
+        "spyReturn": -13.64
       },
       {
         "date": "2022-06-21",
         "vix": 30.19,
         "marketClose": 3764.79,
-        "spyReturn": -11.36
+        "spyReturn": -11.52
       },
       {
         "date": "2022-06-22",
         "vix": 28.95,
         "marketClose": 3759.89,
-        "spyReturn": -11.48
+        "spyReturn": -11.64
       },
       {
         "date": "2022-06-23",
         "vix": 29.05,
         "marketClose": 3795.73,
-        "spyReturn": -10.63
+        "spyReturn": -10.8
       },
       {
         "date": "2022-06-24",
         "vix": 27.23,
         "marketClose": 3911.74,
-        "spyReturn": -7.9
+        "spyReturn": -8.07
       },
       {
         "date": "2022-06-27",
         "vix": 26.95,
         "marketClose": 3900.11,
-        "spyReturn": -8.18
+        "spyReturn": -8.34
       },
       {
         "date": "2022-06-28",
         "vix": 28.36,
         "marketClose": 3821.55,
-        "spyReturn": -10.03
+        "spyReturn": -10.19
       },
       {
         "date": "2022-06-29",
         "vix": 28.16,
         "marketClose": 3818.83,
-        "spyReturn": -10.09
+        "spyReturn": -10.25
       },
       {
         "date": "2022-06-30",
         "vix": 28.71,
         "marketClose": 3785.38,
-        "spyReturn": -10.88
+        "spyReturn": -11.04
       },
       {
         "date": "2022-07-01",
         "vix": 26.7,
         "marketClose": 3825.33,
-        "spyReturn": -9.94
+        "spyReturn": -10.1
       },
       {
         "date": "2022-07-05",
         "vix": 27.54,
         "marketClose": 3831.39,
-        "spyReturn": -9.8
+        "spyReturn": -9.96
       },
       {
         "date": "2022-07-06",
         "vix": 26.73,
         "marketClose": 3845.08,
-        "spyReturn": -9.47
+        "spyReturn": -9.64
       },
       {
         "date": "2022-07-07",
         "vix": 26.08,
         "marketClose": 3902.62,
-        "spyReturn": -8.12
+        "spyReturn": -8.28
       },
       {
         "date": "2022-07-08",
         "vix": 24.64,
         "marketClose": 3899.38,
-        "spyReturn": -8.19
+        "spyReturn": -8.36
       },
       {
         "date": "2022-07-11",
         "vix": 26.17,
         "marketClose": 3854.43,
-        "spyReturn": -9.25
+        "spyReturn": -9.42
       },
       {
         "date": "2022-07-12",
         "vix": 27.29,
         "marketClose": 3818.8,
-        "spyReturn": -10.09
+        "spyReturn": -10.25
       },
       {
         "date": "2022-07-13",
         "vix": 26.82,
         "marketClose": 3801.78,
-        "spyReturn": -10.49
+        "spyReturn": -10.65
       },
       {
         "date": "2022-07-14",
         "vix": 26.4,
         "marketClose": 3790.38,
-        "spyReturn": -10.76
+        "spyReturn": -10.92
       },
       {
         "date": "2022-07-15",
         "vix": 24.23,
         "marketClose": 3863.16,
-        "spyReturn": -9.05
+        "spyReturn": -9.21
       },
       {
         "date": "2022-07-18",
         "vix": 25.3,
         "marketClose": 3830.85,
-        "spyReturn": -9.81
+        "spyReturn": -9.97
       },
       {
         "date": "2022-07-19",
         "vix": 24.5,
         "marketClose": 3936.69,
-        "spyReturn": -7.32
+        "spyReturn": -7.48
       },
       {
         "date": "2022-07-20",
         "vix": 23.88,
         "marketClose": 3959.9,
-        "spyReturn": -6.77
+        "spyReturn": -6.94
       },
       {
         "date": "2022-07-21",
         "vix": 23.11,
         "marketClose": 3998.95,
-        "spyReturn": -5.85
+        "spyReturn": -6.02
       },
       {
         "date": "2022-07-22",
         "vix": 23.03,
         "marketClose": 3961.63,
-        "spyReturn": -6.73
+        "spyReturn": -6.9
       },
       {
         "date": "2022-07-25",
         "vix": 23.36,
         "marketClose": 3966.84,
-        "spyReturn": -6.61
+        "spyReturn": -6.78
       },
       {
         "date": "2022-07-26",
         "vix": 24.69,
         "marketClose": 3921.05,
-        "spyReturn": -7.68
+        "spyReturn": -7.85
       },
       {
         "date": "2022-07-27",
         "vix": 23.24,
         "marketClose": 4023.61,
-        "spyReturn": -5.27
+        "spyReturn": -5.44
       },
       {
         "date": "2022-07-28",
         "vix": 22.33,
         "marketClose": 4072.43,
-        "spyReturn": -4.12
+        "spyReturn": -4.29
       },
       {
         "date": "2022-07-29",
         "vix": 21.33,
         "marketClose": 4130.29,
-        "spyReturn": -2.76
+        "spyReturn": -2.93
       },
       {
         "date": "2022-08-01",
         "vix": 22.84,
         "marketClose": 4118.63,
-        "spyReturn": -3.03
+        "spyReturn": -3.21
       },
       {
         "date": "2022-08-02",
         "vix": 23.93,
         "marketClose": 4091.19,
-        "spyReturn": -3.68
+        "spyReturn": -3.85
       },
       {
         "date": "2022-08-03",
         "vix": 21.95,
         "marketClose": 4155.17,
-        "spyReturn": -2.17
+        "spyReturn": -2.35
       },
       {
         "date": "2022-08-04",
         "vix": 21.44,
         "marketClose": 4151.94,
-        "spyReturn": -2.25
+        "spyReturn": -2.43
       },
       {
         "date": "2022-08-05",
         "vix": 21.15,
         "marketClose": 4145.19,
-        "spyReturn": -2.41
+        "spyReturn": -2.58
       },
       {
         "date": "2022-08-08",
         "vix": 21.29,
         "marketClose": 4140.06,
-        "spyReturn": -2.53
+        "spyReturn": -2.7
       },
       {
         "date": "2022-08-09",
         "vix": 21.77,
         "marketClose": 4122.47,
-        "spyReturn": -2.94
+        "spyReturn": -3.12
       },
       {
         "date": "2022-08-10",
         "vix": 19.74,
         "marketClose": 4210.24,
-        "spyReturn": -0.88
+        "spyReturn": -1.06
       },
       {
         "date": "2022-08-11",
         "vix": 20.2,
         "marketClose": 4207.27,
-        "spyReturn": -0.95
+        "spyReturn": -1.13
       },
       {
         "date": "2022-08-12",
         "vix": 19.53,
         "marketClose": 4280.15,
-        "spyReturn": 0.77
+        "spyReturn": 0.59
       },
       {
         "date": "2022-08-15",
         "vix": 19.95,
         "marketClose": 4297.14,
-        "spyReturn": 1.17
+        "spyReturn": 0.99
       },
       {
         "date": "2022-08-16",
         "vix": 19.69,
         "marketClose": 4305.2,
-        "spyReturn": 1.36
+        "spyReturn": 1.18
       },
       {
         "date": "2022-08-17",
         "vix": 19.9,
         "marketClose": 4274.04,
-        "spyReturn": 0.63
+        "spyReturn": 0.44
       },
       {
         "date": "2022-08-18",
         "vix": 19.56,
         "marketClose": 4283.74,
-        "spyReturn": 0.85
+        "spyReturn": 0.67
       },
       {
         "date": "2022-08-19",
         "vix": 20.6,
         "marketClose": 4228.48,
-        "spyReturn": -0.45
+        "spyReturn": -0.63
       },
       {
         "date": "2022-08-22",
         "vix": 23.8,
         "marketClose": 4137.99,
-        "spyReturn": -2.58
+        "spyReturn": -2.75
       },
       {
         "date": "2022-08-23",
         "vix": 24.11,
         "marketClose": 4128.73,
-        "spyReturn": -2.79
+        "spyReturn": -2.97
       },
       {
         "date": "2022-08-24",
         "vix": 22.82,
         "marketClose": 4140.77,
-        "spyReturn": -2.51
+        "spyReturn": -2.69
       },
       {
         "date": "2022-08-25",
         "vix": 21.78,
         "marketClose": 4199.12,
-        "spyReturn": -1.14
+        "spyReturn": -1.32
       },
       {
         "date": "2022-08-26",
         "vix": 25.56,
         "marketClose": 4057.66,
-        "spyReturn": -4.47
+        "spyReturn": -4.64
       },
       {
         "date": "2022-08-29",
         "vix": 26.21,
         "marketClose": 4030.61,
-        "spyReturn": -5.1
+        "spyReturn": -5.28
       },
       {
         "date": "2022-08-30",
         "vix": 26.21,
         "marketClose": 3986.16,
-        "spyReturn": -6.15
+        "spyReturn": -6.32
       },
       {
         "date": "2022-08-31",
         "vix": 25.87,
         "marketClose": 3955,
-        "spyReturn": -6.89
+        "spyReturn": -7.05
       },
       {
         "date": "2022-09-01",
         "vix": 25.56,
         "marketClose": 3966.85,
-        "spyReturn": -6.61
+        "spyReturn": -6.78
       },
       {
         "date": "2022-09-02",
         "vix": 25.47,
         "marketClose": 3924.26,
-        "spyReturn": -7.61
+        "spyReturn": -7.78
       },
       {
         "date": "2022-09-06",
         "vix": 26.91,
         "marketClose": 3908.19,
-        "spyReturn": -7.99
+        "spyReturn": -8.15
       },
       {
         "date": "2022-09-07",
         "vix": 24.64,
         "marketClose": 3979.87,
-        "spyReturn": -6.3
+        "spyReturn": -6.47
       },
       {
         "date": "2022-09-08",
         "vix": 23.61,
         "marketClose": 4006.18,
-        "spyReturn": -5.68
+        "spyReturn": -5.85
       },
       {
         "date": "2022-09-09",
         "vix": 22.79,
         "marketClose": 4067.36,
-        "spyReturn": -4.24
+        "spyReturn": -4.41
       },
       {
         "date": "2022-09-12",
         "vix": 23.87,
         "marketClose": 4110.41,
-        "spyReturn": -3.23
+        "spyReturn": -3.4
       },
       {
         "date": "2022-09-13",
         "vix": 27.27,
         "marketClose": 3932.69,
-        "spyReturn": -7.41
+        "spyReturn": -7.58
       },
       {
         "date": "2022-09-14",
         "vix": 26.16,
         "marketClose": 3946.01,
-        "spyReturn": -7.1
+        "spyReturn": -7.27
       },
       {
         "date": "2022-09-15",
         "vix": 26.27,
         "marketClose": 3901.35,
-        "spyReturn": -8.15
+        "spyReturn": -8.31
       },
       {
         "date": "2022-09-16",
         "vix": 26.3,
         "marketClose": 3873.33,
-        "spyReturn": -8.81
+        "spyReturn": -8.97
       },
       {
         "date": "2022-09-19",
         "vix": 25.76,
         "marketClose": 3899.89,
-        "spyReturn": -8.18
+        "spyReturn": -8.35
       },
       {
         "date": "2022-09-20",
         "vix": 27.16,
         "marketClose": 3855.93,
-        "spyReturn": -9.22
+        "spyReturn": -9.38
       },
       {
         "date": "2022-09-21",
         "vix": 27.99,
         "marketClose": 3789.93,
-        "spyReturn": -10.77
+        "spyReturn": -10.93
       },
       {
         "date": "2022-09-22",
         "vix": 27.35,
         "marketClose": 3757.99,
-        "spyReturn": -11.52
+        "spyReturn": -11.68
       },
       {
         "date": "2022-09-23",
         "vix": 29.92,
         "marketClose": 3693.23,
-        "spyReturn": -13.05
+        "spyReturn": -13.21
       },
       {
         "date": "2022-09-26",
         "vix": 32.26,
         "marketClose": 3655.04,
-        "spyReturn": -13.95
+        "spyReturn": -14.1
       },
       {
         "date": "2022-09-27",
         "vix": 32.6,
         "marketClose": 3647.29,
-        "spyReturn": -14.13
+        "spyReturn": -14.29
       },
       {
         "date": "2022-09-28",
         "vix": 30.18,
         "marketClose": 3719.04,
-        "spyReturn": -12.44
+        "spyReturn": -12.6
       },
       {
         "date": "2022-09-29",
         "vix": 31.84,
         "marketClose": 3640.47,
-        "spyReturn": -14.29
+        "spyReturn": -14.45
       },
       {
         "date": "2022-09-30",
         "vix": 31.62,
         "marketClose": 3585.62,
-        "spyReturn": -15.58
+        "spyReturn": -15.73
       },
       {
         "date": "2022-10-03",
         "vix": 30.1,
         "marketClose": 3678.43,
-        "spyReturn": -13.4
+        "spyReturn": -13.55
       },
       {
         "date": "2022-10-04",
         "vix": 29.07,
         "marketClose": 3790.93,
-        "spyReturn": -10.75
+        "spyReturn": -10.91
       },
       {
         "date": "2022-10-05",
         "vix": 28.55,
         "marketClose": 3783.28,
-        "spyReturn": -10.93
+        "spyReturn": -11.09
       },
       {
         "date": "2022-10-06",
         "vix": 30.52,
         "marketClose": 3744.52,
-        "spyReturn": -11.84
+        "spyReturn": -12
       },
       {
         "date": "2022-10-07",
         "vix": 31.36,
         "marketClose": 3639.66,
-        "spyReturn": -14.31
+        "spyReturn": -14.46
       },
       {
         "date": "2022-10-10",
         "vix": 32.45,
         "marketClose": 3612.39,
-        "spyReturn": -14.95
+        "spyReturn": -15.11
       },
       {
         "date": "2022-10-11",
         "vix": 33.63,
         "marketClose": 3588.84,
-        "spyReturn": -15.51
+        "spyReturn": -15.66
       },
       {
         "date": "2022-10-12",
         "vix": 33.57,
         "marketClose": 3577.03,
-        "spyReturn": -15.78
+        "spyReturn": -15.94
       },
       {
         "date": "2022-10-13",
         "vix": 31.94,
         "marketClose": 3669.91,
-        "spyReturn": -13.6
+        "spyReturn": -13.75
       },
       {
         "date": "2022-10-14",
         "vix": 32.02,
         "marketClose": 3583.07,
-        "spyReturn": -15.64
+        "spyReturn": -15.79
       },
       {
         "date": "2022-10-17",
         "vix": 31.37,
         "marketClose": 3677.95,
-        "spyReturn": -13.41
+        "spyReturn": -13.56
       },
       {
         "date": "2022-10-18",
         "vix": 30.5,
         "marketClose": 3719.98,
-        "spyReturn": -12.42
+        "spyReturn": -12.58
       },
       {
         "date": "2022-10-19",
         "vix": 30.76,
         "marketClose": 3695.16,
-        "spyReturn": -13
+        "spyReturn": -13.16
       },
       {
         "date": "2022-10-20",
         "vix": 29.98,
         "marketClose": 3665.78,
-        "spyReturn": -13.69
+        "spyReturn": -13.85
       },
       {
         "date": "2022-10-21",
         "vix": 29.69,
         "marketClose": 3752.75,
-        "spyReturn": -11.65
+        "spyReturn": -11.81
       },
       {
         "date": "2022-10-24",
         "vix": 29.85,
         "marketClose": 3797.34,
-        "spyReturn": -10.6
+        "spyReturn": -10.76
       },
       {
         "date": "2022-10-25",
         "vix": 28.46,
         "marketClose": 3859.11,
-        "spyReturn": -9.14
+        "spyReturn": -9.31
       },
       {
         "date": "2022-10-26",
         "vix": 27.28,
         "marketClose": 3830.6,
-        "spyReturn": -9.81
+        "spyReturn": -9.98
       },
       {
         "date": "2022-10-27",
         "vix": 27.39,
         "marketClose": 3807.3,
-        "spyReturn": -10.36
+        "spyReturn": -10.52
       },
       {
         "date": "2022-10-28",
         "vix": 25.75,
         "marketClose": 3901.06,
-        "spyReturn": -8.16
+        "spyReturn": -8.32
       },
       {
         "date": "2022-10-31",
         "vix": 25.88,
         "marketClose": 3871.98,
-        "spyReturn": -8.84
+        "spyReturn": -9
       },
       {
         "date": "2022-11-01",
         "vix": 25.81,
         "marketClose": 3856.1,
-        "spyReturn": -9.21
+        "spyReturn": -9.38
       },
       {
         "date": "2022-11-02",
         "vix": 25.86,
         "marketClose": 3759.69,
-        "spyReturn": -11.48
+        "spyReturn": -11.64
       },
       {
         "date": "2022-11-03",
         "vix": 25.3,
         "marketClose": 3719.89,
-        "spyReturn": -12.42
+        "spyReturn": -12.58
       },
       {
         "date": "2022-11-04",
         "vix": 24.55,
         "marketClose": 3770.55,
-        "spyReturn": -11.23
+        "spyReturn": -11.39
       },
       {
         "date": "2022-11-07",
         "vix": 24.35,
         "marketClose": 3806.8,
-        "spyReturn": -10.37
+        "spyReturn": -10.54
       },
       {
         "date": "2022-11-08",
         "vix": 25.54,
         "marketClose": 3828.11,
-        "spyReturn": -9.87
+        "spyReturn": -10.04
       },
       {
         "date": "2022-11-09",
         "vix": 26.09,
         "marketClose": 3748.57,
-        "spyReturn": -11.75
+        "spyReturn": -11.91
       },
       {
         "date": "2022-11-10",
         "vix": 23.53,
         "marketClose": 3956.37,
-        "spyReturn": -6.85
+        "spyReturn": -7.02
       },
       {
         "date": "2022-11-11",
         "vix": 22.52,
         "marketClose": 3992.93,
-        "spyReturn": -5.99
+        "spyReturn": -6.16
       },
       {
         "date": "2022-11-14",
         "vix": 23.73,
         "marketClose": 3957.25,
-        "spyReturn": -6.83
+        "spyReturn": -7
       },
       {
         "date": "2022-11-15",
         "vix": 24.54,
         "marketClose": 3991.73,
-        "spyReturn": -6.02
+        "spyReturn": -6.19
       },
       {
         "date": "2022-11-16",
         "vix": 24.11,
         "marketClose": 3958.79,
-        "spyReturn": -6.8
+        "spyReturn": -6.96
       },
       {
         "date": "2022-11-17",
         "vix": 23.93,
         "marketClose": 3946.56,
-        "spyReturn": -7.08
+        "spyReturn": -7.25
       },
       {
         "date": "2022-11-18",
         "vix": 23.12,
         "marketClose": 3965.34,
-        "spyReturn": -6.64
+        "spyReturn": -6.81
       },
       {
         "date": "2022-11-21",
         "vix": 22.36,
         "marketClose": 3949.94,
-        "spyReturn": -7
+        "spyReturn": -7.17
       },
       {
         "date": "2022-11-22",
         "vix": 21.29,
         "marketClose": 4003.58,
-        "spyReturn": -5.74
+        "spyReturn": -5.91
       },
       {
         "date": "2022-11-23",
         "vix": 20.35,
         "marketClose": 4027.26,
-        "spyReturn": -5.18
+        "spyReturn": -5.36
       },
       {
         "date": "2022-11-25",
         "vix": 20.5,
         "marketClose": 4026.12,
-        "spyReturn": -5.21
+        "spyReturn": -5.38
       },
       {
         "date": "2022-11-28",
         "vix": 22.21,
         "marketClose": 3963.94,
-        "spyReturn": -6.67
+        "spyReturn": -6.84
       },
       {
         "date": "2022-11-29",
         "vix": 21.89,
         "marketClose": 3957.63,
-        "spyReturn": -6.82
+        "spyReturn": -6.99
       },
       {
         "date": "2022-11-30",
         "vix": 20.58,
         "marketClose": 4080.11,
-        "spyReturn": -3.94
+        "spyReturn": -4.11
       },
       {
         "date": "2022-12-01",
         "vix": 19.84,
         "marketClose": 4076.57,
-        "spyReturn": -4.02
+        "spyReturn": -4.2
       },
       {
         "date": "2022-12-02",
         "vix": 19.06,
         "marketClose": 4071.7,
-        "spyReturn": -4.14
+        "spyReturn": -4.31
       },
       {
         "date": "2022-12-05",
         "vix": 20.75,
         "marketClose": 3998.84,
-        "spyReturn": -5.85
+        "spyReturn": -6.02
       },
       {
         "date": "2022-12-06",
         "vix": 22.17,
         "marketClose": 3941.26,
-        "spyReturn": -7.21
+        "spyReturn": -7.38
       },
       {
         "date": "2022-12-07",
         "vix": 22.68,
         "marketClose": 3933.92,
-        "spyReturn": -7.38
+        "spyReturn": -7.55
       },
       {
         "date": "2022-12-08",
         "vix": 22.29,
         "marketClose": 3963.51,
-        "spyReturn": -6.68
+        "spyReturn": -6.85
       },
       {
         "date": "2022-12-09",
         "vix": 22.83,
         "marketClose": 3934.38,
-        "spyReturn": -7.37
+        "spyReturn": -7.54
       },
       {
         "date": "2022-12-12",
         "vix": 25,
         "marketClose": 3990.56,
-        "spyReturn": -6.05
+        "spyReturn": -6.22
       },
       {
         "date": "2022-12-13",
         "vix": 22.55,
         "marketClose": 4019.65,
-        "spyReturn": -5.36
+        "spyReturn": -5.53
       },
       {
         "date": "2022-12-14",
         "vix": 21.14,
         "marketClose": 3995.32,
-        "spyReturn": -5.94
+        "spyReturn": -6.11
       },
       {
         "date": "2022-12-15",
         "vix": 22.83,
         "marketClose": 3895.75,
-        "spyReturn": -8.28
+        "spyReturn": -8.45
       },
       {
         "date": "2022-12-16",
         "vix": 22.62,
         "marketClose": 3852.36,
-        "spyReturn": -9.3
+        "spyReturn": -9.47
       },
       {
         "date": "2022-12-19",
         "vix": 22.42,
         "marketClose": 3817.66,
-        "spyReturn": -10.12
+        "spyReturn": -10.28
       },
       {
         "date": "2022-12-20",
         "vix": 21.48,
         "marketClose": 3821.62,
-        "spyReturn": -10.03
+        "spyReturn": -10.19
       },
       {
         "date": "2022-12-21",
         "vix": 20.07,
         "marketClose": 3878.44,
-        "spyReturn": -8.69
+        "spyReturn": -8.85
       },
       {
         "date": "2022-12-22",
         "vix": 21.97,
         "marketClose": 3822.39,
-        "spyReturn": -10.01
+        "spyReturn": -10.17
       },
       {
         "date": "2022-12-23",
         "vix": 20.87,
         "marketClose": 3844.82,
-        "spyReturn": -9.48
+        "spyReturn": -9.64
       },
       {
         "date": "2022-12-27",
         "vix": 21.65,
         "marketClose": 3829.25,
-        "spyReturn": -9.85
+        "spyReturn": -10.01
       },
       {
         "date": "2022-12-28",
         "vix": 22.14,
         "marketClose": 3783.22,
-        "spyReturn": -10.93
+        "spyReturn": -11.09
       },
       {
         "date": "2022-12-29",
         "vix": 21.44,
         "marketClose": 3849.28,
-        "spyReturn": -9.37
+        "spyReturn": -9.54
       },
       {
         "date": "2022-12-30",
         "vix": 21.67,
         "marketClose": 3839.5,
-        "spyReturn": -9.6
+        "spyReturn": -9.77
       },
       {
         "date": "2023-01-03",
         "vix": 22.9,
         "marketClose": 3824.14,
-        "spyReturn": -9.97
+        "spyReturn": -10.13
       },
       {
         "date": "2023-01-04",
         "vix": 22.01,
         "marketClose": 3852.97,
-        "spyReturn": -9.29
+        "spyReturn": -9.45
       },
       {
         "date": "2023-01-05",
         "vix": 22.46,
         "marketClose": 3808.1,
-        "spyReturn": -10.34
+        "spyReturn": -10.51
       },
       {
         "date": "2023-01-06",
         "vix": 21.13,
         "marketClose": 3895.08,
-        "spyReturn": -8.3
+        "spyReturn": -8.46
       },
       {
         "date": "2023-01-09",
         "vix": 21.97,
         "marketClose": 3892.09,
-        "spyReturn": -8.37
+        "spyReturn": -8.53
       },
       {
         "date": "2023-01-10",
         "vix": 20.58,
         "marketClose": 3919.25,
-        "spyReturn": -7.73
+        "spyReturn": -7.89
       },
       {
         "date": "2023-01-11",
         "vix": 21.09,
         "marketClose": 3969.61,
-        "spyReturn": -6.54
+        "spyReturn": -6.71
       },
       {
         "date": "2023-01-12",
         "vix": 18.83,
         "marketClose": 3983.17,
-        "spyReturn": -6.22
+        "spyReturn": -6.39
       },
       {
         "date": "2023-01-13",
         "vix": 18.35,
         "marketClose": 3999.09,
-        "spyReturn": -5.85
+        "spyReturn": -6.02
       },
       {
         "date": "2023-01-17",
         "vix": 19.36,
         "marketClose": 3990.97,
-        "spyReturn": -6.04
+        "spyReturn": -6.21
       },
       {
         "date": "2023-01-18",
         "vix": 20.34,
         "marketClose": 3928.86,
-        "spyReturn": -7.5
+        "spyReturn": -7.67
       },
       {
         "date": "2023-01-19",
         "vix": 20.52,
         "marketClose": 3898.85,
-        "spyReturn": -8.21
+        "spyReturn": -8.37
       },
       {
         "date": "2023-01-20",
         "vix": 19.85,
         "marketClose": 3972.61,
-        "spyReturn": -6.47
+        "spyReturn": -6.64
       },
       {
         "date": "2023-01-23",
         "vix": 19.81,
         "marketClose": 4019.81,
-        "spyReturn": -5.36
+        "spyReturn": -5.53
       },
       {
         "date": "2023-01-24",
         "vix": 19.2,
         "marketClose": 4016.95,
-        "spyReturn": -5.43
+        "spyReturn": -5.6
       },
       {
         "date": "2023-01-25",
         "vix": 19.08,
         "marketClose": 4016.22,
-        "spyReturn": -5.44
+        "spyReturn": -5.62
       },
       {
         "date": "2023-01-26",
         "vix": 18.73,
         "marketClose": 4060.43,
-        "spyReturn": -4.4
+        "spyReturn": -4.58
       },
       {
         "date": "2023-01-27",
         "vix": 18.51,
         "marketClose": 4070.56,
-        "spyReturn": -4.16
+        "spyReturn": -4.34
       },
       {
         "date": "2023-01-30",
         "vix": 19.94,
         "marketClose": 4017.77,
-        "spyReturn": -5.41
+        "spyReturn": -5.58
       },
       {
         "date": "2023-01-31",
         "vix": 19.4,
         "marketClose": 4076.6,
-        "spyReturn": -4.02
+        "spyReturn": -4.2
       },
       {
         "date": "2023-02-01",
         "vix": 17.87,
         "marketClose": 4119.21,
-        "spyReturn": -3.02
+        "spyReturn": -3.19
       },
       {
         "date": "2023-02-02",
         "vix": 18.73,
         "marketClose": 4179.76,
-        "spyReturn": -1.59
+        "spyReturn": -1.77
       },
       {
         "date": "2023-02-03",
         "vix": 18.33,
         "marketClose": 4136.48,
-        "spyReturn": -2.61
+        "spyReturn": -2.79
       },
       {
         "date": "2023-02-06",
         "vix": 19.43,
         "marketClose": 4111.08,
-        "spyReturn": -3.21
+        "spyReturn": -3.39
       },
       {
         "date": "2023-02-07",
         "vix": 18.66,
         "marketClose": 4164,
-        "spyReturn": -1.96
+        "spyReturn": -2.14
       },
       {
         "date": "2023-02-08",
         "vix": 19.63,
         "marketClose": 4117.86,
-        "spyReturn": -3.05
+        "spyReturn": -3.23
       },
       {
         "date": "2023-02-09",
         "vix": 20.71,
         "marketClose": 4081.5,
-        "spyReturn": -3.91
+        "spyReturn": -4.08
       },
       {
         "date": "2023-02-10",
         "vix": 20.53,
         "marketClose": 4090.46,
-        "spyReturn": -3.7
+        "spyReturn": -3.87
       },
       {
         "date": "2023-02-13",
         "vix": 20.34,
         "marketClose": 4137.29,
-        "spyReturn": -2.59
+        "spyReturn": -2.77
       },
       {
         "date": "2023-02-14",
         "vix": 18.91,
         "marketClose": 4136.13,
-        "spyReturn": -2.62
+        "spyReturn": -2.8
       },
       {
         "date": "2023-02-15",
         "vix": 18.23,
         "marketClose": 4147.6,
-        "spyReturn": -2.35
+        "spyReturn": -2.53
       },
       {
         "date": "2023-02-16",
         "vix": 20.17,
         "marketClose": 4090.41,
-        "spyReturn": -3.7
+        "spyReturn": -3.87
       },
       {
         "date": "2023-02-17",
         "vix": 20.02,
         "marketClose": 4079.09,
-        "spyReturn": -3.96
+        "spyReturn": -4.14
       },
       {
         "date": "2023-02-21",
         "vix": 22.87,
         "marketClose": 3997.34,
-        "spyReturn": -5.89
+        "spyReturn": -6.06
       },
       {
         "date": "2023-02-22",
         "vix": 22.29,
         "marketClose": 3991.05,
-        "spyReturn": -6.04
+        "spyReturn": -6.21
       },
       {
         "date": "2023-02-23",
         "vix": 21.14,
         "marketClose": 4012.32,
-        "spyReturn": -5.54
+        "spyReturn": -5.71
       },
       {
         "date": "2023-02-24",
         "vix": 21.67,
         "marketClose": 3970.04,
-        "spyReturn": -6.53
+        "spyReturn": -6.7
       },
       {
         "date": "2023-02-27",
         "vix": 20.95,
         "marketClose": 3982.24,
-        "spyReturn": -6.24
+        "spyReturn": -6.41
       },
       {
         "date": "2023-02-28",
         "vix": 20.7,
         "marketClose": 3970.15,
-        "spyReturn": -6.53
+        "spyReturn": -6.7
       },
       {
         "date": "2023-03-01",
         "vix": 20.58,
         "marketClose": 3951.39,
-        "spyReturn": -6.97
+        "spyReturn": -7.14
       },
       {
         "date": "2023-03-02",
         "vix": 19.59,
         "marketClose": 3981.35,
-        "spyReturn": -6.26
+        "spyReturn": -6.43
       },
       {
         "date": "2023-03-03",
         "vix": 18.49,
         "marketClose": 4045.64,
-        "spyReturn": -4.75
+        "spyReturn": -4.92
       },
       {
         "date": "2023-03-06",
         "vix": 18.61,
         "marketClose": 4048.42,
-        "spyReturn": -4.69
+        "spyReturn": -4.86
       },
       {
         "date": "2023-03-07",
         "vix": 19.59,
         "marketClose": 3986.37,
-        "spyReturn": -6.15
+        "spyReturn": -6.32
       },
       {
         "date": "2023-03-08",
         "vix": 19.11,
         "marketClose": 3992.01,
-        "spyReturn": -6.01
+        "spyReturn": -6.18
       },
       {
         "date": "2023-03-09",
         "vix": 22.61,
         "marketClose": 3918.32,
-        "spyReturn": -7.75
+        "spyReturn": -7.92
       },
       {
         "date": "2023-03-10",
         "vix": 24.8,
         "marketClose": 3861.59,
-        "spyReturn": -9.08
+        "spyReturn": -9.25
       },
       {
         "date": "2023-03-13",
         "vix": 26.52,
         "marketClose": 3855.76,
-        "spyReturn": -9.22
+        "spyReturn": -9.39
       },
       {
         "date": "2023-03-14",
         "vix": 23.73,
         "marketClose": 3919.29,
-        "spyReturn": -7.73
+        "spyReturn": -7.89
       },
       {
         "date": "2023-03-15",
         "vix": 26.14,
         "marketClose": 3891.93,
-        "spyReturn": -8.37
+        "spyReturn": -8.54
       },
       {
         "date": "2023-03-16",
         "vix": 22.99,
         "marketClose": 3960.28,
-        "spyReturn": -6.76
+        "spyReturn": -6.93
       },
       {
         "date": "2023-03-17",
         "vix": 25.51,
         "marketClose": 3916.64,
-        "spyReturn": -7.79
+        "spyReturn": -7.96
       },
       {
         "date": "2023-03-20",
         "vix": 24.15,
         "marketClose": 3951.57,
-        "spyReturn": -6.97
+        "spyReturn": -7.13
       },
       {
         "date": "2023-03-21",
         "vix": 21.38,
         "marketClose": 4002.87,
-        "spyReturn": -5.76
+        "spyReturn": -5.93
       },
       {
         "date": "2023-03-22",
         "vix": 22.26,
         "marketClose": 3936.97,
-        "spyReturn": -7.31
+        "spyReturn": -7.48
       },
       {
         "date": "2023-03-23",
         "vix": 22.61,
         "marketClose": 3948.72,
-        "spyReturn": -7.03
+        "spyReturn": -7.2
       },
       {
         "date": "2023-03-24",
         "vix": 21.74,
         "marketClose": 3970.99,
-        "spyReturn": -6.51
+        "spyReturn": -6.68
       },
       {
         "date": "2023-03-27",
         "vix": 20.6,
         "marketClose": 3977.53,
-        "spyReturn": -6.35
+        "spyReturn": -6.52
       },
       {
         "date": "2023-03-28",
         "vix": 19.97,
         "marketClose": 3971.27,
-        "spyReturn": -6.5
+        "spyReturn": -6.67
       },
       {
         "date": "2023-03-29",
         "vix": 19.12,
         "marketClose": 4027.81,
-        "spyReturn": -5.17
+        "spyReturn": -5.34
       },
       {
         "date": "2023-03-30",
         "vix": 19.02,
         "marketClose": 4050.83,
-        "spyReturn": -4.63
+        "spyReturn": -4.8
       },
       {
         "date": "2023-03-31",
         "vix": 18.7,
         "marketClose": 4109.31,
-        "spyReturn": -3.25
+        "spyReturn": -3.43
       },
       {
         "date": "2023-04-03",
         "vix": 18.55,
         "marketClose": 4124.51,
-        "spyReturn": -2.89
+        "spyReturn": -3.07
       },
       {
         "date": "2023-04-04",
         "vix": 19,
         "marketClose": 4100.6,
-        "spyReturn": -3.46
+        "spyReturn": -3.63
       },
       {
         "date": "2023-04-05",
         "vix": 19.08,
         "marketClose": 4090.38,
-        "spyReturn": -3.7
+        "spyReturn": -3.87
       },
       {
         "date": "2023-04-06",
         "vix": 18.4,
         "marketClose": 4105.02,
-        "spyReturn": -3.35
+        "spyReturn": -3.53
       },
       {
         "date": "2023-04-10",
         "vix": 18.97,
         "marketClose": 4109.11,
-        "spyReturn": -3.26
+        "spyReturn": -3.43
       },
       {
         "date": "2023-04-11",
         "vix": 19.1,
         "marketClose": 4108.94,
-        "spyReturn": -3.26
+        "spyReturn": -3.44
       },
       {
         "date": "2023-04-12",
         "vix": 19.09,
         "marketClose": 4091.95,
-        "spyReturn": -3.66
+        "spyReturn": -3.84
       },
       {
         "date": "2023-04-13",
         "vix": 17.8,
         "marketClose": 4146.22,
-        "spyReturn": -2.38
+        "spyReturn": -2.56
       },
       {
         "date": "2023-04-14",
         "vix": 17.07,
         "marketClose": 4137.64,
-        "spyReturn": -2.59
+        "spyReturn": -2.76
       },
       {
         "date": "2023-04-17",
         "vix": 16.95,
         "marketClose": 4151.32,
-        "spyReturn": -2.26
+        "spyReturn": -2.44
       },
       {
         "date": "2023-04-18",
         "vix": 16.83,
         "marketClose": 4154.87,
-        "spyReturn": -2.18
+        "spyReturn": -2.36
       },
       {
         "date": "2023-04-19",
         "vix": 16.46,
         "marketClose": 4154.52,
-        "spyReturn": -2.19
+        "spyReturn": -2.36
       },
       {
         "date": "2023-04-20",
         "vix": 17.17,
         "marketClose": 4129.79,
-        "spyReturn": -2.77
+        "spyReturn": -2.95
       },
       {
         "date": "2023-04-21",
         "vix": 16.77,
         "marketClose": 4133.52,
-        "spyReturn": -2.68
+        "spyReturn": -2.86
       },
       {
         "date": "2023-04-24",
         "vix": 16.89,
         "marketClose": 4137.04,
-        "spyReturn": -2.6
+        "spyReturn": -2.78
       },
       {
         "date": "2023-04-25",
         "vix": 18.76,
         "marketClose": 4071.63,
-        "spyReturn": -4.14
+        "spyReturn": -4.31
       },
       {
         "date": "2023-04-26",
         "vix": 18.84,
         "marketClose": 4055.99,
-        "spyReturn": -4.51
+        "spyReturn": -4.68
       },
       {
         "date": "2023-04-27",
         "vix": 17.03,
         "marketClose": 4135.35,
-        "spyReturn": -2.64
+        "spyReturn": -2.82
       },
       {
         "date": "2023-04-28",
         "vix": 15.78,
         "marketClose": 4169.48,
-        "spyReturn": -1.84
+        "spyReturn": -2.01
       },
       {
         "date": "2023-05-01",
         "vix": 16.08,
         "marketClose": 4167.87,
-        "spyReturn": -1.87
+        "spyReturn": -2.05
       },
       {
         "date": "2023-05-02",
         "vix": 17.78,
         "marketClose": 4119.58,
-        "spyReturn": -3.01
+        "spyReturn": -3.19
       },
       {
         "date": "2023-05-03",
         "vix": 18.34,
         "marketClose": 4090.75,
-        "spyReturn": -3.69
+        "spyReturn": -3.86
       },
       {
         "date": "2023-05-04",
         "vix": 20.09,
         "marketClose": 4061.22,
-        "spyReturn": -4.38
+        "spyReturn": -4.56
       },
       {
         "date": "2023-05-05",
         "vix": 17.19,
         "marketClose": 4136.25,
-        "spyReturn": -2.62
+        "spyReturn": -2.79
       },
       {
         "date": "2023-05-08",
         "vix": 16.98,
         "marketClose": 4138.12,
-        "spyReturn": -2.57
+        "spyReturn": -2.75
       },
       {
         "date": "2023-05-09",
         "vix": 17.71,
         "marketClose": 4119.17,
-        "spyReturn": -3.02
+        "spyReturn": -3.2
       },
       {
         "date": "2023-05-10",
         "vix": 16.94,
         "marketClose": 4137.64,
-        "spyReturn": -2.59
+        "spyReturn": -2.76
       },
       {
         "date": "2023-05-11",
         "vix": 16.93,
         "marketClose": 4130.62,
-        "spyReturn": -2.75
+        "spyReturn": -2.93
       },
       {
         "date": "2023-05-12",
         "vix": 17.03,
         "marketClose": 4124.08,
-        "spyReturn": -2.9
+        "spyReturn": -3.08
       },
       {
         "date": "2023-05-15",
         "vix": 17.12,
         "marketClose": 4136.28,
-        "spyReturn": -2.62
+        "spyReturn": -2.79
       },
       {
         "date": "2023-05-16",
         "vix": 17.99,
         "marketClose": 4109.9,
-        "spyReturn": -3.24
+        "spyReturn": -3.41
       },
       {
         "date": "2023-05-17",
         "vix": 16.87,
         "marketClose": 4158.77,
-        "spyReturn": -2.09
+        "spyReturn": -2.27
       },
       {
         "date": "2023-05-18",
         "vix": 16.05,
         "marketClose": 4198.05,
-        "spyReturn": -1.16
+        "spyReturn": -1.34
       },
       {
         "date": "2023-05-19",
         "vix": 16.81,
         "marketClose": 4191.98,
-        "spyReturn": -1.31
+        "spyReturn": -1.48
       },
       {
         "date": "2023-05-22",
         "vix": 17.21,
         "marketClose": 4192.63,
-        "spyReturn": -1.29
+        "spyReturn": -1.47
       },
       {
         "date": "2023-05-23",
         "vix": 18.53,
         "marketClose": 4145.58,
-        "spyReturn": -2.4
+        "spyReturn": -2.57
       },
       {
         "date": "2023-05-24",
         "vix": 20.03,
         "marketClose": 4115.24,
-        "spyReturn": -3.11
+        "spyReturn": -3.29
       },
       {
         "date": "2023-05-25",
         "vix": 19.14,
         "marketClose": 4151.28,
-        "spyReturn": -2.26
+        "spyReturn": -2.44
       },
       {
         "date": "2023-05-26",
         "vix": 17.95,
         "marketClose": 4205.45,
-        "spyReturn": -0.99
+        "spyReturn": -1.17
       },
       {
         "date": "2023-05-30",
         "vix": 17.46,
         "marketClose": 4205.52,
-        "spyReturn": -0.99
+        "spyReturn": -1.17
       },
       {
         "date": "2023-05-31",
         "vix": 17.94,
         "marketClose": 4179.83,
-        "spyReturn": -1.59
+        "spyReturn": -1.77
       },
       {
         "date": "2023-06-01",
         "vix": 15.65,
         "marketClose": 4221.02,
-        "spyReturn": -0.62
+        "spyReturn": -0.8
       },
       {
         "date": "2023-06-02",
         "vix": 14.6,
         "marketClose": 4282.37,
-        "spyReturn": 0.82
+        "spyReturn": 0.64
       },
       {
         "date": "2023-06-05",
         "vix": 14.73,
         "marketClose": 4273.79,
-        "spyReturn": 0.62
+        "spyReturn": 0.44
       },
       {
         "date": "2023-06-06",
         "vix": 13.96,
         "marketClose": 4283.85,
-        "spyReturn": 0.86
+        "spyReturn": 0.67
       },
       {
         "date": "2023-06-07",
         "vix": 13.94,
         "marketClose": 4267.52,
-        "spyReturn": 0.47
+        "spyReturn": 0.29
       },
       {
         "date": "2023-06-08",
         "vix": 13.65,
         "marketClose": 4293.93,
-        "spyReturn": 1.09
+        "spyReturn": 0.91
       },
       {
         "date": "2023-06-09",
         "vix": 13.83,
         "marketClose": 4298.86,
-        "spyReturn": 1.21
+        "spyReturn": 1.03
       },
       {
         "date": "2023-06-12",
         "vix": 15.01,
         "marketClose": 4338.93,
-        "spyReturn": 2.15
+        "spyReturn": 1.97
       },
       {
         "date": "2023-06-13",
         "vix": 14.61,
         "marketClose": 4369.01,
-        "spyReturn": 2.86
+        "spyReturn": 2.68
       },
       {
         "date": "2023-06-14",
         "vix": 13.88,
         "marketClose": 4372.59,
-        "spyReturn": 2.95
+        "spyReturn": 2.76
       },
       {
         "date": "2023-06-15",
         "vix": 14.5,
         "marketClose": 4425.84,
-        "spyReturn": 4.2
+        "spyReturn": 4.01
       },
       {
         "date": "2023-06-16",
         "vix": 13.54,
         "marketClose": 4409.59,
-        "spyReturn": 3.82
+        "spyReturn": 3.63
       },
       {
         "date": "2023-06-20",
         "vix": 13.88,
         "marketClose": 4388.71,
-        "spyReturn": 3.33
+        "spyReturn": 3.14
       },
       {
         "date": "2023-06-21",
         "vix": 13.2,
         "marketClose": 4365.69,
-        "spyReturn": 2.78
+        "spyReturn": 2.6
       },
       {
         "date": "2023-06-22",
         "vix": 12.91,
         "marketClose": 4381.89,
-        "spyReturn": 3.17
+        "spyReturn": 2.98
       },
       {
         "date": "2023-06-23",
         "vix": 13.44,
         "marketClose": 4348.33,
-        "spyReturn": 2.38
+        "spyReturn": 2.19
       },
       {
         "date": "2023-06-26",
         "vix": 14.25,
         "marketClose": 4328.82,
-        "spyReturn": 1.92
+        "spyReturn": 1.73
       },
       {
         "date": "2023-06-27",
         "vix": 13.74,
         "marketClose": 4378.41,
-        "spyReturn": 3.08
+        "spyReturn": 2.9
       },
       {
         "date": "2023-06-28",
         "vix": 13.43,
         "marketClose": 4376.86,
-        "spyReturn": 3.05
+        "spyReturn": 2.86
       },
       {
         "date": "2023-06-29",
         "vix": 13.54,
         "marketClose": 4396.44,
-        "spyReturn": 3.51
+        "spyReturn": 3.32
       },
       {
         "date": "2023-06-30",
         "vix": 13.59,
         "marketClose": 4450.38,
-        "spyReturn": 4.78
+        "spyReturn": 4.59
       },
       {
         "date": "2023-07-03",
         "vix": 13.57,
         "marketClose": 4455.59,
-        "spyReturn": 4.9
+        "spyReturn": 4.71
       },
       {
         "date": "2023-07-05",
         "vix": 14.18,
         "marketClose": 4446.82,
-        "spyReturn": 4.69
+        "spyReturn": 4.5
       },
       {
         "date": "2023-07-06",
         "vix": 15.44,
         "marketClose": 4411.59,
-        "spyReturn": 3.86
+        "spyReturn": 3.68
       },
       {
         "date": "2023-07-07",
         "vix": 14.83,
         "marketClose": 4398.95,
-        "spyReturn": 3.57
+        "spyReturn": 3.38
       },
       {
         "date": "2023-07-10",
         "vix": 15.07,
         "marketClose": 4409.53,
-        "spyReturn": 3.82
+        "spyReturn": 3.63
       },
       {
         "date": "2023-07-11",
         "vix": 14.84,
         "marketClose": 4439.26,
-        "spyReturn": 4.52
+        "spyReturn": 4.33
       },
       {
         "date": "2023-07-12",
         "vix": 13.54,
         "marketClose": 4472.16,
-        "spyReturn": 5.29
+        "spyReturn": 5.1
       },
       {
         "date": "2023-07-13",
         "vix": 13.61,
         "marketClose": 4510.04,
-        "spyReturn": 6.18
+        "spyReturn": 5.99
       },
       {
         "date": "2023-07-14",
         "vix": 13.34,
         "marketClose": 4505.42,
-        "spyReturn": 6.07
+        "spyReturn": 5.88
       },
       {
         "date": "2023-07-17",
         "vix": 13.48,
         "marketClose": 4522.79,
-        "spyReturn": 6.48
+        "spyReturn": 6.29
       },
       {
         "date": "2023-07-18",
         "vix": 13.3,
         "marketClose": 4554.98,
-        "spyReturn": 7.24
+        "spyReturn": 7.05
       },
       {
         "date": "2023-07-19",
         "vix": 13.76,
         "marketClose": 4565.72,
-        "spyReturn": 7.49
+        "spyReturn": 7.3
       },
       {
         "date": "2023-07-20",
         "vix": 13.99,
         "marketClose": 4534.87,
-        "spyReturn": 6.77
+        "spyReturn": 6.57
       },
       {
         "date": "2023-07-21",
         "vix": 13.6,
         "marketClose": 4536.34,
-        "spyReturn": 6.8
+        "spyReturn": 6.61
       },
       {
         "date": "2023-07-24",
         "vix": 13.91,
         "marketClose": 4554.64,
-        "spyReturn": 7.23
+        "spyReturn": 7.04
       },
       {
         "date": "2023-07-25",
         "vix": 13.86,
         "marketClose": 4567.46,
-        "spyReturn": 7.53
+        "spyReturn": 7.34
       },
       {
         "date": "2023-07-26",
         "vix": 13.19,
         "marketClose": 4566.75,
-        "spyReturn": 7.52
+        "spyReturn": 7.32
       },
       {
         "date": "2023-07-27",
         "vix": 14.41,
         "marketClose": 4537.41,
-        "spyReturn": 6.83
+        "spyReturn": 6.63
       },
       {
         "date": "2023-07-28",
         "vix": 13.33,
         "marketClose": 4582.23,
-        "spyReturn": 7.88
+        "spyReturn": 7.69
       },
       {
         "date": "2023-07-31",
         "vix": 13.63,
         "marketClose": 4588.96,
-        "spyReturn": 8.04
+        "spyReturn": 7.84
       },
       {
         "date": "2023-08-01",
         "vix": 13.93,
         "marketClose": 4576.73,
-        "spyReturn": 7.75
+        "spyReturn": 7.56
       },
       {
         "date": "2023-08-02",
         "vix": 16.09,
         "marketClose": 4513.39,
-        "spyReturn": 6.26
+        "spyReturn": 6.07
       },
       {
         "date": "2023-08-03",
         "vix": 15.92,
         "marketClose": 4501.89,
-        "spyReturn": 5.99
+        "spyReturn": 5.8
       },
       {
         "date": "2023-08-04",
         "vix": 17.1,
         "marketClose": 4478.03,
-        "spyReturn": 5.43
+        "spyReturn": 5.24
       },
       {
         "date": "2023-08-07",
         "vix": 15.77,
         "marketClose": 4518.44,
-        "spyReturn": 6.38
+        "spyReturn": 6.19
       },
       {
         "date": "2023-08-08",
         "vix": 15.99,
         "marketClose": 4499.38,
-        "spyReturn": 5.93
+        "spyReturn": 5.74
       },
       {
         "date": "2023-08-09",
         "vix": 15.96,
         "marketClose": 4467.71,
-        "spyReturn": 5.19
+        "spyReturn": 5
       },
       {
         "date": "2023-08-10",
         "vix": 15.85,
         "marketClose": 4468.83,
-        "spyReturn": 5.21
+        "spyReturn": 5.02
       },
       {
         "date": "2023-08-11",
         "vix": 14.84,
         "marketClose": 4464.05,
-        "spyReturn": 5.1
+        "spyReturn": 4.91
       },
       {
         "date": "2023-08-14",
         "vix": 14.82,
         "marketClose": 4489.72,
-        "spyReturn": 5.7
+        "spyReturn": 5.51
       },
       {
         "date": "2023-08-15",
         "vix": 16.46,
         "marketClose": 4437.86,
-        "spyReturn": 4.48
+        "spyReturn": 4.29
       },
       {
         "date": "2023-08-16",
         "vix": 16.78,
         "marketClose": 4404.33,
-        "spyReturn": 3.69
+        "spyReturn": 3.51
       },
       {
         "date": "2023-08-17",
         "vix": 17.89,
         "marketClose": 4370.36,
-        "spyReturn": 2.89
+        "spyReturn": 2.71
       },
       {
         "date": "2023-08-18",
         "vix": 17.3,
         "marketClose": 4369.71,
-        "spyReturn": 2.88
+        "spyReturn": 2.69
       },
       {
         "date": "2023-08-21",
         "vix": 17.13,
         "marketClose": 4399.77,
-        "spyReturn": 3.59
+        "spyReturn": 3.4
       },
       {
         "date": "2023-08-22",
         "vix": 16.97,
         "marketClose": 4387.55,
-        "spyReturn": 3.3
+        "spyReturn": 3.11
       },
       {
         "date": "2023-08-23",
         "vix": 15.98,
         "marketClose": 4436.01,
-        "spyReturn": 4.44
+        "spyReturn": 4.25
       },
       {
         "date": "2023-08-24",
         "vix": 17.2,
         "marketClose": 4376.31,
-        "spyReturn": 3.03
+        "spyReturn": 2.85
       },
       {
         "date": "2023-08-25",
         "vix": 15.68,
         "marketClose": 4405.71,
-        "spyReturn": 3.73
+        "spyReturn": 3.54
       },
       {
         "date": "2023-08-28",
         "vix": 15.08,
         "marketClose": 4433.31,
-        "spyReturn": 4.38
+        "spyReturn": 4.19
       },
       {
         "date": "2023-08-29",
         "vix": 14.45,
         "marketClose": 4497.63,
-        "spyReturn": 5.89
+        "spyReturn": 5.7
       },
       {
         "date": "2023-08-30",
         "vix": 13.88,
         "marketClose": 4514.87,
-        "spyReturn": 6.3
+        "spyReturn": 6.1
       },
       {
         "date": "2023-08-31",
         "vix": 13.57,
         "marketClose": 4507.66,
-        "spyReturn": 6.13
+        "spyReturn": 5.93
       },
       {
         "date": "2023-09-01",
         "vix": 13.09,
         "marketClose": 4515.77,
-        "spyReturn": 6.32
+        "spyReturn": 6.12
       },
       {
         "date": "2023-09-05",
         "vix": 14.01,
         "marketClose": 4496.83,
-        "spyReturn": 5.87
+        "spyReturn": 5.68
       },
       {
         "date": "2023-09-06",
         "vix": 14.45,
         "marketClose": 4465.48,
-        "spyReturn": 5.13
+        "spyReturn": 4.94
       },
       {
         "date": "2023-09-07",
         "vix": 14.4,
         "marketClose": 4451.14,
-        "spyReturn": 4.8
+        "spyReturn": 4.61
       },
       {
         "date": "2023-09-08",
         "vix": 13.84,
         "marketClose": 4457.49,
-        "spyReturn": 4.95
+        "spyReturn": 4.76
       },
       {
         "date": "2023-09-11",
         "vix": 13.8,
         "marketClose": 4487.46,
-        "spyReturn": 5.65
+        "spyReturn": 5.46
       },
       {
         "date": "2023-09-12",
         "vix": 14.23,
         "marketClose": 4461.9,
-        "spyReturn": 5.05
+        "spyReturn": 4.86
       },
       {
         "date": "2023-09-13",
         "vix": 13.48,
         "marketClose": 4467.44,
-        "spyReturn": 5.18
+        "spyReturn": 4.99
       },
       {
         "date": "2023-09-14",
         "vix": 12.82,
         "marketClose": 4505.1,
-        "spyReturn": 6.07
+        "spyReturn": 5.87
       },
       {
         "date": "2023-09-15",
         "vix": 13.79,
         "marketClose": 4450.32,
-        "spyReturn": 4.78
+        "spyReturn": 4.59
       },
       {
         "date": "2023-09-18",
         "vix": 14,
         "marketClose": 4453.53,
-        "spyReturn": 4.85
+        "spyReturn": 4.66
       },
       {
         "date": "2023-09-19",
         "vix": 14.11,
         "marketClose": 4443.95,
-        "spyReturn": 4.63
+        "spyReturn": 4.44
       },
       {
         "date": "2023-09-20",
         "vix": 15.14,
         "marketClose": 4402.2,
-        "spyReturn": 3.64
+        "spyReturn": 3.46
       },
       {
         "date": "2023-09-21",
         "vix": 17.54,
         "marketClose": 4330,
-        "spyReturn": 1.94
+        "spyReturn": 1.76
       },
       {
         "date": "2023-09-22",
         "vix": 17.2,
         "marketClose": 4320.06,
-        "spyReturn": 1.71
+        "spyReturn": 1.53
       },
       {
         "date": "2023-09-25",
         "vix": 16.9,
         "marketClose": 4337.44,
-        "spyReturn": 2.12
+        "spyReturn": 1.93
       },
       {
         "date": "2023-09-26",
         "vix": 18.94,
         "marketClose": 4273.53,
-        "spyReturn": 0.61
+        "spyReturn": 0.43
       },
       {
         "date": "2023-09-27",
         "vix": 18.22,
         "marketClose": 4274.51,
-        "spyReturn": 0.64
+        "spyReturn": 0.45
       },
       {
         "date": "2023-09-28",
         "vix": 17.34,
         "marketClose": 4299.7,
-        "spyReturn": 1.23
+        "spyReturn": 1.05
       },
       {
         "date": "2023-09-29",
         "vix": 17.52,
         "marketClose": 4288.05,
-        "spyReturn": 0.96
+        "spyReturn": 0.77
       },
       {
         "date": "2023-10-02",
         "vix": 17.61,
         "marketClose": 4288.39,
-        "spyReturn": 0.96
+        "spyReturn": 0.78
       },
       {
         "date": "2023-10-03",
         "vix": 19.78,
         "marketClose": 4229.45,
-        "spyReturn": -0.42
+        "spyReturn": -0.6
       },
       {
         "date": "2023-10-04",
         "vix": 18.58,
         "marketClose": 4263.75,
-        "spyReturn": 0.38
+        "spyReturn": 0.2
       },
       {
         "date": "2023-10-05",
         "vix": 18.49,
         "marketClose": 4258.19,
-        "spyReturn": 0.25
+        "spyReturn": 0.07
       },
       {
         "date": "2023-10-06",
         "vix": 17.45,
         "marketClose": 4308.5,
-        "spyReturn": 1.44
+        "spyReturn": 1.25
       },
       {
         "date": "2023-10-09",
         "vix": 17.7,
         "marketClose": 4335.66,
-        "spyReturn": 2.08
+        "spyReturn": 1.89
       },
       {
         "date": "2023-10-10",
         "vix": 17.03,
         "marketClose": 4358.24,
-        "spyReturn": 2.61
+        "spyReturn": 2.42
       },
       {
         "date": "2023-10-11",
         "vix": 16.09,
         "marketClose": 4376.95,
-        "spyReturn": 3.05
+        "spyReturn": 2.86
       },
       {
         "date": "2023-10-12",
         "vix": 16.69,
         "marketClose": 4349.61,
-        "spyReturn": 2.41
+        "spyReturn": 2.22
       },
       {
         "date": "2023-10-13",
         "vix": 19.32,
         "marketClose": 4327.78,
-        "spyReturn": 1.89
+        "spyReturn": 1.71
       },
       {
         "date": "2023-10-16",
         "vix": 17.21,
         "marketClose": 4373.63,
-        "spyReturn": 2.97
+        "spyReturn": 2.78
       },
       {
         "date": "2023-10-17",
         "vix": 17.88,
         "marketClose": 4373.2,
-        "spyReturn": 2.96
+        "spyReturn": 2.77
       },
       {
         "date": "2023-10-18",
         "vix": 19.22,
         "marketClose": 4314.6,
-        "spyReturn": 1.58
+        "spyReturn": 1.4
       },
       {
         "date": "2023-10-19",
         "vix": 21.4,
         "marketClose": 4278,
-        "spyReturn": 0.72
+        "spyReturn": 0.54
       },
       {
         "date": "2023-10-20",
         "vix": 21.71,
         "marketClose": 4224.16,
-        "spyReturn": -0.55
+        "spyReturn": -0.73
       },
       {
         "date": "2023-10-23",
         "vix": 20.37,
         "marketClose": 4217.04,
-        "spyReturn": -0.72
+        "spyReturn": -0.9
       },
       {
         "date": "2023-10-24",
         "vix": 18.97,
         "marketClose": 4247.68,
-        "spyReturn": 0.01
+        "spyReturn": -0.18
       },
       {
         "date": "2023-10-25",
         "vix": 20.19,
         "marketClose": 4186.77,
-        "spyReturn": -1.43
+        "spyReturn": -1.61
       },
       {
         "date": "2023-10-26",
         "vix": 20.68,
         "marketClose": 4137.23,
-        "spyReturn": -2.59
+        "spyReturn": -2.77
       },
       {
         "date": "2023-10-27",
         "vix": 21.27,
         "marketClose": 4117.37,
-        "spyReturn": -3.06
+        "spyReturn": -3.24
       },
       {
         "date": "2023-10-30",
         "vix": 19.75,
         "marketClose": 4166.82,
-        "spyReturn": -1.9
+        "spyReturn": -2.08
       },
       {
         "date": "2023-10-31",
         "vix": 18.14,
         "marketClose": 4193.8,
-        "spyReturn": -1.26
+        "spyReturn": -1.44
       },
       {
         "date": "2023-11-01",
         "vix": 16.87,
         "marketClose": 4237.86,
-        "spyReturn": -0.23
+        "spyReturn": -0.41
       },
       {
         "date": "2023-11-02",
         "vix": 15.66,
         "marketClose": 4317.78,
-        "spyReturn": 1.66
+        "spyReturn": 1.47
       },
       {
         "date": "2023-11-03",
         "vix": 14.91,
         "marketClose": 4358.34,
-        "spyReturn": 2.61
+        "spyReturn": 2.43
       },
       {
         "date": "2023-11-06",
         "vix": 14.89,
         "marketClose": 4365.98,
-        "spyReturn": 2.79
+        "spyReturn": 2.6
       },
       {
         "date": "2023-11-07",
         "vix": 14.81,
         "marketClose": 4378.38,
-        "spyReturn": 3.08
+        "spyReturn": 2.9
       },
       {
         "date": "2023-11-08",
         "vix": 14.45,
         "marketClose": 4382.78,
-        "spyReturn": 3.19
+        "spyReturn": 3
       },
       {
         "date": "2023-11-09",
         "vix": 15.29,
         "marketClose": 4347.35,
-        "spyReturn": 2.35
+        "spyReturn": 2.17
       },
       {
         "date": "2023-11-10",
         "vix": 14.17,
         "marketClose": 4415.24,
-        "spyReturn": 3.95
+        "spyReturn": 3.76
       },
       {
         "date": "2023-11-13",
         "vix": 14.76,
         "marketClose": 4411.55,
-        "spyReturn": 3.86
+        "spyReturn": 3.68
       },
       {
         "date": "2023-11-14",
         "vix": 14.16,
         "marketClose": 4495.7,
-        "spyReturn": 5.84
+        "spyReturn": 5.65
       },
       {
         "date": "2023-11-15",
         "vix": 14.18,
         "marketClose": 4502.88,
-        "spyReturn": 6.01
+        "spyReturn": 5.82
       },
       {
         "date": "2023-11-16",
         "vix": 14.32,
         "marketClose": 4508.24,
-        "spyReturn": 6.14
+        "spyReturn": 5.95
       },
       {
         "date": "2023-11-17",
         "vix": 13.8,
         "marketClose": 4514.02,
-        "spyReturn": 6.28
+        "spyReturn": 6.08
       },
       {
         "date": "2023-11-20",
         "vix": 13.41,
         "marketClose": 4547.38,
-        "spyReturn": 7.06
+        "spyReturn": 6.87
       },
       {
         "date": "2023-11-21",
         "vix": 13.35,
         "marketClose": 4538.19,
-        "spyReturn": 6.85
+        "spyReturn": 6.65
       },
       {
         "date": "2023-11-22",
         "vix": 12.85,
         "marketClose": 4556.62,
-        "spyReturn": 7.28
+        "spyReturn": 7.08
       },
       {
         "date": "2023-11-24",
         "vix": 12.46,
         "marketClose": 4559.34,
-        "spyReturn": 7.34
+        "spyReturn": 7.15
       },
       {
         "date": "2023-11-27",
         "vix": 12.69,
         "marketClose": 4550.43,
-        "spyReturn": 7.13
+        "spyReturn": 6.94
       },
       {
         "date": "2023-11-28",
         "vix": 12.69,
         "marketClose": 4554.89,
-        "spyReturn": 7.24
+        "spyReturn": 7.04
       },
       {
         "date": "2023-11-29",
         "vix": 12.98,
         "marketClose": 4550.58,
-        "spyReturn": 7.14
+        "spyReturn": 6.94
       },
       {
         "date": "2023-11-30",
         "vix": 12.92,
         "marketClose": 4567.8,
-        "spyReturn": 7.54
+        "spyReturn": 7.35
       },
       {
         "date": "2023-12-01",
         "vix": 12.63,
         "marketClose": 4594.63,
-        "spyReturn": 8.17
+        "spyReturn": 7.98
       },
       {
         "date": "2023-12-04",
         "vix": 13.08,
         "marketClose": 4569.78,
-        "spyReturn": 7.59
+        "spyReturn": 7.39
       },
       {
         "date": "2023-12-05",
         "vix": 12.85,
         "marketClose": 4567.18,
-        "spyReturn": 7.53
+        "spyReturn": 7.33
       },
       {
         "date": "2023-12-06",
         "vix": 12.97,
         "marketClose": 4549.34,
-        "spyReturn": 7.11
+        "spyReturn": 6.91
       },
       {
         "date": "2023-12-07",
         "vix": 13.06,
         "marketClose": 4585.59,
-        "spyReturn": 7.96
+        "spyReturn": 7.77
       },
       {
         "date": "2023-12-08",
         "vix": 12.35,
         "marketClose": 4604.37,
-        "spyReturn": 8.4
+        "spyReturn": 8.21
       },
       {
         "date": "2023-12-11",
         "vix": 12.63,
         "marketClose": 4622.44,
-        "spyReturn": 8.83
+        "spyReturn": 8.63
       },
       {
         "date": "2023-12-12",
         "vix": 12.07,
         "marketClose": 4643.7,
-        "spyReturn": 9.33
+        "spyReturn": 9.13
       },
       {
         "date": "2023-12-13",
         "vix": 12.19,
         "marketClose": 4707.09,
-        "spyReturn": 10.82
+        "spyReturn": 10.62
       },
       {
         "date": "2023-12-14",
         "vix": 12.48,
         "marketClose": 4719.55,
-        "spyReturn": 11.12
+        "spyReturn": 10.91
       },
       {
         "date": "2023-12-15",
         "vix": 12.28,
         "marketClose": 4719.19,
-        "spyReturn": 11.11
+        "spyReturn": 10.91
       },
       {
         "date": "2023-12-18",
         "vix": 12.56,
         "marketClose": 4740.56,
-        "spyReturn": 11.61
+        "spyReturn": 11.41
       },
       {
         "date": "2023-12-19",
         "vix": 12.53,
         "marketClose": 4768.37,
-        "spyReturn": 12.26
+        "spyReturn": 12.06
       },
       {
         "date": "2023-12-20",
         "vix": 13.67,
         "marketClose": 4698.35,
-        "spyReturn": 10.62
+        "spyReturn": 10.42
       },
       {
         "date": "2023-12-21",
         "vix": 13.65,
         "marketClose": 4746.75,
-        "spyReturn": 11.76
+        "spyReturn": 11.55
       },
       {
         "date": "2023-12-22",
         "vix": 13.03,
         "marketClose": 4754.63,
-        "spyReturn": 11.94
+        "spyReturn": 11.74
       },
       {
         "date": "2023-12-26",
         "vix": 12.99,
         "marketClose": 4774.75,
-        "spyReturn": 12.41
+        "spyReturn": 12.21
       },
       {
         "date": "2023-12-27",
         "vix": 12.43,
         "marketClose": 4781.58,
-        "spyReturn": 12.58
+        "spyReturn": 12.37
       },
       {
         "date": "2023-12-28",
         "vix": 12.47,
         "marketClose": 4783.35,
-        "spyReturn": 12.62
+        "spyReturn": 12.41
       },
       {
         "date": "2023-12-29",
         "vix": 12.45,
         "marketClose": 4769.83,
-        "spyReturn": 12.3
+        "spyReturn": 12.1
       },
       {
         "date": "2024-01-02",
         "vix": 13.2,
         "marketClose": 4742.83,
-        "spyReturn": 11.66
+        "spyReturn": 11.46
       },
       {
         "date": "2024-01-03",
         "vix": 14.04,
         "marketClose": 4704.81,
-        "spyReturn": 10.77
+        "spyReturn": 10.57
       },
       {
         "date": "2024-01-04",
         "vix": 14.13,
         "marketClose": 4688.68,
-        "spyReturn": 10.39
+        "spyReturn": 10.19
       },
       {
         "date": "2024-01-05",
         "vix": 13.35,
         "marketClose": 4697.24,
-        "spyReturn": 10.59
+        "spyReturn": 10.39
       },
       {
         "date": "2024-01-08",
         "vix": 13.08,
         "marketClose": 4763.54,
-        "spyReturn": 12.15
+        "spyReturn": 11.95
       },
       {
         "date": "2024-01-09",
         "vix": 12.76,
         "marketClose": 4756.5,
-        "spyReturn": 11.99
+        "spyReturn": 11.78
       },
       {
         "date": "2024-01-10",
         "vix": 12.69,
         "marketClose": 4783.45,
-        "spyReturn": 12.62
+        "spyReturn": 12.42
       },
       {
         "date": "2024-01-11",
         "vix": 12.44,
         "marketClose": 4780.24,
-        "spyReturn": 12.54
+        "spyReturn": 12.34
       },
       {
         "date": "2024-01-12",
         "vix": 12.7,
         "marketClose": 4783.83,
-        "spyReturn": 12.63
+        "spyReturn": 12.42
       },
       {
         "date": "2024-01-16",
         "vix": 13.84,
         "marketClose": 4765.98,
-        "spyReturn": 12.21
+        "spyReturn": 12
       },
       {
         "date": "2024-01-17",
         "vix": 14.79,
         "marketClose": 4739.21,
-        "spyReturn": 11.58
+        "spyReturn": 11.38
       },
       {
         "date": "2024-01-18",
         "vix": 14.13,
         "marketClose": 4780.94,
-        "spyReturn": 12.56
+        "spyReturn": 12.36
       },
       {
         "date": "2024-01-19",
         "vix": 13.3,
         "marketClose": 4839.81,
-        "spyReturn": 13.95
+        "spyReturn": 13.74
       },
       {
         "date": "2024-01-22",
         "vix": 13.19,
         "marketClose": 4850.43,
-        "spyReturn": 14.2
+        "spyReturn": 13.99
       },
       {
         "date": "2024-01-23",
         "vix": 12.55,
         "marketClose": 4864.6,
-        "spyReturn": 14.53
+        "spyReturn": 14.32
       },
       {
         "date": "2024-01-24",
         "vix": 13.14,
         "marketClose": 4868.55,
-        "spyReturn": 14.62
+        "spyReturn": 14.42
       },
       {
         "date": "2024-01-25",
         "vix": 13.45,
         "marketClose": 4894.16,
-        "spyReturn": 15.23
+        "spyReturn": 15.02
       },
       {
         "date": "2024-01-26",
         "vix": 13.26,
         "marketClose": 4890.97,
-        "spyReturn": 15.15
+        "spyReturn": 14.94
       },
       {
         "date": "2024-01-29",
         "vix": 13.6,
         "marketClose": 4927.93,
-        "spyReturn": 16.02
+        "spyReturn": 15.81
       },
       {
         "date": "2024-01-30",
         "vix": 13.31,
         "marketClose": 4924.97,
-        "spyReturn": 15.95
+        "spyReturn": 15.74
       },
       {
         "date": "2024-01-31",
         "vix": 14.35,
         "marketClose": 4845.65,
-        "spyReturn": 14.08
+        "spyReturn": 13.88
       },
       {
         "date": "2024-02-01",
         "vix": 13.88,
         "marketClose": 4906.19,
-        "spyReturn": 15.51
+        "spyReturn": 15.3
       },
       {
         "date": "2024-02-02",
         "vix": 13.85,
         "marketClose": 4958.61,
-        "spyReturn": 16.74
+        "spyReturn": 16.53
       },
       {
         "date": "2024-02-05",
         "vix": 13.67,
         "marketClose": 4942.81,
-        "spyReturn": 16.37
+        "spyReturn": 16.16
       },
       {
         "date": "2024-02-06",
         "vix": 13.06,
         "marketClose": 4954.23,
-        "spyReturn": 16.64
+        "spyReturn": 16.43
       },
       {
         "date": "2024-02-07",
         "vix": 12.83,
         "marketClose": 4995.06,
-        "spyReturn": 17.6
+        "spyReturn": 17.39
       },
       {
         "date": "2024-02-08",
         "vix": 12.79,
         "marketClose": 4997.91,
-        "spyReturn": 17.67
+        "spyReturn": 17.46
       },
       {
         "date": "2024-02-09",
         "vix": 12.93,
         "marketClose": 5026.61,
-        "spyReturn": 18.34
+        "spyReturn": 18.13
       },
       {
         "date": "2024-02-12",
         "vix": 13.93,
         "marketClose": 5021.84,
-        "spyReturn": 18.23
+        "spyReturn": 18.02
       },
       {
         "date": "2024-02-13",
         "vix": 15.85,
         "marketClose": 4953.17,
-        "spyReturn": 16.62
+        "spyReturn": 16.4
       },
       {
         "date": "2024-02-14",
         "vix": 14.38,
         "marketClose": 5000.62,
-        "spyReturn": 17.73
+        "spyReturn": 17.52
       },
       {
         "date": "2024-02-15",
         "vix": 14.01,
         "marketClose": 5029.73,
-        "spyReturn": 18.42
+        "spyReturn": 18.2
       },
       {
         "date": "2024-02-16",
         "vix": 14.24,
         "marketClose": 5005.57,
-        "spyReturn": 17.85
+        "spyReturn": 17.64
       },
       {
         "date": "2024-02-20",
         "vix": 15.42,
         "marketClose": 4975.51,
-        "spyReturn": 17.14
+        "spyReturn": 16.93
       },
       {
         "date": "2024-02-21",
         "vix": 15.34,
         "marketClose": 4981.8,
-        "spyReturn": 17.29
+        "spyReturn": 17.08
       },
       {
         "date": "2024-02-22",
         "vix": 14.54,
         "marketClose": 5087.03,
-        "spyReturn": 19.77
+        "spyReturn": 19.55
       },
       {
         "date": "2024-02-23",
         "vix": 13.75,
         "marketClose": 5088.8,
-        "spyReturn": 19.81
+        "spyReturn": 19.59
       },
       {
         "date": "2024-02-26",
         "vix": 13.74,
         "marketClose": 5069.53,
-        "spyReturn": 19.35
+        "spyReturn": 19.14
       },
       {
         "date": "2024-02-27",
         "vix": 13.43,
         "marketClose": 5078.18,
-        "spyReturn": 19.56
+        "spyReturn": 19.34
       },
       {
         "date": "2024-02-28",
         "vix": 13.84,
         "marketClose": 5069.76,
-        "spyReturn": 19.36
+        "spyReturn": 19.14
       },
       {
         "date": "2024-02-29",
         "vix": 13.4,
         "marketClose": 5096.27,
-        "spyReturn": 19.98
+        "spyReturn": 19.77
       },
       {
         "date": "2024-03-01",
         "vix": 13.11,
         "marketClose": 5137.08,
-        "spyReturn": 20.95
+        "spyReturn": 20.73
       },
       {
         "date": "2024-03-04",
         "vix": 13.49,
         "marketClose": 5130.95,
-        "spyReturn": 20.8
+        "spyReturn": 20.58
       },
       {
         "date": "2024-03-05",
         "vix": 14.46,
         "marketClose": 5078.65,
-        "spyReturn": 19.57
+        "spyReturn": 19.35
       },
       {
         "date": "2024-03-06",
         "vix": 14.5,
         "marketClose": 5104.76,
-        "spyReturn": 20.18
+        "spyReturn": 19.97
       },
       {
         "date": "2024-03-07",
         "vix": 14.44,
         "marketClose": 5157.36,
-        "spyReturn": 21.42
+        "spyReturn": 21.2
       },
       {
         "date": "2024-03-08",
         "vix": 14.74,
         "marketClose": 5123.69,
-        "spyReturn": 20.63
+        "spyReturn": 20.41
       },
       {
         "date": "2024-03-11",
         "vix": 15.22,
         "marketClose": 5117.94,
-        "spyReturn": 20.49
+        "spyReturn": 20.28
       },
       {
         "date": "2024-03-12",
         "vix": 13.84,
         "marketClose": 5175.27,
-        "spyReturn": 21.84
+        "spyReturn": 21.62
       },
       {
         "date": "2024-03-13",
         "vix": 13.75,
         "marketClose": 5165.31,
-        "spyReturn": 21.61
+        "spyReturn": 21.39
       },
       {
         "date": "2024-03-14",
         "vix": 14.4,
         "marketClose": 5150.48,
-        "spyReturn": 21.26
+        "spyReturn": 21.04
       },
       {
         "date": "2024-03-15",
         "vix": 14.41,
         "marketClose": 5117.09,
-        "spyReturn": 20.47
+        "spyReturn": 20.26
       },
       {
         "date": "2024-03-18",
         "vix": 14.33,
         "marketClose": 5149.42,
-        "spyReturn": 21.24
+        "spyReturn": 21.02
       },
       {
         "date": "2024-03-19",
         "vix": 13.82,
         "marketClose": 5178.51,
-        "spyReturn": 21.92
+        "spyReturn": 21.7
       },
       {
         "date": "2024-03-20",
         "vix": 13.04,
         "marketClose": 5224.62,
-        "spyReturn": 23.01
+        "spyReturn": 22.78
       },
       {
         "date": "2024-03-21",
         "vix": 12.92,
         "marketClose": 5241.53,
-        "spyReturn": 23.4
+        "spyReturn": 23.18
       },
       {
         "date": "2024-03-22",
         "vix": 13.06,
         "marketClose": 5234.18,
-        "spyReturn": 23.23
+        "spyReturn": 23.01
       },
       {
         "date": "2024-03-25",
         "vix": 13.19,
         "marketClose": 5218.19,
-        "spyReturn": 22.85
+        "spyReturn": 22.63
       },
       {
         "date": "2024-03-26",
         "vix": 13.24,
         "marketClose": 5203.58,
-        "spyReturn": 22.51
+        "spyReturn": 22.29
       },
       {
         "date": "2024-03-27",
         "vix": 12.78,
         "marketClose": 5248.49,
-        "spyReturn": 23.57
+        "spyReturn": 23.34
       },
       {
         "date": "2024-03-28",
         "vix": 13.01,
         "marketClose": 5254.35,
-        "spyReturn": 23.71
+        "spyReturn": 23.48
       },
       {
         "date": "2024-04-01",
         "vix": 13.65,
         "marketClose": 5243.77,
-        "spyReturn": 23.46
+        "spyReturn": 23.23
       },
       {
         "date": "2024-04-02",
         "vix": 14.61,
         "marketClose": 5205.81,
-        "spyReturn": 22.56
+        "spyReturn": 22.34
       },
       {
         "date": "2024-04-03",
         "vix": 14.33,
         "marketClose": 5211.49,
-        "spyReturn": 22.7
+        "spyReturn": 22.47
       },
       {
         "date": "2024-04-04",
         "vix": 16.35,
         "marketClose": 5147.21,
-        "spyReturn": 21.18
+        "spyReturn": 20.96
       },
       {
         "date": "2024-04-05",
         "vix": 16.03,
         "marketClose": 5204.34,
-        "spyReturn": 22.53
+        "spyReturn": 22.31
       },
       {
         "date": "2024-04-08",
         "vix": 15.19,
         "marketClose": 5202.39,
-        "spyReturn": 22.48
+        "spyReturn": 22.26
       },
       {
         "date": "2024-04-09",
         "vix": 14.98,
         "marketClose": 5209.91,
-        "spyReturn": 22.66
+        "spyReturn": 22.44
       },
       {
         "date": "2024-04-10",
         "vix": 15.8,
         "marketClose": 5160.64,
-        "spyReturn": 21.5
+        "spyReturn": 21.28
       },
       {
         "date": "2024-04-11",
         "vix": 14.91,
         "marketClose": 5199.06,
-        "spyReturn": 22.4
+        "spyReturn": 22.18
       },
       {
         "date": "2024-04-12",
         "vix": 17.31,
         "marketClose": 5123.41,
-        "spyReturn": 20.62
+        "spyReturn": 20.4
       },
       {
         "date": "2024-04-15",
         "vix": 19.23,
         "marketClose": 5061.82,
-        "spyReturn": 19.17
+        "spyReturn": 18.96
       },
       {
         "date": "2024-04-16",
         "vix": 18.4,
         "marketClose": 5051.41,
-        "spyReturn": 18.93
+        "spyReturn": 18.71
       },
       {
         "date": "2024-04-17",
         "vix": 18.21,
         "marketClose": 5022.21,
-        "spyReturn": 18.24
+        "spyReturn": 18.03
       },
       {
         "date": "2024-04-18",
         "vix": 18,
         "marketClose": 5011.12,
-        "spyReturn": 17.98
+        "spyReturn": 17.77
       },
       {
         "date": "2024-04-19",
         "vix": 18.71,
         "marketClose": 4967.23,
-        "spyReturn": 16.95
+        "spyReturn": 16.73
       },
       {
         "date": "2024-04-22",
         "vix": 16.94,
         "marketClose": 5010.6,
-        "spyReturn": 17.97
+        "spyReturn": 17.75
       },
       {
         "date": "2024-04-23",
         "vix": 15.69,
         "marketClose": 5070.55,
-        "spyReturn": 19.38
+        "spyReturn": 19.16
       },
       {
         "date": "2024-04-24",
         "vix": 15.97,
         "marketClose": 5071.63,
-        "spyReturn": 19.4
+        "spyReturn": 19.19
       },
       {
         "date": "2024-04-25",
         "vix": 15.37,
         "marketClose": 5048.42,
-        "spyReturn": 18.86
+        "spyReturn": 18.64
       },
       {
         "date": "2024-04-26",
         "vix": 15.03,
         "marketClose": 5099.96,
-        "spyReturn": 20.07
+        "spyReturn": 19.85
       },
       {
         "date": "2024-04-29",
         "vix": 14.67,
         "marketClose": 5116.17,
-        "spyReturn": 20.45
+        "spyReturn": 20.23
       },
       {
         "date": "2024-04-30",
         "vix": 15.65,
         "marketClose": 5035.69,
-        "spyReturn": 18.56
+        "spyReturn": 18.34
       },
       {
         "date": "2024-05-01",
         "vix": 15.39,
         "marketClose": 5018.39,
-        "spyReturn": 18.15
+        "spyReturn": 17.94
       },
       {
         "date": "2024-05-02",
         "vix": 14.68,
         "marketClose": 5064.2,
-        "spyReturn": 19.23
+        "spyReturn": 19.01
       },
       {
         "date": "2024-05-03",
         "vix": 13.49,
         "marketClose": 5127.79,
-        "spyReturn": 20.73
+        "spyReturn": 20.51
       },
       {
         "date": "2024-05-06",
         "vix": 13.49,
         "marketClose": 5180.74,
-        "spyReturn": 21.97
+        "spyReturn": 21.75
       },
       {
         "date": "2024-05-07",
         "vix": 13.23,
         "marketClose": 5187.7,
-        "spyReturn": 22.14
+        "spyReturn": 21.92
       },
       {
         "date": "2024-05-08",
         "vix": 13,
         "marketClose": 5187.67,
-        "spyReturn": 22.14
+        "spyReturn": 21.92
       },
       {
         "date": "2024-05-09",
         "vix": 12.69,
         "marketClose": 5214.08,
-        "spyReturn": 22.76
+        "spyReturn": 22.54
       },
       {
         "date": "2024-05-10",
         "vix": 12.55,
         "marketClose": 5222.68,
-        "spyReturn": 22.96
+        "spyReturn": 22.74
       },
       {
         "date": "2024-05-13",
         "vix": 13.6,
         "marketClose": 5221.42,
-        "spyReturn": 22.93
+        "spyReturn": 22.71
       },
       {
         "date": "2024-05-14",
         "vix": 13.42,
         "marketClose": 5246.68,
-        "spyReturn": 23.53
+        "spyReturn": 23.3
       },
       {
         "date": "2024-05-15",
         "vix": 12.45,
         "marketClose": 5308.15,
-        "spyReturn": 24.97
+        "spyReturn": 24.75
       },
       {
         "date": "2024-05-16",
         "vix": 12.42,
         "marketClose": 5297.1,
-        "spyReturn": 24.71
+        "spyReturn": 24.49
       },
       {
         "date": "2024-05-17",
         "vix": 11.99,
         "marketClose": 5303.27,
-        "spyReturn": 24.86
+        "spyReturn": 24.63
       },
       {
         "date": "2024-05-20",
         "vix": 12.15,
         "marketClose": 5308.13,
-        "spyReturn": 24.97
+        "spyReturn": 24.75
       },
       {
         "date": "2024-05-21",
         "vix": 11.86,
         "marketClose": 5321.41,
-        "spyReturn": 25.29
+        "spyReturn": 25.06
       },
       {
         "date": "2024-05-22",
         "vix": 12.29,
         "marketClose": 5307.01,
-        "spyReturn": 24.95
+        "spyReturn": 24.72
       },
       {
         "date": "2024-05-23",
         "vix": 12.77,
         "marketClose": 5267.84,
-        "spyReturn": 24.02
+        "spyReturn": 23.8
       },
       {
         "date": "2024-05-24",
         "vix": 11.93,
         "marketClose": 5304.72,
-        "spyReturn": 24.89
+        "spyReturn": 24.67
       },
       {
         "date": "2024-05-28",
         "vix": 12.92,
         "marketClose": 5306.04,
-        "spyReturn": 24.92
+        "spyReturn": 24.7
       },
       {
         "date": "2024-05-29",
         "vix": 14.28,
         "marketClose": 5266.95,
-        "spyReturn": 24
+        "spyReturn": 23.78
       },
       {
         "date": "2024-05-30",
         "vix": 14.47,
         "marketClose": 5235.48,
-        "spyReturn": 23.26
+        "spyReturn": 23.04
       },
       {
         "date": "2024-05-31",
         "vix": 12.92,
         "marketClose": 5277.51,
-        "spyReturn": 24.25
+        "spyReturn": 24.03
       },
       {
         "date": "2024-06-03",
         "vix": 13.11,
         "marketClose": 5283.4,
-        "spyReturn": 24.39
+        "spyReturn": 24.16
       },
       {
         "date": "2024-06-04",
         "vix": 13.16,
         "marketClose": 5291.34,
-        "spyReturn": 24.58
+        "spyReturn": 24.35
       },
       {
         "date": "2024-06-05",
         "vix": 12.63,
         "marketClose": 5354.03,
-        "spyReturn": 26.05
+        "spyReturn": 25.82
       },
       {
         "date": "2024-06-06",
         "vix": 12.58,
         "marketClose": 5352.96,
-        "spyReturn": 26.03
+        "spyReturn": 25.8
       },
       {
         "date": "2024-06-07",
         "vix": 12.22,
         "marketClose": 5346.99,
-        "spyReturn": 25.89
+        "spyReturn": 25.66
       },
       {
         "date": "2024-06-10",
         "vix": 12.74,
         "marketClose": 5360.79,
-        "spyReturn": 26.21
+        "spyReturn": 25.98
       },
       {
         "date": "2024-06-11",
         "vix": 12.85,
         "marketClose": 5375.32,
-        "spyReturn": 26.55
+        "spyReturn": 26.33
       },
       {
         "date": "2024-06-12",
         "vix": 12.04,
         "marketClose": 5421.03,
-        "spyReturn": 27.63
+        "spyReturn": 27.4
       },
       {
         "date": "2024-06-13",
         "vix": 11.94,
         "marketClose": 5433.74,
-        "spyReturn": 27.93
+        "spyReturn": 27.7
       },
       {
         "date": "2024-06-14",
         "vix": 12.66,
         "marketClose": 5431.6,
-        "spyReturn": 27.88
+        "spyReturn": 27.65
       },
       {
         "date": "2024-06-17",
         "vix": 12.75,
         "marketClose": 5473.23,
-        "spyReturn": 28.86
+        "spyReturn": 28.63
       },
       {
         "date": "2024-06-18",
         "vix": 12.3,
         "marketClose": 5487.03,
-        "spyReturn": 29.18
+        "spyReturn": 28.95
       },
       {
         "date": "2024-06-20",
         "vix": 13.28,
         "marketClose": 5473.17,
-        "spyReturn": 28.86
+        "spyReturn": 28.62
       },
       {
         "date": "2024-06-21",
         "vix": 13.2,
         "marketClose": 5464.62,
-        "spyReturn": 28.66
+        "spyReturn": 28.42
       },
       {
         "date": "2024-06-24",
         "vix": 13.33,
         "marketClose": 5447.87,
-        "spyReturn": 28.26
+        "spyReturn": 28.03
       },
       {
         "date": "2024-06-25",
         "vix": 12.84,
         "marketClose": 5469.3,
-        "spyReturn": 28.77
+        "spyReturn": 28.53
       },
       {
         "date": "2024-06-26",
         "vix": 12.55,
         "marketClose": 5477.9,
-        "spyReturn": 28.97
+        "spyReturn": 28.74
       },
       {
         "date": "2024-06-27",
         "vix": 12.24,
         "marketClose": 5482.87,
-        "spyReturn": 29.09
+        "spyReturn": 28.85
       },
       {
         "date": "2024-06-28",
         "vix": 12.44,
         "marketClose": 5460.48,
-        "spyReturn": 28.56
+        "spyReturn": 28.33
       },
       {
         "date": "2024-07-01",
         "vix": 12.22,
         "marketClose": 5475.09,
-        "spyReturn": 28.9
+        "spyReturn": 28.67
       },
       {
         "date": "2024-07-02",
         "vix": 12.03,
         "marketClose": 5509.01,
-        "spyReturn": 29.7
+        "spyReturn": 29.47
       },
       {
         "date": "2024-07-03",
         "vix": 12.09,
         "marketClose": 5537.02,
-        "spyReturn": 30.36
+        "spyReturn": 30.13
       },
       {
         "date": "2024-07-05",
         "vix": 12.48,
         "marketClose": 5567.19,
-        "spyReturn": 31.07
+        "spyReturn": 30.83
       },
       {
         "date": "2024-07-08",
         "vix": 12.37,
         "marketClose": 5572.85,
-        "spyReturn": 31.2
+        "spyReturn": 30.97
       },
       {
         "date": "2024-07-09",
         "vix": 12.51,
         "marketClose": 5576.98,
-        "spyReturn": 31.3
+        "spyReturn": 31.06
       },
       {
         "date": "2024-07-10",
         "vix": 12.85,
         "marketClose": 5633.91,
-        "spyReturn": 32.64
+        "spyReturn": 32.4
       },
       {
         "date": "2024-07-11",
         "vix": 12.92,
         "marketClose": 5584.54,
-        "spyReturn": 31.48
+        "spyReturn": 31.24
       },
       {
         "date": "2024-07-12",
         "vix": 12.46,
         "marketClose": 5615.35,
-        "spyReturn": 32.21
+        "spyReturn": 31.97
       },
       {
         "date": "2024-07-15",
         "vix": 13.12,
         "marketClose": 5631.22,
-        "spyReturn": 32.58
+        "spyReturn": 32.34
       },
       {
         "date": "2024-07-16",
         "vix": 13.19,
         "marketClose": 5667.2,
-        "spyReturn": 33.43
+        "spyReturn": 33.18
       },
       {
         "date": "2024-07-17",
         "vix": 14.48,
         "marketClose": 5588.27,
-        "spyReturn": 31.57
+        "spyReturn": 31.33
       },
       {
         "date": "2024-07-18",
         "vix": 15.93,
         "marketClose": 5544.59,
-        "spyReturn": 30.54
+        "spyReturn": 30.3
       },
       {
         "date": "2024-07-19",
         "vix": 16.52,
         "marketClose": 5505,
-        "spyReturn": 29.61
+        "spyReturn": 29.37
       },
       {
         "date": "2024-07-22",
         "vix": 14.91,
         "marketClose": 5564.41,
-        "spyReturn": 31.01
+        "spyReturn": 30.77
       },
       {
         "date": "2024-07-23",
         "vix": 14.72,
         "marketClose": 5555.74,
-        "spyReturn": 30.8
+        "spyReturn": 30.57
       },
       {
         "date": "2024-07-24",
         "vix": 18.04,
         "marketClose": 5427.13,
-        "spyReturn": 27.77
+        "spyReturn": 27.54
       },
       {
         "date": "2024-07-25",
         "vix": 18.46,
         "marketClose": 5399.22,
-        "spyReturn": 27.12
+        "spyReturn": 26.89
       },
       {
         "date": "2024-07-26",
         "vix": 16.39,
         "marketClose": 5459.1,
-        "spyReturn": 28.53
+        "spyReturn": 28.29
       },
       {
         "date": "2024-07-29",
         "vix": 16.6,
         "marketClose": 5463.54,
-        "spyReturn": 28.63
+        "spyReturn": 28.4
       },
       {
         "date": "2024-07-30",
         "vix": 17.69,
         "marketClose": 5436.44,
-        "spyReturn": 27.99
+        "spyReturn": 27.76
       },
       {
         "date": "2024-07-31",
         "vix": 16.36,
         "marketClose": 5522.3,
-        "spyReturn": 30.01
+        "spyReturn": 29.78
       },
       {
         "date": "2024-08-01",
         "vix": 18.59,
         "marketClose": 5446.68,
-        "spyReturn": 28.23
+        "spyReturn": 28
       },
       {
         "date": "2024-08-02",
         "vix": 23.39,
         "marketClose": 5346.56,
-        "spyReturn": 25.88
+        "spyReturn": 25.65
       },
       {
         "date": "2024-08-05",
         "vix": 38.57,
         "marketClose": 5186.33,
-        "spyReturn": 22.1
+        "spyReturn": 21.88
       },
       {
         "date": "2024-08-06",
         "vix": 27.71,
         "marketClose": 5240.03,
-        "spyReturn": 23.37
+        "spyReturn": 23.15
       },
       {
         "date": "2024-08-07",
         "vix": 27.85,
         "marketClose": 5199.5,
-        "spyReturn": 22.41
+        "spyReturn": 22.19
       },
       {
         "date": "2024-08-08",
         "vix": 23.79,
         "marketClose": 5319.31,
-        "spyReturn": 25.24
+        "spyReturn": 25.01
       },
       {
         "date": "2024-08-09",
         "vix": 20.37,
         "marketClose": 5344.16,
-        "spyReturn": 25.82
+        "spyReturn": 25.59
       },
       {
         "date": "2024-08-12",
         "vix": 20.71,
         "marketClose": 5344.39,
-        "spyReturn": 25.83
+        "spyReturn": 25.6
       },
       {
         "date": "2024-08-13",
         "vix": 18.12,
         "marketClose": 5434.43,
-        "spyReturn": 27.95
+        "spyReturn": 27.71
       },
       {
         "date": "2024-08-14",
         "vix": 16.19,
         "marketClose": 5455.21,
-        "spyReturn": 28.44
+        "spyReturn": 28.2
       },
       {
         "date": "2024-08-15",
         "vix": 15.23,
         "marketClose": 5543.22,
-        "spyReturn": 30.51
+        "spyReturn": 30.27
       },
       {
         "date": "2024-08-16",
         "vix": 14.8,
         "marketClose": 5554.25,
-        "spyReturn": 30.77
+        "spyReturn": 30.53
       },
       {
         "date": "2024-08-19",
         "vix": 14.65,
         "marketClose": 5608.25,
-        "spyReturn": 32.04
+        "spyReturn": 31.8
       },
       {
         "date": "2024-08-20",
         "vix": 15.88,
         "marketClose": 5597.12,
-        "spyReturn": 31.78
+        "spyReturn": 31.54
       },
       {
         "date": "2024-08-21",
         "vix": 16.27,
         "marketClose": 5620.85,
-        "spyReturn": 32.34
+        "spyReturn": 32.1
       },
       {
         "date": "2024-08-22",
         "vix": 17.55,
         "marketClose": 5570.64,
-        "spyReturn": 31.15
+        "spyReturn": 30.92
       },
       {
         "date": "2024-08-23",
         "vix": 15.86,
         "marketClose": 5634.61,
-        "spyReturn": 32.66
+        "spyReturn": 32.42
       },
       {
         "date": "2024-08-26",
         "vix": 16.15,
         "marketClose": 5616.84,
-        "spyReturn": 32.24
+        "spyReturn": 32
       },
       {
         "date": "2024-08-27",
         "vix": 15.43,
         "marketClose": 5625.8,
-        "spyReturn": 32.45
+        "spyReturn": 32.21
       },
       {
         "date": "2024-08-28",
         "vix": 17.11,
         "marketClose": 5592.18,
-        "spyReturn": 31.66
+        "spyReturn": 31.42
       },
       {
         "date": "2024-08-29",
         "vix": 15.65,
         "marketClose": 5591.96,
-        "spyReturn": 31.65
+        "spyReturn": 31.42
       },
       {
         "date": "2024-08-30",
         "vix": 15,
         "marketClose": 5648.4,
-        "spyReturn": 32.98
+        "spyReturn": 32.74
       },
       {
         "date": "2024-09-03",
         "vix": 20.72,
         "marketClose": 5528.93,
-        "spyReturn": 30.17
+        "spyReturn": 29.94
       },
       {
         "date": "2024-09-04",
         "vix": 21.32,
         "marketClose": 5520.07,
-        "spyReturn": 29.96
+        "spyReturn": 29.73
       },
       {
         "date": "2024-09-05",
         "vix": 19.9,
         "marketClose": 5503.41,
-        "spyReturn": 29.57
+        "spyReturn": 29.34
       },
       {
         "date": "2024-09-06",
         "vix": 22.38,
         "marketClose": 5408.42,
-        "spyReturn": 27.33
+        "spyReturn": 27.1
       },
       {
         "date": "2024-09-09",
         "vix": 19.45,
         "marketClose": 5471.05,
-        "spyReturn": 28.81
+        "spyReturn": 28.57
       },
       {
         "date": "2024-09-10",
         "vix": 19.08,
         "marketClose": 5495.52,
-        "spyReturn": 29.38
+        "spyReturn": 29.15
       },
       {
         "date": "2024-09-11",
         "vix": 17.69,
         "marketClose": 5554.13,
-        "spyReturn": 30.76
+        "spyReturn": 30.53
       },
       {
         "date": "2024-09-12",
         "vix": 17.07,
         "marketClose": 5595.76,
-        "spyReturn": 31.74
+        "spyReturn": 31.51
       },
       {
         "date": "2024-09-13",
         "vix": 16.56,
         "marketClose": 5626.02,
-        "spyReturn": 32.46
+        "spyReturn": 32.22
       },
       {
         "date": "2024-09-16",
         "vix": 17.14,
         "marketClose": 5633.09,
-        "spyReturn": 32.62
+        "spyReturn": 32.38
       },
       {
         "date": "2024-09-17",
         "vix": 17.61,
         "marketClose": 5634.58,
-        "spyReturn": 32.66
+        "spyReturn": 32.42
       },
       {
         "date": "2024-09-18",
         "vix": 18.23,
         "marketClose": 5618.26,
-        "spyReturn": 32.27
+        "spyReturn": 32.03
       },
       {
         "date": "2024-09-19",
         "vix": 16.33,
         "marketClose": 5713.64,
-        "spyReturn": 34.52
+        "spyReturn": 34.28
       },
       {
         "date": "2024-09-20",
         "vix": 16.15,
         "marketClose": 5702.55,
-        "spyReturn": 34.26
+        "spyReturn": 34.02
       },
       {
         "date": "2024-09-23",
         "vix": 15.89,
         "marketClose": 5718.57,
-        "spyReturn": 34.64
+        "spyReturn": 34.39
       },
       {
         "date": "2024-09-24",
         "vix": 15.39,
         "marketClose": 5732.93,
-        "spyReturn": 34.97
+        "spyReturn": 34.73
       },
       {
         "date": "2024-09-25",
         "vix": 15.41,
         "marketClose": 5722.26,
-        "spyReturn": 34.72
+        "spyReturn": 34.48
       },
       {
         "date": "2024-09-26",
         "vix": 15.37,
         "marketClose": 5745.37,
-        "spyReturn": 35.27
+        "spyReturn": 35.02
       },
       {
         "date": "2024-09-27",
         "vix": 16.96,
         "marketClose": 5738.17,
-        "spyReturn": 35.1
+        "spyReturn": 34.85
       },
       {
         "date": "2024-09-30",
         "vix": 16.73,
         "marketClose": 5762.48,
-        "spyReturn": 35.67
+        "spyReturn": 35.42
       },
       {
         "date": "2024-10-01",
         "vix": 19.26,
         "marketClose": 5708.75,
-        "spyReturn": 34.4
+        "spyReturn": 34.16
       },
       {
         "date": "2024-10-02",
         "vix": 18.9,
         "marketClose": 5709.54,
-        "spyReturn": 34.42
+        "spyReturn": 34.18
       },
       {
         "date": "2024-10-03",
         "vix": 20.49,
         "marketClose": 5699.94,
-        "spyReturn": 34.2
+        "spyReturn": 33.95
       },
       {
         "date": "2024-10-04",
         "vix": 19.21,
         "marketClose": 5751.07,
-        "spyReturn": 35.4
+        "spyReturn": 35.16
       },
       {
         "date": "2024-10-07",
         "vix": 22.64,
         "marketClose": 5695.94,
-        "spyReturn": 34.1
+        "spyReturn": 33.86
       },
       {
         "date": "2024-10-08",
         "vix": 21.42,
         "marketClose": 5751.13,
-        "spyReturn": 35.4
+        "spyReturn": 35.16
       },
       {
         "date": "2024-10-09",
         "vix": 20.86,
         "marketClose": 5792.04,
-        "spyReturn": 36.37
+        "spyReturn": 36.12
       },
       {
         "date": "2024-10-10",
         "vix": 20.93,
         "marketClose": 5780.05,
-        "spyReturn": 36.08
+        "spyReturn": 35.84
       },
       {
         "date": "2024-10-11",
         "vix": 20.46,
         "marketClose": 5815.03,
-        "spyReturn": 36.91
+        "spyReturn": 36.66
       },
       {
         "date": "2024-10-14",
         "vix": 19.7,
         "marketClose": 5859.85,
-        "spyReturn": 37.96
+        "spyReturn": 37.71
       },
       {
         "date": "2024-10-15",
         "vix": 20.64,
         "marketClose": 5815.26,
-        "spyReturn": 36.91
+        "spyReturn": 36.66
       },
       {
         "date": "2024-10-16",
         "vix": 19.58,
         "marketClose": 5842.47,
-        "spyReturn": 37.55
+        "spyReturn": 37.3
       },
       {
         "date": "2024-10-17",
         "vix": 19.11,
         "marketClose": 5841.47,
-        "spyReturn": 37.53
+        "spyReturn": 37.28
       },
       {
         "date": "2024-10-18",
         "vix": 18.03,
         "marketClose": 5864.67,
-        "spyReturn": 38.08
+        "spyReturn": 37.83
       },
       {
         "date": "2024-10-21",
         "vix": 18.37,
         "marketClose": 5853.98,
-        "spyReturn": 37.82
+        "spyReturn": 37.57
       },
       {
         "date": "2024-10-22",
         "vix": 18.2,
         "marketClose": 5851.2,
-        "spyReturn": 37.76
+        "spyReturn": 37.51
       },
       {
         "date": "2024-10-23",
         "vix": 19.24,
         "marketClose": 5797.42,
-        "spyReturn": 36.49
+        "spyReturn": 36.24
       },
       {
         "date": "2024-10-24",
         "vix": 19.08,
         "marketClose": 5809.86,
-        "spyReturn": 36.78
+        "spyReturn": 36.54
       },
       {
         "date": "2024-10-25",
         "vix": 20.33,
         "marketClose": 5808.12,
-        "spyReturn": 36.74
+        "spyReturn": 36.5
       },
       {
         "date": "2024-10-28",
         "vix": 19.8,
         "marketClose": 5823.52,
-        "spyReturn": 37.11
+        "spyReturn": 36.86
       },
       {
         "date": "2024-10-29",
         "vix": 19.34,
         "marketClose": 5832.92,
-        "spyReturn": 37.33
+        "spyReturn": 37.08
       },
       {
         "date": "2024-10-30",
         "vix": 20.35,
         "marketClose": 5813.67,
-        "spyReturn": 36.87
+        "spyReturn": 36.63
       },
       {
         "date": "2024-10-31",
         "vix": 23.16,
         "marketClose": 5705.45,
-        "spyReturn": 34.33
+        "spyReturn": 34.08
       },
       {
         "date": "2024-11-01",
         "vix": 21.88,
         "marketClose": 5728.8,
-        "spyReturn": 34.88
+        "spyReturn": 34.63
       },
       {
         "date": "2024-11-04",
         "vix": 21.98,
         "marketClose": 5712.69,
-        "spyReturn": 34.5
+        "spyReturn": 34.25
       },
       {
         "date": "2024-11-05",
         "vix": 20.49,
         "marketClose": 5782.76,
-        "spyReturn": 36.15
+        "spyReturn": 35.9
       },
       {
         "date": "2024-11-06",
         "vix": 16.27,
         "marketClose": 5929.04,
-        "spyReturn": 39.59
+        "spyReturn": 39.34
       },
       {
         "date": "2024-11-07",
         "vix": 15.2,
         "marketClose": 5973.1,
-        "spyReturn": 40.63
+        "spyReturn": 40.37
       },
       {
         "date": "2024-11-08",
         "vix": 14.94,
         "marketClose": 5995.54,
-        "spyReturn": 41.16
+        "spyReturn": 40.9
       },
       {
         "date": "2024-11-11",
         "vix": 14.97,
         "marketClose": 6001.35,
-        "spyReturn": 41.29
+        "spyReturn": 41.04
       },
       {
         "date": "2024-11-12",
         "vix": 14.71,
         "marketClose": 5983.99,
-        "spyReturn": 40.88
+        "spyReturn": 40.63
       },
       {
         "date": "2024-11-13",
         "vix": 14.02,
         "marketClose": 5985.38,
-        "spyReturn": 40.92
+        "spyReturn": 40.66
       },
       {
         "date": "2024-11-14",
         "vix": 14.31,
         "marketClose": 5949.17,
-        "spyReturn": 40.06
+        "spyReturn": 39.81
       },
       {
         "date": "2024-11-15",
         "vix": 16.14,
         "marketClose": 5870.62,
-        "spyReturn": 38.22
+        "spyReturn": 37.97
       },
       {
         "date": "2024-11-18",
         "vix": 15.58,
         "marketClose": 5893.62,
-        "spyReturn": 38.76
+        "spyReturn": 38.51
       },
       {
         "date": "2024-11-19",
         "vix": 16.35,
         "marketClose": 5916.98,
-        "spyReturn": 39.31
+        "spyReturn": 39.05
       },
       {
         "date": "2024-11-20",
         "vix": 17.16,
         "marketClose": 5917.11,
-        "spyReturn": 39.31
+        "spyReturn": 39.06
       },
       {
         "date": "2024-11-21",
         "vix": 16.87,
         "marketClose": 5948.71,
-        "spyReturn": 40.05
+        "spyReturn": 39.8
       },
       {
         "date": "2024-11-22",
         "vix": 15.24,
         "marketClose": 5969.34,
-        "spyReturn": 40.54
+        "spyReturn": 40.29
       },
       {
         "date": "2024-11-25",
         "vix": 14.6,
         "marketClose": 5987.37,
-        "spyReturn": 40.96
+        "spyReturn": 40.71
       },
       {
         "date": "2024-11-26",
         "vix": 14.1,
         "marketClose": 6021.63,
-        "spyReturn": 41.77
+        "spyReturn": 41.51
       },
       {
         "date": "2024-11-27",
         "vix": 14.1,
         "marketClose": 5998.74,
-        "spyReturn": 41.23
+        "spyReturn": 40.98
       },
       {
         "date": "2024-11-29",
         "vix": 13.51,
         "marketClose": 6032.38,
-        "spyReturn": 42.02
+        "spyReturn": 41.77
       },
       {
         "date": "2024-12-02",
         "vix": 13.34,
         "marketClose": 6047.15,
-        "spyReturn": 42.37
+        "spyReturn": 42.11
       },
       {
         "date": "2024-12-03",
         "vix": 13.3,
         "marketClose": 6049.88,
-        "spyReturn": 42.44
+        "spyReturn": 42.18
       },
       {
         "date": "2024-12-04",
         "vix": 13.45,
         "marketClose": 6086.49,
-        "spyReturn": 43.3
+        "spyReturn": 43.04
       },
       {
         "date": "2024-12-05",
         "vix": 13.54,
         "marketClose": 6075.11,
-        "spyReturn": 43.03
+        "spyReturn": 42.77
       },
       {
         "date": "2024-12-06",
         "vix": 12.77,
         "marketClose": 6090.27,
-        "spyReturn": 43.39
+        "spyReturn": 43.13
       },
       {
         "date": "2024-12-09",
         "vix": 14.19,
         "marketClose": 6052.85,
-        "spyReturn": 42.51
+        "spyReturn": 42.25
       },
       {
         "date": "2024-12-10",
         "vix": 14.18,
         "marketClose": 6034.91,
-        "spyReturn": 42.08
+        "spyReturn": 41.83
       },
       {
         "date": "2024-12-11",
         "vix": 13.58,
         "marketClose": 6084.19,
-        "spyReturn": 43.24
+        "spyReturn": 42.98
       },
       {
         "date": "2024-12-12",
         "vix": 13.92,
         "marketClose": 6051.25,
-        "spyReturn": 42.47
+        "spyReturn": 42.21
       },
       {
         "date": "2024-12-13",
         "vix": 13.81,
         "marketClose": 6051.09,
-        "spyReturn": 42.46
+        "spyReturn": 42.21
       },
       {
         "date": "2024-12-16",
         "vix": 14.69,
         "marketClose": 6074.08,
-        "spyReturn": 43.01
+        "spyReturn": 42.75
       },
       {
         "date": "2024-12-17",
         "vix": 15.87,
         "marketClose": 6050.61,
-        "spyReturn": 42.45
+        "spyReturn": 42.19
       },
       {
         "date": "2024-12-18",
         "vix": 27.62,
         "marketClose": 5872.16,
-        "spyReturn": 38.25
+        "spyReturn": 38
       },
       {
         "date": "2024-12-19",
         "vix": 24.09,
         "marketClose": 5867.08,
-        "spyReturn": 38.13
+        "spyReturn": 37.88
       },
       {
         "date": "2024-12-20",
         "vix": 18.36,
         "marketClose": 5930.85,
-        "spyReturn": 39.63
+        "spyReturn": 39.38
       },
       {
         "date": "2024-12-23",
         "vix": 16.78,
         "marketClose": 5974.07,
-        "spyReturn": 40.65
+        "spyReturn": 40.4
       },
       {
         "date": "2024-12-24",
         "vix": 14.27,
         "marketClose": 6040.04,
-        "spyReturn": 42.2
+        "spyReturn": 41.95
       },
       {
         "date": "2024-12-26",
         "vix": 14.73,
         "marketClose": 6037.59,
-        "spyReturn": 42.15
+        "spyReturn": 41.89
       },
       {
         "date": "2024-12-27",
         "vix": 15.95,
         "marketClose": 5970.84,
-        "spyReturn": 40.58
+        "spyReturn": 40.32
       },
       {
         "date": "2024-12-30",
         "vix": 17.4,
         "marketClose": 5906.94,
-        "spyReturn": 39.07
+        "spyReturn": 38.82
       },
       {
         "date": "2024-12-31",
         "vix": 17.35,
         "marketClose": 5881.63,
-        "spyReturn": 38.47
+        "spyReturn": 38.22
       },
       {
         "date": "2025-01-02",
         "vix": 17.93,
         "marketClose": 5868.55,
-        "spyReturn": 38.17
+        "spyReturn": 37.92
       },
       {
         "date": "2025-01-03",
         "vix": 16.13,
         "marketClose": 5942.47,
-        "spyReturn": 39.91
+        "spyReturn": 39.65
       },
       {
         "date": "2025-01-06",
         "vix": 16.04,
         "marketClose": 5975.38,
-        "spyReturn": 40.68
+        "spyReturn": 40.43
       },
       {
         "date": "2025-01-07",
         "vix": 17.82,
         "marketClose": 5909.03,
-        "spyReturn": 39.12
+        "spyReturn": 38.87
       },
       {
         "date": "2025-01-08",
         "vix": 17.7,
         "marketClose": 5918.25,
-        "spyReturn": 39.34
+        "spyReturn": 39.08
       },
       {
         "date": "2025-01-10",
         "vix": 19.54,
         "marketClose": 5827.04,
-        "spyReturn": 37.19
+        "spyReturn": 36.94
       },
       {
         "date": "2025-01-13",
         "vix": 19.19,
         "marketClose": 5836.22,
-        "spyReturn": 37.41
+        "spyReturn": 37.16
       },
       {
         "date": "2025-01-14",
         "vix": 18.71,
         "marketClose": 5842.91,
-        "spyReturn": 37.56
+        "spyReturn": 37.31
       },
       {
         "date": "2025-01-15",
         "vix": 16.12,
         "marketClose": 5949.91,
-        "spyReturn": 40.08
+        "spyReturn": 39.83
       },
       {
         "date": "2025-01-16",
         "vix": 16.6,
         "marketClose": 5937.34,
-        "spyReturn": 39.79
+        "spyReturn": 39.53
       },
       {
         "date": "2025-01-17",
         "vix": 15.97,
         "marketClose": 5996.66,
-        "spyReturn": 41.18
+        "spyReturn": 40.93
       },
       {
         "date": "2025-01-21",
         "vix": 15.06,
         "marketClose": 6049.24,
-        "spyReturn": 42.42
+        "spyReturn": 42.16
       },
       {
         "date": "2025-01-22",
         "vix": 15.1,
         "marketClose": 6086.37,
-        "spyReturn": 43.3
+        "spyReturn": 43.04
       },
       {
         "date": "2025-01-23",
         "vix": 15.02,
         "marketClose": 6118.71,
-        "spyReturn": 44.06
+        "spyReturn": 43.8
       },
       {
         "date": "2025-01-24",
         "vix": 14.85,
         "marketClose": 6101.24,
-        "spyReturn": 43.65
+        "spyReturn": 43.38
       },
       {
         "date": "2025-01-27",
         "vix": 17.9,
         "marketClose": 6012.28,
-        "spyReturn": 41.55
+        "spyReturn": 41.29
       },
       {
         "date": "2025-01-28",
         "vix": 16.41,
         "marketClose": 6067.7,
-        "spyReturn": 42.86
+        "spyReturn": 42.6
       },
       {
         "date": "2025-01-29",
         "vix": 16.56,
         "marketClose": 6039.31,
-        "spyReturn": 42.19
+        "spyReturn": 41.93
       },
       {
         "date": "2025-01-30",
         "vix": 15.84,
         "marketClose": 6071.17,
-        "spyReturn": 42.94
+        "spyReturn": 42.68
       },
       {
         "date": "2025-01-31",
         "vix": 16.43,
         "marketClose": 6040.53,
-        "spyReturn": 42.22
+        "spyReturn": 41.96
       },
       {
         "date": "2025-02-03",
         "vix": 18.62,
         "marketClose": 5994.57,
-        "spyReturn": 41.13
+        "spyReturn": 40.88
       },
       {
         "date": "2025-02-04",
         "vix": 17.21,
         "marketClose": 6037.88,
-        "spyReturn": 42.15
+        "spyReturn": 41.9
       },
       {
         "date": "2025-02-05",
         "vix": 15.77,
         "marketClose": 6061.48,
-        "spyReturn": 42.71
+        "spyReturn": 42.45
       },
       {
         "date": "2025-02-06",
         "vix": 15.5,
         "marketClose": 6083.57,
-        "spyReturn": 43.23
+        "spyReturn": 42.97
       },
       {
         "date": "2025-02-07",
         "vix": 16.54,
         "marketClose": 6025.99,
-        "spyReturn": 41.87
+        "spyReturn": 41.62
       },
       {
         "date": "2025-02-10",
         "vix": 15.81,
         "marketClose": 6066.44,
-        "spyReturn": 42.83
+        "spyReturn": 42.57
       },
       {
         "date": "2025-02-11",
         "vix": 16.02,
         "marketClose": 6068.5,
-        "spyReturn": 42.87
+        "spyReturn": 42.62
       },
       {
         "date": "2025-02-12",
         "vix": 15.89,
         "marketClose": 6051.97,
-        "spyReturn": 42.49
+        "spyReturn": 42.23
       },
       {
         "date": "2025-02-13",
         "vix": 15.1,
         "marketClose": 6115.07,
-        "spyReturn": 43.97
+        "spyReturn": 43.71
       },
       {
         "date": "2025-02-14",
         "vix": 14.77,
         "marketClose": 6114.63,
-        "spyReturn": 43.96
+        "spyReturn": 43.7
       },
       {
         "date": "2025-02-18",
         "vix": 15.35,
         "marketClose": 6129.58,
-        "spyReturn": 44.31
+        "spyReturn": 44.05
       },
       {
         "date": "2025-02-19",
         "vix": 15.27,
         "marketClose": 6144.15,
-        "spyReturn": 44.66
+        "spyReturn": 44.39
       },
       {
         "date": "2025-02-20",
         "vix": 15.66,
         "marketClose": 6117.52,
-        "spyReturn": 44.03
+        "spyReturn": 43.77
       },
       {
         "date": "2025-02-21",
         "vix": 18.21,
         "marketClose": 6013.13,
-        "spyReturn": 41.57
+        "spyReturn": 41.31
       },
       {
         "date": "2025-02-24",
         "vix": 18.98,
         "marketClose": 5983.25,
-        "spyReturn": 40.87
+        "spyReturn": 40.61
       },
       {
         "date": "2025-02-25",
         "vix": 19.43,
         "marketClose": 5955.25,
-        "spyReturn": 40.21
+        "spyReturn": 39.95
       },
       {
         "date": "2025-02-26",
         "vix": 19.1,
         "marketClose": 5956.06,
-        "spyReturn": 40.23
+        "spyReturn": 39.97
       },
       {
         "date": "2025-02-27",
         "vix": 21.13,
         "marketClose": 5861.57,
-        "spyReturn": 38
+        "spyReturn": 37.75
       },
       {
         "date": "2025-02-28",
         "vix": 19.63,
         "marketClose": 5954.5,
-        "spyReturn": 40.19
+        "spyReturn": 39.94
       },
       {
         "date": "2025-03-03",
         "vix": 22.78,
         "marketClose": 5849.72,
-        "spyReturn": 37.72
+        "spyReturn": 37.47
       },
       {
         "date": "2025-03-04",
         "vix": 23.51,
         "marketClose": 5778.15,
-        "spyReturn": 36.04
+        "spyReturn": 35.79
       },
       {
         "date": "2025-03-05",
         "vix": 21.93,
         "marketClose": 5842.63,
-        "spyReturn": 37.56
+        "spyReturn": 37.31
       },
       {
         "date": "2025-03-06",
         "vix": 24.87,
         "marketClose": 5738.52,
-        "spyReturn": 35.11
+        "spyReturn": 34.86
       },
       {
         "date": "2025-03-07",
         "vix": 23.37,
         "marketClose": 5770.2,
-        "spyReturn": 35.85
+        "spyReturn": 35.61
       },
       {
         "date": "2025-03-10",
         "vix": 27.86,
         "marketClose": 5614.56,
-        "spyReturn": 32.19
+        "spyReturn": 31.95
       },
       {
         "date": "2025-03-11",
         "vix": 26.92,
         "marketClose": 5572.07,
-        "spyReturn": 31.19
+        "spyReturn": 30.95
       },
       {
         "date": "2025-03-12",
         "vix": 24.23,
         "marketClose": 5599.3,
-        "spyReturn": 31.83
+        "spyReturn": 31.59
       },
       {
         "date": "2025-03-13",
         "vix": 24.66,
         "marketClose": 5521.52,
-        "spyReturn": 30
+        "spyReturn": 29.76
       },
       {
         "date": "2025-03-14",
         "vix": 21.77,
         "marketClose": 5638.94,
-        "spyReturn": 32.76
+        "spyReturn": 32.52
       },
       {
         "date": "2025-03-17",
         "vix": 20.51,
         "marketClose": 5675.12,
-        "spyReturn": 33.61
+        "spyReturn": 33.37
       },
       {
         "date": "2025-03-18",
         "vix": 21.7,
         "marketClose": 5614.66,
-        "spyReturn": 32.19
+        "spyReturn": 31.95
       },
       {
         "date": "2025-03-19",
         "vix": 19.9,
         "marketClose": 5675.29,
-        "spyReturn": 33.62
+        "spyReturn": 33.37
       },
       {
         "date": "2025-03-20",
         "vix": 19.8,
         "marketClose": 5662.89,
-        "spyReturn": 33.32
+        "spyReturn": 33.08
       },
       {
         "date": "2025-03-21",
         "vix": 19.28,
         "marketClose": 5667.56,
-        "spyReturn": 33.43
+        "spyReturn": 33.19
       },
       {
         "date": "2025-03-24",
         "vix": 17.48,
         "marketClose": 5767.57,
-        "spyReturn": 35.79
+        "spyReturn": 35.54
       },
       {
         "date": "2025-03-25",
         "vix": 17.15,
         "marketClose": 5776.65,
-        "spyReturn": 36
+        "spyReturn": 35.76
       },
       {
         "date": "2025-03-26",
         "vix": 18.33,
         "marketClose": 5712.2,
-        "spyReturn": 34.49
+        "spyReturn": 34.24
       },
       {
         "date": "2025-03-27",
         "vix": 18.69,
         "marketClose": 5693.31,
-        "spyReturn": 34.04
+        "spyReturn": 33.8
       },
       {
         "date": "2025-03-28",
         "vix": 21.65,
         "marketClose": 5580.94,
-        "spyReturn": 31.4
+        "spyReturn": 31.16
       },
       {
         "date": "2025-03-31",
         "vix": 22.28,
         "marketClose": 5611.85,
-        "spyReturn": 32.12
+        "spyReturn": 31.88
       },
       {
         "date": "2025-04-01",
         "vix": 21.77,
         "marketClose": 5633.07,
-        "spyReturn": 32.62
+        "spyReturn": 32.38
       },
       {
         "date": "2025-04-02",
         "vix": 21.51,
         "marketClose": 5670.97,
-        "spyReturn": 33.52
+        "spyReturn": 33.27
       },
       {
         "date": "2025-04-03",
         "vix": 30.02,
         "marketClose": 5396.52,
-        "spyReturn": 27.05
+        "spyReturn": 26.82
       },
       {
         "date": "2025-04-04",
         "vix": 45.31,
         "marketClose": 5074.08,
-        "spyReturn": 19.46
+        "spyReturn": 19.25
       },
       {
         "date": "2025-04-07",
         "vix": 46.98,
         "marketClose": 5062.25,
-        "spyReturn": 19.18
+        "spyReturn": 18.97
       },
       {
         "date": "2025-04-08",
         "vix": 52.33,
         "marketClose": 4982.77,
-        "spyReturn": 17.31
+        "spyReturn": 17.1
       },
       {
         "date": "2025-04-09",
         "vix": 33.62,
         "marketClose": 5456.9,
-        "spyReturn": 28.48
+        "spyReturn": 28.24
       },
       {
         "date": "2025-04-10",
         "vix": 40.72,
         "marketClose": 5268.05,
-        "spyReturn": 24.03
+        "spyReturn": 23.8
       },
       {
         "date": "2025-04-11",
         "vix": 37.56,
         "marketClose": 5363.36,
-        "spyReturn": 26.27
+        "spyReturn": 26.04
       },
       {
         "date": "2025-04-14",
         "vix": 30.89,
         "marketClose": 5405.97,
-        "spyReturn": 27.28
+        "spyReturn": 27.05
       },
       {
         "date": "2025-04-15",
         "vix": 30.12,
         "marketClose": 5396.63,
-        "spyReturn": 27.06
+        "spyReturn": 26.83
       },
       {
         "date": "2025-04-16",
         "vix": 32.64,
         "marketClose": 5275.7,
-        "spyReturn": 24.21
+        "spyReturn": 23.98
       },
       {
         "date": "2025-04-17",
         "vix": 29.65,
         "marketClose": 5282.7,
-        "spyReturn": 24.37
+        "spyReturn": 24.15
       },
       {
         "date": "2025-04-21",
         "vix": 33.82,
         "marketClose": 5158.2,
-        "spyReturn": 21.44
+        "spyReturn": 21.22
       },
       {
         "date": "2025-04-22",
         "vix": 30.57,
         "marketClose": 5287.76,
-        "spyReturn": 24.49
+        "spyReturn": 24.27
       },
       {
         "date": "2025-04-23",
         "vix": 28.45,
         "marketClose": 5375.86,
-        "spyReturn": 26.57
+        "spyReturn": 26.34
       },
       {
         "date": "2025-04-24",
         "vix": 26.47,
         "marketClose": 5484.77,
-        "spyReturn": 29.13
+        "spyReturn": 28.9
       },
       {
         "date": "2025-04-25",
         "vix": 24.84,
         "marketClose": 5525.21,
-        "spyReturn": 30.08
+        "spyReturn": 29.85
       },
       {
         "date": "2025-04-28",
         "vix": 25.15,
         "marketClose": 5528.75,
-        "spyReturn": 30.17
+        "spyReturn": 29.93
       },
       {
         "date": "2025-04-29",
         "vix": 24.17,
         "marketClose": 5560.83,
-        "spyReturn": 30.92
+        "spyReturn": 30.68
       },
       {
         "date": "2025-04-30",
         "vix": 24.7,
         "marketClose": 5569.06,
-        "spyReturn": 31.12
+        "spyReturn": 30.88
       },
       {
         "date": "2025-05-01",
         "vix": 24.6,
         "marketClose": 5604.14,
-        "spyReturn": 31.94
+        "spyReturn": 31.7
       },
       {
         "date": "2025-05-02",
         "vix": 22.68,
         "marketClose": 5686.67,
-        "spyReturn": 33.88
+        "spyReturn": 33.64
       },
       {
         "date": "2025-05-05",
         "vix": 23.64,
         "marketClose": 5650.38,
-        "spyReturn": 33.03
+        "spyReturn": 32.79
       },
       {
         "date": "2025-05-06",
         "vix": 24.76,
         "marketClose": 5606.91,
-        "spyReturn": 32.01
+        "spyReturn": 31.77
       },
       {
         "date": "2025-05-07",
         "vix": 23.55,
         "marketClose": 5631.28,
-        "spyReturn": 32.58
+        "spyReturn": 32.34
       },
       {
         "date": "2025-05-08",
         "vix": 22.48,
         "marketClose": 5663.94,
-        "spyReturn": 33.35
+        "spyReturn": 33.11
       },
       {
         "date": "2025-05-09",
         "vix": 21.9,
         "marketClose": 5659.91,
-        "spyReturn": 33.25
+        "spyReturn": 33.01
       },
       {
         "date": "2025-05-12",
         "vix": 18.39,
         "marketClose": 5844.19,
-        "spyReturn": 37.59
+        "spyReturn": 37.34
       },
       {
         "date": "2025-05-13",
         "vix": 18.22,
         "marketClose": 5886.55,
-        "spyReturn": 38.59
+        "spyReturn": 38.34
       },
       {
         "date": "2025-05-14",
         "vix": 18.62,
         "marketClose": 5892.58,
-        "spyReturn": 38.73
+        "spyReturn": 38.48
       },
       {
         "date": "2025-05-15",
         "vix": 17.83,
         "marketClose": 5916.93,
-        "spyReturn": 39.31
+        "spyReturn": 39.05
       },
       {
         "date": "2025-05-16",
         "vix": 17.24,
         "marketClose": 5958.38,
-        "spyReturn": 40.28
+        "spyReturn": 40.03
       },
       {
         "date": "2025-05-19",
         "vix": 18.14,
         "marketClose": 5963.6,
-        "spyReturn": 40.4
+        "spyReturn": 40.15
       },
       {
         "date": "2025-05-20",
         "vix": 18.09,
         "marketClose": 5940.46,
-        "spyReturn": 39.86
+        "spyReturn": 39.61
       },
       {
         "date": "2025-05-21",
         "vix": 20.87,
         "marketClose": 5844.61,
-        "spyReturn": 37.6
+        "spyReturn": 37.35
       },
       {
         "date": "2025-05-22",
         "vix": 20.28,
         "marketClose": 5842.01,
-        "spyReturn": 37.54
+        "spyReturn": 37.29
       },
       {
         "date": "2025-05-23",
         "vix": 22.29,
         "marketClose": 5802.82,
-        "spyReturn": 36.62
+        "spyReturn": 36.37
       },
       {
         "date": "2025-05-27",
         "vix": 18.96,
         "marketClose": 5921.54,
-        "spyReturn": 39.41
+        "spyReturn": 39.16
       },
       {
         "date": "2025-05-28",
         "vix": 19.31,
         "marketClose": 5888.55,
-        "spyReturn": 38.64
+        "spyReturn": 38.39
       },
       {
         "date": "2025-05-29",
         "vix": 19.18,
         "marketClose": 5912.17,
-        "spyReturn": 39.19
+        "spyReturn": 38.94
       },
       {
         "date": "2025-05-30",
         "vix": 18.57,
         "marketClose": 5911.69,
-        "spyReturn": 39.18
+        "spyReturn": 38.93
       },
       {
         "date": "2025-06-02",
         "vix": 18.36,
         "marketClose": 5935.94,
-        "spyReturn": 39.75
+        "spyReturn": 39.5
       },
       {
         "date": "2025-06-03",
         "vix": 17.69,
         "marketClose": 5970.37,
-        "spyReturn": 40.56
+        "spyReturn": 40.31
       },
       {
         "date": "2025-06-04",
         "vix": 17.61,
         "marketClose": 5970.81,
-        "spyReturn": 40.57
+        "spyReturn": 40.32
       },
       {
         "date": "2025-06-05",
         "vix": 18.48,
         "marketClose": 5939.3,
-        "spyReturn": 39.83
+        "spyReturn": 39.58
       },
       {
         "date": "2025-06-06",
         "vix": 16.77,
         "marketClose": 6000.36,
-        "spyReturn": 41.27
+        "spyReturn": 41.01
       },
       {
         "date": "2025-06-09",
         "vix": 17.16,
         "marketClose": 6005.88,
-        "spyReturn": 41.4
+        "spyReturn": 41.14
       },
       {
         "date": "2025-06-10",
         "vix": 16.95,
         "marketClose": 6038.81,
-        "spyReturn": 42.18
+        "spyReturn": 41.92
       },
       {
         "date": "2025-06-11",
         "vix": 17.26,
         "marketClose": 6022.24,
-        "spyReturn": 41.79
+        "spyReturn": 41.53
       },
       {
         "date": "2025-06-12",
         "vix": 18.02,
         "marketClose": 6045.26,
-        "spyReturn": 42.33
+        "spyReturn": 42.07
       },
       {
         "date": "2025-06-13",
         "vix": 20.82,
         "marketClose": 5976.97,
-        "spyReturn": 40.72
+        "spyReturn": 40.46
       },
       {
         "date": "2025-06-16",
         "vix": 19.11,
         "marketClose": 6033.11,
-        "spyReturn": 42.04
+        "spyReturn": 41.78
       },
       {
         "date": "2025-06-17",
         "vix": 21.6,
         "marketClose": 5982.72,
-        "spyReturn": 40.85
+        "spyReturn": 40.6
       },
       {
         "date": "2025-06-18",
         "vix": 20.14,
         "marketClose": 5980.87,
-        "spyReturn": 40.81
+        "spyReturn": 40.56
       },
       {
         "date": "2025-06-20",
         "vix": 20.62,
         "marketClose": 5967.84,
-        "spyReturn": 40.5
+        "spyReturn": 40.25
       },
       {
         "date": "2025-06-23",
         "vix": 19.83,
         "marketClose": 6025.17,
-        "spyReturn": 41.85
+        "spyReturn": 41.6
       },
       {
         "date": "2025-06-24",
         "vix": 17.48,
         "marketClose": 6092.18,
-        "spyReturn": 43.43
+        "spyReturn": 43.17
       },
       {
         "date": "2025-06-25",
         "vix": 16.76,
         "marketClose": 6092.16,
-        "spyReturn": 43.43
+        "spyReturn": 43.17
       },
       {
         "date": "2025-06-26",
         "vix": 16.59,
         "marketClose": 6141.02,
-        "spyReturn": 44.58
+        "spyReturn": 44.32
       },
       {
         "date": "2025-06-27",
         "vix": 16.32,
         "marketClose": 6173.07,
-        "spyReturn": 45.34
+        "spyReturn": 45.07
       },
       {
         "date": "2025-06-30",
         "vix": 16.73,
         "marketClose": 6204.95,
-        "spyReturn": 46.09
+        "spyReturn": 45.82
       },
       {
         "date": "2025-07-01",
         "vix": 16.83,
         "marketClose": 6198.01,
-        "spyReturn": 45.92
+        "spyReturn": 45.66
       },
       {
         "date": "2025-07-02",
         "vix": 16.64,
         "marketClose": 6227.42,
-        "spyReturn": 46.62
+        "spyReturn": 46.35
       },
       {
         "date": "2025-07-03",
         "vix": 16.38,
         "marketClose": 6279.35,
-        "spyReturn": 47.84
+        "spyReturn": 47.57
       },
       {
         "date": "2025-07-07",
         "vix": 17.79,
         "marketClose": 6229.98,
-        "spyReturn": 46.68
+        "spyReturn": 46.41
       },
       {
         "date": "2025-07-08",
         "vix": 16.81,
         "marketClose": 6225.52,
-        "spyReturn": 46.57
+        "spyReturn": 46.31
       },
       {
         "date": "2025-07-09",
         "vix": 15.94,
         "marketClose": 6263.26,
-        "spyReturn": 47.46
+        "spyReturn": 47.19
       },
       {
         "date": "2025-07-10",
         "vix": 15.78,
         "marketClose": 6280.46,
-        "spyReturn": 47.86
+        "spyReturn": 47.6
       },
       {
         "date": "2025-07-11",
         "vix": 16.4,
         "marketClose": 6259.75,
-        "spyReturn": 47.38
+        "spyReturn": 47.11
       },
       {
         "date": "2025-07-14",
         "vix": 17.2,
         "marketClose": 6268.56,
-        "spyReturn": 47.58
+        "spyReturn": 47.32
       },
       {
         "date": "2025-07-15",
         "vix": 17.38,
         "marketClose": 6243.76,
-        "spyReturn": 47
+        "spyReturn": 46.73
       },
       {
         "date": "2025-07-16",
         "vix": 17.16,
         "marketClose": 6263.7,
-        "spyReturn": 47.47
+        "spyReturn": 47.2
       },
       {
         "date": "2025-07-17",
         "vix": 16.52,
         "marketClose": 6297.36,
-        "spyReturn": 48.26
+        "spyReturn": 47.99
       },
       {
         "date": "2025-07-18",
         "vix": 16.41,
         "marketClose": 6296.79,
-        "spyReturn": 48.25
+        "spyReturn": 47.98
       },
       {
         "date": "2025-07-21",
         "vix": 16.65,
         "marketClose": 6305.6,
-        "spyReturn": 48.46
+        "spyReturn": 48.19
       },
       {
         "date": "2025-07-22",
         "vix": 16.5,
         "marketClose": 6309.62,
-        "spyReturn": 48.55
+        "spyReturn": 48.28
       },
       {
         "date": "2025-07-23",
         "vix": 15.37,
         "marketClose": 6358.91,
-        "spyReturn": 49.71
+        "spyReturn": 49.44
       },
       {
         "date": "2025-07-24",
         "vix": 15.39,
         "marketClose": 6363.35,
-        "spyReturn": 49.82
+        "spyReturn": 49.54
       },
       {
         "date": "2025-07-25",
         "vix": 14.93,
         "marketClose": 6388.64,
-        "spyReturn": 50.41
+        "spyReturn": 50.14
       },
       {
         "date": "2025-07-28",
         "vix": 15.03,
         "marketClose": 6389.77,
-        "spyReturn": 50.44
+        "spyReturn": 50.17
       },
       {
         "date": "2025-07-29",
         "vix": 15.98,
         "marketClose": 6370.86,
-        "spyReturn": 49.99
+        "spyReturn": 49.72
       },
       {
         "date": "2025-07-30",
         "vix": 15.48,
         "marketClose": 6362.9,
-        "spyReturn": 49.81
+        "spyReturn": 49.53
       },
       {
         "date": "2025-07-31",
         "vix": 16.72,
         "marketClose": 6339.39,
-        "spyReturn": 49.25
+        "spyReturn": 48.98
       },
       {
         "date": "2025-08-01",
         "vix": 20.38,
         "marketClose": 6238.01,
-        "spyReturn": 46.87
+        "spyReturn": 46.6
       },
       {
         "date": "2025-08-04",
         "vix": 17.52,
         "marketClose": 6329.94,
-        "spyReturn": 49.03
+        "spyReturn": 48.76
       },
       {
         "date": "2025-08-05",
         "vix": 17.85,
         "marketClose": 6299.19,
-        "spyReturn": 48.31
+        "spyReturn": 48.04
       },
       {
         "date": "2025-08-06",
         "vix": 16.77,
         "marketClose": 6345.06,
-        "spyReturn": 49.39
+        "spyReturn": 49.11
       },
       {
         "date": "2025-08-07",
         "vix": 16.57,
         "marketClose": 6340,
-        "spyReturn": 49.27
+        "spyReturn": 49
       },
       {
         "date": "2025-08-08",
         "vix": 15.15,
         "marketClose": 6389.45,
-        "spyReturn": 50.43
+        "spyReturn": 50.16
       },
       {
         "date": "2025-08-11",
         "vix": 16.25,
         "marketClose": 6373.45,
-        "spyReturn": 50.05
+        "spyReturn": 49.78
       },
       {
         "date": "2025-08-12",
         "vix": 14.73,
         "marketClose": 6445.76,
-        "spyReturn": 51.76
+        "spyReturn": 51.48
       },
       {
         "date": "2025-08-13",
         "vix": 14.49,
         "marketClose": 6466.58,
-        "spyReturn": 52.25
+        "spyReturn": 51.97
       },
       {
         "date": "2025-08-14",
         "vix": 14.83,
         "marketClose": 6468.54,
-        "spyReturn": 52.29
+        "spyReturn": 52.02
       },
       {
         "date": "2025-08-15",
         "vix": 15.09,
         "marketClose": 6449.8,
-        "spyReturn": 51.85
+        "spyReturn": 51.58
       },
       {
         "date": "2025-08-18",
         "vix": 14.99,
         "marketClose": 6449.15,
-        "spyReturn": 51.84
+        "spyReturn": 51.56
       },
       {
         "date": "2025-08-19",
         "vix": 15.57,
         "marketClose": 6411.37,
-        "spyReturn": 50.95
+        "spyReturn": 50.67
       },
       {
         "date": "2025-08-20",
         "vix": 15.69,
         "marketClose": 6395.78,
-        "spyReturn": 50.58
+        "spyReturn": 50.31
       },
       {
         "date": "2025-08-21",
         "vix": 16.6,
         "marketClose": 6370.17,
-        "spyReturn": 49.98
+        "spyReturn": 49.7
       },
       {
         "date": "2025-08-22",
         "vix": 14.22,
         "marketClose": 6466.91,
-        "spyReturn": 52.25
+        "spyReturn": 51.98
       },
       {
         "date": "2025-08-25",
         "vix": 14.79,
         "marketClose": 6439.32,
-        "spyReturn": 51.6
+        "spyReturn": 51.33
       },
       {
         "date": "2025-08-26",
         "vix": 14.62,
         "marketClose": 6465.94,
-        "spyReturn": 52.23
+        "spyReturn": 51.96
       },
       {
         "date": "2025-08-27",
         "vix": 14.85,
         "marketClose": 6481.4,
-        "spyReturn": 52.6
+        "spyReturn": 52.32
       },
       {
         "date": "2025-08-28",
         "vix": 14.43,
         "marketClose": 6501.86,
-        "spyReturn": 53.08
+        "spyReturn": 52.8
       },
       {
         "date": "2025-08-29",
         "vix": 15.36,
         "marketClose": 6460.26,
-        "spyReturn": 52.1
+        "spyReturn": 51.82
       },
       {
         "date": "2025-09-02",
         "vix": 17.17,
         "marketClose": 6415.54,
-        "spyReturn": 51.04
+        "spyReturn": 50.77
       },
       {
         "date": "2025-09-03",
         "vix": 16.35,
         "marketClose": 6448.26,
-        "spyReturn": 51.82
+        "spyReturn": 51.54
       },
       {
         "date": "2025-09-04",
         "vix": 15.3,
         "marketClose": 6502.08,
-        "spyReturn": 53.08
+        "spyReturn": 52.8
       },
       {
         "date": "2025-09-05",
         "vix": 15.18,
         "marketClose": 6481.5,
-        "spyReturn": 52.6
+        "spyReturn": 52.32
       },
       {
         "date": "2025-09-08",
         "vix": 15.11,
         "marketClose": 6495.15,
-        "spyReturn": 52.92
+        "spyReturn": 52.64
       },
       {
         "date": "2025-09-09",
         "vix": 15.04,
         "marketClose": 6512.61,
-        "spyReturn": 53.33
+        "spyReturn": 53.05
       },
       {
         "date": "2025-09-10",
         "vix": 15.35,
         "marketClose": 6532.04,
-        "spyReturn": 53.79
+        "spyReturn": 53.51
       },
       {
         "date": "2025-09-11",
         "vix": 14.71,
         "marketClose": 6587.47,
-        "spyReturn": 55.09
+        "spyReturn": 54.81
       },
       {
         "date": "2025-09-12",
         "vix": 14.76,
         "marketClose": 6584.29,
-        "spyReturn": 55.02
+        "spyReturn": 54.74
       },
       {
         "date": "2025-09-15",
         "vix": 15.69,
         "marketClose": 6615.28,
-        "spyReturn": 55.75
+        "spyReturn": 55.47
       },
       {
         "date": "2025-09-16",
         "vix": 16.36,
         "marketClose": 6606.76,
-        "spyReturn": 55.55
+        "spyReturn": 55.27
       },
       {
         "date": "2025-09-17",
         "vix": 15.72,
         "marketClose": 6600.35,
-        "spyReturn": 55.4
+        "spyReturn": 55.11
       },
       {
         "date": "2025-09-18",
         "vix": 15.7,
         "marketClose": 6631.96,
-        "spyReturn": 56.14
+        "spyReturn": 55.86
       },
       {
         "date": "2025-09-19",
         "vix": 15.45,
         "marketClose": 6664.36,
-        "spyReturn": 56.9
+        "spyReturn": 56.62
       },
       {
         "date": "2025-09-22",
         "vix": 16.1,
         "marketClose": 6693.75,
-        "spyReturn": 57.59
+        "spyReturn": 57.31
       },
       {
         "date": "2025-09-23",
         "vix": 16.64,
         "marketClose": 6656.92,
-        "spyReturn": 56.73
+        "spyReturn": 56.44
       },
       {
         "date": "2025-09-24",
         "vix": 16.18,
         "marketClose": 6637.97,
-        "spyReturn": 56.28
+        "spyReturn": 56
       },
       {
         "date": "2025-09-25",
         "vix": 16.74,
         "marketClose": 6604.72,
-        "spyReturn": 55.5
+        "spyReturn": 55.22
       },
       {
         "date": "2025-09-26",
         "vix": 15.29,
         "marketClose": 6643.7,
-        "spyReturn": 56.42
+        "spyReturn": 56.13
       },
       {
         "date": "2025-09-29",
         "vix": 16.12,
         "marketClose": 6661.21,
-        "spyReturn": 56.83
+        "spyReturn": 56.54
       },
       {
         "date": "2025-09-30",
         "vix": 16.28,
         "marketClose": 6688.46,
-        "spyReturn": 57.47
+        "spyReturn": 57.19
       },
       {
         "date": "2025-10-01",
         "vix": 16.29,
         "marketClose": 6711.2,
-        "spyReturn": 58.01
+        "spyReturn": 57.72
       },
       {
         "date": "2025-10-02",
         "vix": 16.63,
         "marketClose": 6715.35,
-        "spyReturn": 58.1
+        "spyReturn": 57.82
       },
       {
         "date": "2025-10-03",
         "vix": 16.65,
         "marketClose": 6715.79,
-        "spyReturn": 58.11
+        "spyReturn": 57.83
       },
       {
         "date": "2025-10-06",
         "vix": 16.37,
         "marketClose": 6740.28,
-        "spyReturn": 58.69
+        "spyReturn": 58.4
       },
       {
         "date": "2025-10-07",
         "vix": 17.24,
         "marketClose": 6714.59,
-        "spyReturn": 58.09
+        "spyReturn": 57.8
       },
       {
         "date": "2025-10-08",
         "vix": 16.3,
         "marketClose": 6753.72,
-        "spyReturn": 59.01
+        "spyReturn": 58.72
       },
       {
         "date": "2025-10-09",
         "vix": 16.43,
         "marketClose": 6735.11,
-        "spyReturn": 58.57
+        "spyReturn": 58.28
       },
       {
         "date": "2025-10-10",
         "vix": 21.66,
         "marketClose": 6552.51,
-        "spyReturn": 54.27
+        "spyReturn": 53.99
       },
       {
         "date": "2025-10-13",
         "vix": 19.03,
         "marketClose": 6654.72,
-        "spyReturn": 56.68
+        "spyReturn": 56.39
       },
       {
         "date": "2025-10-14",
         "vix": 20.81,
         "marketClose": 6644.31,
-        "spyReturn": 56.43
+        "spyReturn": 56.15
       },
       {
         "date": "2025-10-15",
         "vix": 20.64,
         "marketClose": 6671.06,
-        "spyReturn": 57.06
+        "spyReturn": 56.78
       },
       {
         "date": "2025-10-16",
         "vix": 25.31,
         "marketClose": 6629.07,
-        "spyReturn": 56.07
+        "spyReturn": 55.79
       },
       {
         "date": "2025-10-17",
         "vix": 20.78,
         "marketClose": 6664.01,
-        "spyReturn": 56.89
+        "spyReturn": 56.61
       },
       {
         "date": "2025-10-20",
         "vix": 18.23,
         "marketClose": 6735.13,
-        "spyReturn": 58.57
+        "spyReturn": 58.28
       },
       {
         "date": "2025-10-21",
         "vix": 17.87,
         "marketClose": 6735.35,
-        "spyReturn": 58.57
+        "spyReturn": 58.29
       },
       {
         "date": "2025-10-22",
         "vix": 18.6,
         "marketClose": 6699.4,
-        "spyReturn": 57.73
+        "spyReturn": 57.44
       },
       {
         "date": "2025-10-23",
         "vix": 17.3,
         "marketClose": 6738.44,
-        "spyReturn": 58.65
+        "spyReturn": 58.36
       },
       {
         "date": "2025-10-24",
         "vix": 16.37,
         "marketClose": 6791.69,
-        "spyReturn": 59.9
+        "spyReturn": 59.61
       },
       {
         "date": "2025-10-27",
         "vix": 15.79,
         "marketClose": 6875.16,
-        "spyReturn": 61.87
+        "spyReturn": 61.57
       },
       {
         "date": "2025-10-28",
         "vix": 16.42,
         "marketClose": 6890.89,
-        "spyReturn": 62.24
+        "spyReturn": 61.94
       },
       {
         "date": "2025-10-29",
         "vix": 16.92,
         "marketClose": 6890.59,
-        "spyReturn": 62.23
+        "spyReturn": 61.94
       },
       {
         "date": "2025-10-30",
         "vix": 16.91,
         "marketClose": 6822.34,
-        "spyReturn": 60.62
+        "spyReturn": 60.33
       },
       {
         "date": "2025-10-31",
         "vix": 17.44,
         "marketClose": 6840.2,
-        "spyReturn": 61.04
+        "spyReturn": 60.75
       },
       {
         "date": "2025-11-03",
         "vix": 17.17,
         "marketClose": 6851.97,
-        "spyReturn": 61.32
+        "spyReturn": 61.03
       },
       {
         "date": "2025-11-04",
         "vix": 19,
         "marketClose": 6771.55,
-        "spyReturn": 59.43
+        "spyReturn": 59.14
       },
       {
         "date": "2025-11-05",
         "vix": 18.01,
         "marketClose": 6796.29,
-        "spyReturn": 60.01
+        "spyReturn": 59.72
       },
       {
         "date": "2025-11-06",
         "vix": 19.5,
         "marketClose": 6720.32,
-        "spyReturn": 58.22
+        "spyReturn": 57.93
       },
       {
         "date": "2025-11-07",
         "vix": 19.08,
         "marketClose": 6728.8,
-        "spyReturn": 58.42
+        "spyReturn": 58.13
       },
       {
         "date": "2025-11-10",
         "vix": 17.6,
         "marketClose": 6832.43,
-        "spyReturn": 60.86
+        "spyReturn": 60.57
       },
       {
         "date": "2025-11-11",
         "vix": 17.28,
         "marketClose": 6846.61,
-        "spyReturn": 61.19
+        "spyReturn": 60.9
       },
       {
         "date": "2025-11-12",
         "vix": 17.51,
         "marketClose": 6850.92,
-        "spyReturn": 61.3
+        "spyReturn": 61
       },
       {
         "date": "2025-11-13",
         "vix": 20,
         "marketClose": 6737.49,
-        "spyReturn": 58.62
+        "spyReturn": 58.34
       },
       {
         "date": "2025-11-14",
         "vix": 19.83,
         "marketClose": 6734.11,
-        "spyReturn": 58.55
+        "spyReturn": 58.26
       },
       {
         "date": "2025-11-17",
         "vix": 22.38,
         "marketClose": 6672.41,
-        "spyReturn": 57.09
+        "spyReturn": 56.81
       },
       {
         "date": "2025-11-18",
         "vix": 24.69,
         "marketClose": 6617.32,
-        "spyReturn": 55.8
+        "spyReturn": 55.51
       },
       {
         "date": "2025-11-19",
         "vix": 23.66,
         "marketClose": 6642.16,
-        "spyReturn": 56.38
+        "spyReturn": 56.1
       },
       {
         "date": "2025-11-20",
         "vix": 26.42,
         "marketClose": 6538.76,
-        "spyReturn": 53.95
+        "spyReturn": 53.67
       },
       {
         "date": "2025-11-21",
         "vix": 23.43,
         "marketClose": 6602.99,
-        "spyReturn": 55.46
+        "spyReturn": 55.18
       },
       {
         "date": "2025-11-24",
         "vix": 20.52,
         "marketClose": 6705.12,
-        "spyReturn": 57.86
+        "spyReturn": 57.58
       },
       {
         "date": "2025-11-25",
         "vix": 18.56,
         "marketClose": 6765.88,
-        "spyReturn": 59.29
+        "spyReturn": 59
       },
       {
         "date": "2025-11-26",
         "vix": 17.19,
         "marketClose": 6812.61,
-        "spyReturn": 60.39
+        "spyReturn": 60.1
       },
       {
         "date": "2025-11-28",
         "vix": 16.35,
         "marketClose": 6849.09,
-        "spyReturn": 61.25
+        "spyReturn": 60.96
       },
       {
         "date": "2025-12-01",
         "vix": 17.24,
         "marketClose": 6812.63,
-        "spyReturn": 60.39
+        "spyReturn": 60.1
       },
       {
         "date": "2025-12-02",
         "vix": 16.59,
         "marketClose": 6829.37,
-        "spyReturn": 60.79
+        "spyReturn": 60.5
       },
       {
         "date": "2025-12-03",
         "vix": 16.08,
         "marketClose": 6849.72,
-        "spyReturn": 61.27
+        "spyReturn": 60.97
       },
       {
         "date": "2025-12-04",
         "vix": 15.78,
         "marketClose": 6857.12,
-        "spyReturn": 61.44
+        "spyReturn": 61.15
       },
       {
         "date": "2025-12-05",
         "vix": 15.41,
         "marketClose": 6870.4,
-        "spyReturn": 61.75
+        "spyReturn": 61.46
       },
       {
         "date": "2025-12-08",
         "vix": 16.66,
         "marketClose": 6846.51,
-        "spyReturn": 61.19
+        "spyReturn": 60.9
       },
       {
         "date": "2025-12-09",
         "vix": 16.93,
         "marketClose": 6840.51,
-        "spyReturn": 61.05
+        "spyReturn": 60.76
       },
       {
         "date": "2025-12-10",
         "vix": 15.77,
         "marketClose": 6886.68,
-        "spyReturn": 62.14
+        "spyReturn": 61.84
       },
       {
         "date": "2025-12-11",
         "vix": 14.85,
         "marketClose": 6901,
-        "spyReturn": 62.47
+        "spyReturn": 62.18
       },
       {
         "date": "2025-12-12",
         "vix": 15.74,
         "marketClose": 6827.41,
-        "spyReturn": 60.74
+        "spyReturn": 60.45
       },
       {
         "date": "2025-12-15",
         "vix": 16.5,
         "marketClose": 6816.51,
-        "spyReturn": 60.49
+        "spyReturn": 60.19
       },
       {
         "date": "2025-12-16",
         "vix": 16.48,
         "marketClose": 6800.26,
-        "spyReturn": 60.1
+        "spyReturn": 59.81
       },
       {
         "date": "2025-12-17",
         "vix": 17.62,
         "marketClose": 6721.43,
-        "spyReturn": 58.25
+        "spyReturn": 57.96
       },
       {
         "date": "2025-12-18",
         "vix": 16.87,
         "marketClose": 6774.76,
-        "spyReturn": 59.5
+        "spyReturn": 59.21
       },
       {
         "date": "2025-12-19",
         "vix": 14.91,
         "marketClose": 6834.5,
-        "spyReturn": 60.91
+        "spyReturn": 60.62
       },
       {
         "date": "2025-12-22",
         "vix": 14.08,
         "marketClose": 6878.49,
-        "spyReturn": 61.94
+        "spyReturn": 61.65
       },
       {
         "date": "2025-12-23",
         "vix": 14,
         "marketClose": 6909.79,
-        "spyReturn": 62.68
+        "spyReturn": 62.39
       },
       {
         "date": "2025-12-24",
         "vix": 13.47,
         "marketClose": 6932.05,
-        "spyReturn": 63.21
+        "spyReturn": 62.91
       },
       {
         "date": "2025-12-26",
         "vix": 13.6,
         "marketClose": 6929.94,
-        "spyReturn": 63.16
+        "spyReturn": 62.86
       },
       {
         "date": "2025-12-29",
         "vix": 14.2,
         "marketClose": 6905.74,
-        "spyReturn": 62.59
+        "spyReturn": 62.29
       },
       {
         "date": "2025-12-30",
         "vix": 14.33,
         "marketClose": 6896.24,
-        "spyReturn": 62.36
+        "spyReturn": 62.07
       },
       {
         "date": "2025-12-31",
         "vix": 14.95,
         "marketClose": 6845.5,
-        "spyReturn": 61.17
+        "spyReturn": 60.88
       },
       {
         "date": "2026-01-02",
         "vix": 14.51,
         "marketClose": 6858.47,
-        "spyReturn": 61.47
+        "spyReturn": 61.18
       },
       {
         "date": "2026-01-05",
         "vix": 14.9,
         "marketClose": 6902.05,
-        "spyReturn": 62.5
+        "spyReturn": 62.2
       },
       {
         "date": "2026-01-06",
         "vix": 14.75,
         "marketClose": 6944.82,
-        "spyReturn": 63.51
+        "spyReturn": 63.21
       },
       {
         "date": "2026-01-07",
         "vix": 15.38,
         "marketClose": 6920.93,
-        "spyReturn": 62.94
+        "spyReturn": 62.65
       },
       {
         "date": "2026-01-08",
         "vix": 15.45,
         "marketClose": 6921.46,
-        "spyReturn": 62.96
+        "spyReturn": 62.66
       },
       {
         "date": "2026-01-09",
         "vix": 14.49,
         "marketClose": 6966.28,
-        "spyReturn": 64.01
+        "spyReturn": 63.71
       },
       {
         "date": "2026-01-12",
         "vix": 15.12,
         "marketClose": 6977.27,
-        "spyReturn": 64.27
+        "spyReturn": 63.97
       },
       {
         "date": "2026-01-13",
         "vix": 15.98,
         "marketClose": 6963.74,
-        "spyReturn": 63.95
+        "spyReturn": 63.65
       },
       {
         "date": "2026-01-14",
         "vix": 16.75,
         "marketClose": 6926.6,
-        "spyReturn": 63.08
+        "spyReturn": 62.78
       },
       {
         "date": "2026-01-15",
         "vix": 15.84,
         "marketClose": 6944.47,
-        "spyReturn": 63.5
+        "spyReturn": 63.2
       },
       {
         "date": "2026-01-16",
         "vix": 15.86,
         "marketClose": 6940.01,
-        "spyReturn": 63.39
+        "spyReturn": 63.1
       },
       {
         "date": "2026-01-20",
         "vix": 20.09,
         "marketClose": 6796.86,
-        "spyReturn": 60.02
+        "spyReturn": 59.73
       },
       {
         "date": "2026-01-21",
         "vix": 16.9,
         "marketClose": 6875.62,
-        "spyReturn": 61.88
+        "spyReturn": 61.58
       },
       {
         "date": "2026-01-22",
         "vix": 15.64,
         "marketClose": 6913.35,
-        "spyReturn": 62.77
+        "spyReturn": 62.47
       },
       {
         "date": "2026-01-23",
         "vix": 16.09,
         "marketClose": 6915.61,
-        "spyReturn": 62.82
+        "spyReturn": 62.52
       },
       {
         "date": "2026-01-26",
         "vix": 16.15,
         "marketClose": 6950.23,
-        "spyReturn": 63.63
+        "spyReturn": 63.34
       },
       {
         "date": "2026-01-27",
         "vix": 16.35,
         "marketClose": 6978.6,
-        "spyReturn": 64.3
+        "spyReturn": 64
       },
       {
         "date": "2026-01-28",
         "vix": 16.35,
         "marketClose": 6978.03,
-        "spyReturn": 64.29
+        "spyReturn": 63.99
       },
       {
         "date": "2026-01-29",
         "vix": 16.88,
         "marketClose": 6969.01,
-        "spyReturn": 64.08
+        "spyReturn": 63.78
       },
       {
         "date": "2026-01-30",
         "vix": 17.44,
         "marketClose": 6939.03,
-        "spyReturn": 63.37
+        "spyReturn": 63.07
       },
       {
         "date": "2026-02-02",
         "vix": 16.34,
         "marketClose": 6976.44,
-        "spyReturn": 64.25
+        "spyReturn": 63.95
       },
       {
         "date": "2026-02-03",
         "vix": 18,
         "marketClose": 6917.81,
-        "spyReturn": 62.87
+        "spyReturn": 62.57
       },
       {
         "date": "2026-02-04",
         "vix": 18.64,
         "marketClose": 6882.72,
-        "spyReturn": 62.04
+        "spyReturn": 61.75
       },
       {
         "date": "2026-02-05",
         "vix": 21.77,
         "marketClose": 6798.4,
-        "spyReturn": 60.06
+        "spyReturn": 59.77
       },
       {
         "date": "2026-02-06",
         "vix": 17.76,
         "marketClose": 6932.3,
-        "spyReturn": 63.21
+        "spyReturn": 62.92
       },
       {
         "date": "2026-02-09",
         "vix": 17.36,
         "marketClose": 6964.82,
-        "spyReturn": 63.98
+        "spyReturn": 63.68
       },
       {
         "date": "2026-02-10",
         "vix": 17.79,
         "marketClose": 6941.81,
-        "spyReturn": 63.44
+        "spyReturn": 63.14
       },
       {
         "date": "2026-02-11",
         "vix": 17.65,
         "marketClose": 6941.47,
-        "spyReturn": 63.43
+        "spyReturn": 63.13
       },
       {
         "date": "2026-02-12",
         "vix": 20.82,
         "marketClose": 6832.76,
-        "spyReturn": 60.87
+        "spyReturn": 60.58
       },
       {
         "date": "2026-02-13",
         "vix": 20.6,
         "marketClose": 6836.17,
-        "spyReturn": 60.95
+        "spyReturn": 60.66
       },
       {
         "date": "2026-02-17",
         "vix": 20.29,
         "marketClose": 6843.22,
-        "spyReturn": 61.11
+        "spyReturn": 60.82
       },
       {
         "date": "2026-02-18",
         "vix": 19.62,
         "marketClose": 6881.31,
-        "spyReturn": 62.01
+        "spyReturn": 61.72
       },
       {
         "date": "2026-02-19",
         "vix": 20.23,
         "marketClose": 6861.89,
-        "spyReturn": 61.55
+        "spyReturn": 61.26
       },
       {
         "date": "2026-02-20",
         "vix": 19.09,
         "marketClose": 6909.51,
-        "spyReturn": 62.67
+        "spyReturn": 62.38
       },
       {
         "date": "2026-02-23",
         "vix": 21.01,
         "marketClose": 6837.75,
-        "spyReturn": 60.99
+        "spyReturn": 60.69
       },
       {
         "date": "2026-02-24",
         "vix": 19.55,
         "marketClose": 6890.07,
-        "spyReturn": 62.22
+        "spyReturn": 61.92
       },
       {
         "date": "2026-02-25",
         "vix": 17.93,
         "marketClose": 6946.13,
-        "spyReturn": 63.54
+        "spyReturn": 63.24
       },
       {
         "date": "2026-02-26",
         "vix": 18.63,
         "marketClose": 6908.86,
-        "spyReturn": 62.66
+        "spyReturn": 62.36
       },
       {
         "date": "2026-02-27",
         "vix": 19.86,
         "marketClose": 6878.88,
-        "spyReturn": 61.95
+        "spyReturn": 61.66
       },
       {
         "date": "2026-03-02",
         "vix": 21.44,
         "marketClose": 6881.62,
-        "spyReturn": 62.02
+        "spyReturn": 61.72
       },
       {
         "date": "2026-03-03",
         "vix": 23.57,
         "marketClose": 6816.63,
-        "spyReturn": 60.49
+        "spyReturn": 60.2
       },
       {
         "date": "2026-03-04",
         "vix": 21.15,
         "marketClose": 6869.5,
-        "spyReturn": 61.73
+        "spyReturn": 61.44
       },
       {
         "date": "2026-03-05",
         "vix": 23.75,
         "marketClose": 6830.71,
-        "spyReturn": 60.82
+        "spyReturn": 60.53
       },
       {
         "date": "2026-03-06",
         "vix": 29.49,
         "marketClose": 6740.02,
-        "spyReturn": 58.68
+        "spyReturn": 58.4
       },
       {
         "date": "2026-03-09",
         "vix": 25.5,
         "marketClose": 6795.99,
-        "spyReturn": 60
+        "spyReturn": 59.71
       },
       {
         "date": "2026-03-10",
         "vix": 24.93,
         "marketClose": 6781.48,
-        "spyReturn": 59.66
+        "spyReturn": 59.37
       },
       {
         "date": "2026-03-11",
         "vix": 24.23,
         "marketClose": 6775.8,
-        "spyReturn": 59.53
+        "spyReturn": 59.24
       },
       {
         "date": "2026-03-12",
         "vix": 27.29,
         "marketClose": 6672.62,
-        "spyReturn": 57.1
+        "spyReturn": 56.81
       },
       {
         "date": "2026-03-13",
         "vix": 27.19,
         "marketClose": 6632.19,
-        "spyReturn": 56.15
+        "spyReturn": 55.86
       },
       {
         "date": "2026-03-16",
         "vix": 23.51,
         "marketClose": 6699.38,
-        "spyReturn": 57.73
+        "spyReturn": 57.44
       },
       {
         "date": "2026-03-17",
         "vix": 22.37,
         "marketClose": 6716.09,
-        "spyReturn": 58.12
+        "spyReturn": 57.83
       },
       {
         "date": "2026-03-18",
         "vix": 25.09,
         "marketClose": 6624.7,
-        "spyReturn": 55.97
+        "spyReturn": 55.69
       },
       {
         "date": "2026-03-19",
         "vix": 24.06,
         "marketClose": 6606.49,
-        "spyReturn": 55.54
+        "spyReturn": 55.26
       },
       {
         "date": "2026-03-20",
         "vix": 26.78,
         "marketClose": 6506.48,
-        "spyReturn": 53.19
+        "spyReturn": 52.91
       },
       {
         "date": "2026-03-23",
         "vix": 26.15,
         "marketClose": 6581,
-        "spyReturn": 54.94
+        "spyReturn": 54.66
       },
       {
         "date": "2026-03-24",
         "vix": 26.95,
         "marketClose": 6556.37,
-        "spyReturn": 54.36
+        "spyReturn": 54.08
       },
       {
         "date": "2026-03-25",
         "vix": 25.33,
         "marketClose": 6591.9,
-        "spyReturn": 55.2
+        "spyReturn": 54.92
       },
       {
         "date": "2026-03-26",
         "vix": 27.44,
         "marketClose": 6477.16,
-        "spyReturn": 52.5
+        "spyReturn": 52.22
       },
       {
         "date": "2026-03-27",
         "vix": 31.05,
         "marketClose": 6368.85,
-        "spyReturn": 49.95
+        "spyReturn": 49.67
       },
       {
         "date": "2026-03-30",
         "vix": 30.61,
         "marketClose": 6343.72,
-        "spyReturn": 49.35
+        "spyReturn": 49.08
       },
       {
         "date": "2026-03-31",
         "vix": 25.25,
         "marketClose": 6528.52,
-        "spyReturn": 53.7
+        "spyReturn": 53.43
       },
       {
         "date": "2026-04-01",
         "vix": 24.54,
         "marketClose": 6575.32,
-        "spyReturn": 54.81
+        "spyReturn": 54.53
       },
       {
         "date": "2026-04-02",
         "vix": 23.87,
         "marketClose": 6582.69,
-        "spyReturn": 54.98
+        "spyReturn": 54.7
       },
       {
         "date": "2026-04-06",
         "vix": 24.17,
         "marketClose": 6611.83,
-        "spyReturn": 55.67
+        "spyReturn": 55.38
       },
       {
         "date": "2026-04-07",
         "vix": 25.78,
         "marketClose": 6616.85,
-        "spyReturn": 55.78
+        "spyReturn": 55.5
       },
       {
         "date": "2026-04-08",
         "vix": 21.04,
         "marketClose": 6782.81,
-        "spyReturn": 59.69
+        "spyReturn": 59.4
       },
       {
         "date": "2026-04-09",
         "vix": 19.49,
         "marketClose": 6824.66,
-        "spyReturn": 60.68
+        "spyReturn": 60.39
       },
       {
         "date": "2026-04-10",
         "vix": 19.23,
         "marketClose": 6816.89,
-        "spyReturn": 60.49
+        "spyReturn": 60.2
       },
       {
         "date": "2026-04-13",
         "vix": 19.12,
         "marketClose": 6886.24,
-        "spyReturn": 62.13
+        "spyReturn": 61.83
       },
       {
         "date": "2026-04-14",
         "vix": 18.36,
         "marketClose": 6967.38,
-        "spyReturn": 64.04
+        "spyReturn": 63.74
       },
       {
         "date": "2026-04-15",
         "vix": 18.17,
         "marketClose": 7022.95,
-        "spyReturn": 65.35
+        "spyReturn": 65.05
       },
       {
         "date": "2026-04-16",
         "vix": 17.94,
         "marketClose": 7041.28,
-        "spyReturn": 65.78
+        "spyReturn": 65.48
       },
       {
         "date": "2026-04-17",
         "vix": 17.48,
         "marketClose": 7126.06,
-        "spyReturn": 67.77
+        "spyReturn": 67.47
       },
       {
         "date": "2026-04-20",
         "vix": 18.87,
         "marketClose": 7109.14,
-        "spyReturn": 67.37
+        "spyReturn": 67.07
       },
       {
         "date": "2026-04-21",
         "vix": 19.5,
         "marketClose": 7064.01,
-        "spyReturn": 66.31
+        "spyReturn": 66.01
       },
       {
         "date": "2026-04-22",
         "vix": 18.92,
         "marketClose": 7137.9,
-        "spyReturn": 68.05
+        "spyReturn": 67.75
       },
       {
         "date": "2026-04-23",
         "vix": 19.31,
         "marketClose": 7108.4,
-        "spyReturn": 67.36
+        "spyReturn": 67.05
       },
       {
         "date": "2026-04-24",
         "vix": 18.71,
         "marketClose": 7165.08,
-        "spyReturn": 68.69
+        "spyReturn": 68.39
       },
       {
         "date": "2026-04-27",
         "vix": 18.02,
         "marketClose": 7173.91,
-        "spyReturn": 68.9
+        "spyReturn": 68.59
       },
       {
         "date": "2026-04-28",
         "vix": 17.83,
         "marketClose": 7138.8,
-        "spyReturn": 68.07
+        "spyReturn": 67.77
       },
       {
         "date": "2026-04-29",
         "vix": 18.81,
         "marketClose": 7135.95,
-        "spyReturn": 68.01
+        "spyReturn": 67.7
       },
       {
         "date": "2026-04-30",
         "vix": 16.89,
         "marketClose": 7209.01,
-        "spyReturn": 69.73
+        "spyReturn": 69.42
       },
       {
         "date": "2026-05-01",
         "vix": 16.99,
         "marketClose": 7230.12,
-        "spyReturn": 70.22
+        "spyReturn": 69.91
       },
       {
         "date": "2026-05-04",
         "vix": 18.29,
         "marketClose": 7200.75,
-        "spyReturn": 69.53
+        "spyReturn": 69.22
       },
       {
         "date": "2026-05-05",
         "vix": 17.38,
         "marketClose": 7259.22,
-        "spyReturn": 70.91
+        "spyReturn": 70.6
       },
       {
         "date": "2026-05-06",
         "vix": 17.39,
         "marketClose": 7365.12,
-        "spyReturn": 73.4
+        "spyReturn": 73.09
       },
       {
         "date": "2026-05-07",
         "vix": 17.08,
         "marketClose": 7337.11,
-        "spyReturn": 72.74
+        "spyReturn": 72.43
       },
       {
         "date": "2026-05-08",
         "vix": 17.19,
         "marketClose": 7398.93,
-        "spyReturn": 74.2
+        "spyReturn": 73.88
       },
       {
         "date": "2026-05-11",
         "vix": 18.38,
         "marketClose": 7412.84,
-        "spyReturn": 74.52
+        "spyReturn": 74.21
       },
       {
         "date": "2026-05-12",
         "vix": 17.99,
         "marketClose": 7400.96,
-        "spyReturn": 74.25
+        "spyReturn": 73.93
       },
       {
         "date": "2026-05-13",
         "vix": 17.87,
         "marketClose": 7444.25,
-        "spyReturn": 75.26
+        "spyReturn": 74.95
       },
       {
         "date": "2026-05-14",
         "vix": 17.26,
         "marketClose": 7501.24,
-        "spyReturn": 76.61
+        "spyReturn": 76.29
       },
       {
         "date": "2026-05-15",
         "vix": 18.43,
         "marketClose": 7408.5,
-        "spyReturn": 74.42
+        "spyReturn": 74.11
       },
       {
         "date": "2026-05-18",
         "vix": 17.82,
         "marketClose": 7403.05,
-        "spyReturn": 74.29
+        "spyReturn": 73.98
       },
       {
         "date": "2026-05-19",
         "vix": 18.06,
         "marketClose": 7353.61,
-        "spyReturn": 73.13
+        "spyReturn": 72.82
       },
       {
         "date": "2026-05-20",
         "vix": 17.44,
         "marketClose": 7432.97,
-        "spyReturn": 75
+        "spyReturn": 74.68
       },
       {
         "date": "2026-05-21",
         "vix": 16.76,
         "marketClose": 7445.72,
-        "spyReturn": 75.3
+        "spyReturn": 74.98
       },
       {
         "date": "2026-05-22",
         "vix": 16.7,
         "marketClose": 7473.47,
-        "spyReturn": 75.95
+        "spyReturn": 75.63
       },
       {
         "date": "2026-05-26",
         "vix": 17.01,
         "marketClose": 7519.12,
-        "spyReturn": 77.03
+        "spyReturn": 76.71
       },
       {
         "date": "2026-05-27",
         "vix": 16.29,
         "marketClose": 7520.36,
-        "spyReturn": 77.06
+        "spyReturn": 76.74
       },
       {
         "date": "2026-05-28",
         "vix": 15.74,
         "marketClose": 7563.63,
-        "spyReturn": 78.08
+        "spyReturn": 77.75
       },
       {
         "date": "2026-05-29",
         "vix": 15.32,
         "marketClose": 7580.06,
-        "spyReturn": 78.46
+        "spyReturn": 78.14
       },
       {
         "date": "2026-06-01",
         "vix": 16.05,
         "marketClose": 7599.96,
-        "spyReturn": 78.93
+        "spyReturn": 78.61
       },
       {
         "date": "2026-06-02",
         "vix": 15.77,
         "marketClose": 7609.78,
-        "spyReturn": 79.16
+        "spyReturn": 78.84
       },
       {
         "date": "2026-06-03",
         "vix": 16.06,
         "marketClose": 7553.68,
-        "spyReturn": 77.84
+        "spyReturn": 77.52
       },
       {
         "date": "2026-06-04",
         "vix": 15.4,
         "marketClose": 7584.31,
-        "spyReturn": 78.56
+        "spyReturn": 78.24
       },
       {
         "date": "2026-06-05",
         "vix": 21.51,
         "marketClose": 7383.74,
-        "spyReturn": 73.84
+        "spyReturn": 73.52
       },
       {
         "date": "2026-06-08",
         "vix": 18.92,
         "marketClose": 7405.73,
-        "spyReturn": 74.36
+        "spyReturn": 74.04
       },
       {
         "date": "2026-06-09",
         "vix": 19.87,
         "marketClose": 7386.65,
-        "spyReturn": 73.91
+        "spyReturn": 73.59
       },
       {
         "date": "2026-06-10",
         "vix": 22.22,
         "marketClose": 7266.99,
-        "spyReturn": 71.09
+        "spyReturn": 70.78
       },
       {
         "date": "2026-06-11",
         "vix": 19.44,
         "marketClose": 7394.3,
-        "spyReturn": 74.09
+        "spyReturn": 73.77
+      },
+      {
+        "date": "2026-06-12",
+        "vix": 17.68,
+        "marketClose": 7431.46,
+        "spyReturn": 74.65
       }
     ],
     "nasdaqDeviation": [
-      {
-        "date": "2022-01-25",
-        "close": 14149.12,
-        "dev20": -9.39,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-01-26",
-        "close": 14172.76,
-        "dev20": -8.56,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-01-27",
-        "close": 14003.11,
-        "dev20": -8.93,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-01-28",
-        "close": 14454.61,
-        "dev20": -5.38,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-01-31",
-        "close": 14930.05,
-        "dev20": -1.82,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-01",
-        "close": 15019.68,
-        "dev20": -0.75,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-02",
-        "close": 15139.74,
-        "dev20": 0.42,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-03",
-        "close": 14501.11,
-        "dev20": -3.41,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-04",
-        "close": 14694.35,
-        "dev20": -1.77,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-07",
-        "close": 14571.25,
-        "dev20": -2.26,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-08",
-        "close": 14747.03,
-        "dev20": -0.79,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-09",
-        "close": 15056.96,
-        "dev20": 1.56,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-10",
-        "close": 14705.64,
-        "dev20": -0.4,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-11",
-        "close": 14253.84,
-        "dev20": -3.06,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-14",
-        "close": 14268.59,
-        "dev20": -2.51,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-15",
-        "close": 14620.82,
-        "dev20": 0.1,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-16",
-        "close": 14603.64,
-        "dev20": 0.13,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-17",
-        "close": 14171.74,
-        "dev20": -2.6,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2022-02-18",
-        "close": 14009.54,
-        "dev20": -3.58,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
       {
         "date": "2022-02-22",
         "close": 13870.53,
@@ -7888,7 +7736,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-23",
         "close": 14447.55,
         "dev20": 3.86,
-        "dev60": -1.48,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7896,7 +7744,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-24",
         "close": 14765.69,
         "dev20": 5.84,
-        "dev60": 0.89,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7904,7 +7752,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-25",
         "close": 14754.31,
         "dev20": 5.55,
-        "dev60": 1.01,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7912,7 +7760,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-28",
         "close": 14987.4,
         "dev20": 6.93,
-        "dev60": 2.78,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7920,7 +7768,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-29",
         "close": 15239.32,
         "dev20": 8.25,
-        "dev60": 4.63,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7928,7 +7776,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-30",
         "close": 15071.55,
         "dev20": 6.74,
-        "dev60": 3.65,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7936,7 +7784,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-03-31",
         "close": 14838.49,
         "dev20": 4.79,
-        "dev60": 2.22,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7944,7 +7792,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-01",
         "close": 14861.21,
         "dev20": 4.58,
-        "dev60": 2.48,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7952,7 +7800,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-04",
         "close": 15159.58,
         "dev20": 5.99,
-        "dev60": 4.61,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7960,7 +7808,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-05",
         "close": 14820.64,
         "dev20": 3.06,
-        "dev60": 2.36,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7968,7 +7816,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-06",
         "close": 14498.88,
         "dev20": 0.56,
-        "dev60": 0.27,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7976,7 +7824,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-07",
         "close": 14531.81,
         "dev20": 0.46,
-        "dev60": 0.65,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7984,7 +7832,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-08",
         "close": 14327.26,
         "dev20": -1.31,
-        "dev60": -0.59,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7992,7 +7840,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-11",
         "close": 13990.21,
         "dev20": -3.94,
-        "dev60": -2.75,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8000,7 +7848,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-12",
         "close": 13940.24,
         "dev20": -4.44,
-        "dev60": -2.91,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8008,7 +7856,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-13",
         "close": 14217.29,
         "dev20": -2.63,
-        "dev60": -0.87,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8016,7 +7864,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-14",
         "close": 13893.21,
         "dev20": -4.77,
-        "dev60": -3,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8024,7 +7872,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-18",
         "close": 13910.76,
         "dev20": -4.49,
-        "dev60": -2.77,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8032,7 +7880,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2022-04-19",
         "close": 14210.26,
         "dev20": -2.38,
-        "dev60": -0.65,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8369,7 +8217,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11265.99,
         "dev20": -6.81,
         "dev60": -13.94,
-        "dev120": -18.82,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8377,7 +8225,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11546.76,
         "dev20": -4.37,
         "dev60": -11.43,
-        "dev120": -16.55,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8385,7 +8233,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11527.71,
         "dev20": -4.33,
         "dev60": -11.21,
-        "dev120": -16.43,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8393,7 +8241,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11697.68,
         "dev20": -2.89,
         "dev60": -9.52,
-        "dev120": -14.96,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8401,7 +8249,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 12105.85,
         "dev20": 0.43,
         "dev60": -5.98,
-        "dev120": -11.77,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8409,7 +8257,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 12008.24,
         "dev20": -0.27,
         "dev60": -6.37,
-        "dev120": -12.24,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8417,7 +8265,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11637.77,
         "dev20": -2.93,
         "dev60": -8.88,
-        "dev120": -14.7,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8425,7 +8273,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11658.26,
         "dev20": -2.35,
         "dev60": -8.33,
-        "dev120": -14.34,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8433,7 +8281,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11503.72,
         "dev20": -3.23,
         "dev60": -9.11,
-        "dev120": -15.25,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8441,7 +8289,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11585.68,
         "dev20": -2,
         "dev60": -8.08,
-        "dev120": -14.44,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8449,7 +8297,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11779.9,
         "dev20": -0.03,
         "dev60": -6.2,
-        "dev120": -12.8,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8457,7 +8305,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11852.59,
         "dev20": 0.91,
         "dev60": -5.28,
-        "dev120": -12.04,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8465,7 +8313,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 12109.05,
         "dev20": 3.36,
         "dev60": -2.95,
-        "dev120": -9.93,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8473,7 +8321,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 12125.69,
         "dev20": 3.71,
         "dev60": -2.57,
-        "dev120": -9.62,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8481,7 +8329,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11860.28,
         "dev20": 1.62,
         "dev60": -4.44,
-        "dev120": -11.39,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8489,7 +8337,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11744.99,
         "dev20": 0.67,
         "dev60": -5.05,
-        "dev120": -12.06,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8497,7 +8345,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11728.53,
         "dev20": 0.34,
         "dev60": -4.9,
-        "dev120": -12,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8505,7 +8353,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11768.4,
         "dev20": 0.49,
         "dev60": -4.3,
-        "dev120": -11.53,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8513,7 +8361,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 11983.62,
         "dev20": 2.15,
         "dev60": -2.26,
-        "dev120": -9.78,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -9010,7 +8858,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -5.23,
         "dev60": -12.47,
         "dev120": -12.03,
-        "dev200": -18.32
+        "dev200": null
       },
       {
         "date": "2022-10-13",
@@ -9018,7 +8866,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -2.67,
         "dev60": -10.28,
         "dev120": -9.87,
-        "dev200": -16.27
+        "dev200": null
       },
       {
         "date": "2022-10-14",
@@ -9026,7 +8874,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -5.19,
         "dev60": -12.83,
         "dev120": -12.49,
-        "dev200": -18.68
+        "dev200": null
       },
       {
         "date": "2022-10-17",
@@ -9034,7 +8882,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -1.52,
         "dev60": -9.65,
         "dev120": -9.34,
-        "dev200": -15.69
+        "dev200": null
       },
       {
         "date": "2022-10-18",
@@ -9042,7 +8890,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -0.45,
         "dev60": -8.8,
         "dev120": -8.52,
-        "dev200": -14.87
+        "dev200": null
       },
       {
         "date": "2022-10-19",
@@ -9050,7 +8898,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -0.61,
         "dev60": -9.05,
         "dev120": -8.74,
-        "dev200": -15.04
+        "dev200": null
       },
       {
         "date": "2022-10-20",
@@ -9058,7 +8906,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -0.91,
         "dev60": -9.32,
         "dev120": -9.09,
-        "dev200": -15.3
+        "dev200": null
       },
       {
         "date": "2022-10-21",
@@ -9066,7 +8914,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 1.45,
         "dev60": -6.97,
         "dev120": -6.81,
-        "dev200": -13.13
+        "dev200": null
       },
       {
         "date": "2022-10-24",
@@ -9074,7 +8922,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 2.45,
         "dev60": -5.79,
         "dev120": -5.72,
-        "dev200": -12.06
+        "dev200": null
       },
       {
         "date": "2022-10-25",
@@ -9082,7 +8930,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 4.41,
         "dev60": -3.65,
         "dev120": -3.61,
-        "dev200": -10.08
+        "dev200": null
       },
       {
         "date": "2022-10-26",
@@ -9090,7 +8938,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 2.09,
         "dev60": -5.63,
         "dev120": -5.7,
-        "dev200": -11.98
+        "dev200": null
       },
       {
         "date": "2022-10-27",
@@ -9098,7 +8946,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 0.16,
         "dev60": -7.14,
         "dev120": -7.38,
-        "dev200": -13.48
+        "dev200": null
       },
       {
         "date": "2022-10-28",
@@ -9106,7 +8954,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 3.07,
         "dev60": -3.97,
         "dev120": -4.4,
-        "dev200": -10.58
+        "dev200": null
       },
       {
         "date": "2022-10-31",
@@ -9114,7 +8962,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 1.73,
         "dev60": -4.9,
         "dev120": -5.5,
-        "dev200": -11.53
+        "dev200": null
       },
       {
         "date": "2022-11-01",
@@ -9122,7 +8970,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": 0.82,
         "dev60": -5.63,
         "dev120": -6.43,
-        "dev200": -12.29
+        "dev200": null
       },
       {
         "date": "2022-11-02",
@@ -9130,7 +8978,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -2.3,
         "dev60": -8.56,
         "dev120": -9.53,
-        "dev200": -15.12
+        "dev200": null
       },
       {
         "date": "2022-11-03",
@@ -9138,7 +8986,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -3.89,
         "dev60": -10.03,
         "dev120": -11.22,
-        "dev200": -16.66
+        "dev200": null
       },
       {
         "date": "2022-11-04",
@@ -9146,7 +8994,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -2.32,
         "dev60": -8.31,
         "dev120": -9.75,
-        "dev200": -15.23
+        "dev200": null
       },
       {
         "date": "2022-11-07",
@@ -9154,7 +9002,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -1.26,
         "dev60": -6.96,
         "dev120": -8.65,
-        "dev200": -14.18
+        "dev200": null
       },
       {
         "date": "2022-11-08",
@@ -16355,6 +16203,14 @@ window.MARKET_SENTIMENT_DATA = {
         "dev60": 8.14,
         "dev120": 12.27,
         "dev200": 14.72
+      },
+      {
+        "date": "2026-06-12",
+        "close": 29635.95,
+        "dev20": -0.01,
+        "dev60": 8.49,
+        "dev120": 12.83,
+        "dev200": 15.32
       }
     ]
   }
