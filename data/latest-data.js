@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-08-01T04:02:19.950Z",
+  "generatedAt": "2026-08-02T04:05:53.400Z",
   "asOf": "2026-07-31",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -7559,158 +7559,6 @@ window.MARKET_SENTIMENT_DATA = {
     ],
     "nasdaqDeviation": [
       {
-        "date": "2025-11-06",
-        "close": 25130.04,
-        "dev20": -0.49,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-07",
-        "close": 25059.81,
-        "dev20": -0.93,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-10",
-        "close": 25611.74,
-        "dev20": 1.08,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-11",
-        "close": 25533.49,
-        "dev20": 0.58,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-12",
-        "close": 25517.33,
-        "dev20": 0.36,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-13",
-        "close": 24993.46,
-        "dev20": -1.76,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-14",
-        "close": 25008.24,
-        "dev20": -1.74,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-17",
-        "close": 24799.92,
-        "dev20": -2.5,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-18",
-        "close": 24503.1,
-        "dev20": -3.54,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-19",
-        "close": 24640.52,
-        "dev20": -2.96,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-20",
-        "close": 24054.38,
-        "dev20": -5.07,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-21",
-        "close": 24239.57,
-        "dev20": -4.13,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-24",
-        "close": 24873.85,
-        "dev20": -1.43,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-25",
-        "close": 25018.36,
-        "dev20": -0.67,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-26",
-        "close": 25236.94,
-        "dev20": 0.38,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-11-28",
-        "close": 25434.89,
-        "dev20": 1.22,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-12-01",
-        "close": 25342.85,
-        "dev20": 0.96,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-12-02",
-        "close": 25555.86,
-        "dev20": 1.9,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2025-12-03",
-        "close": 25606.54,
-        "dev20": 2.06,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
         "date": "2025-12-04",
         "close": 25581.7,
         "dev20": 1.97,
@@ -7882,7 +7730,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-06",
         "close": 25639.71,
         "dev20": 0.94,
-        "dev60": 1.52,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7890,7 +7738,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-07",
         "close": 25653.9,
         "dev20": 0.99,
-        "dev60": 1.48,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7898,7 +7746,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-08",
         "close": 25507.1,
         "dev20": 0.45,
-        "dev60": 0.85,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7906,7 +7754,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-09",
         "close": 25766.26,
         "dev20": 1.47,
-        "dev60": 1.79,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7914,7 +7762,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-12",
         "close": 25787.66,
         "dev20": 1.53,
-        "dev60": 1.81,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7922,7 +7770,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-13",
         "close": 25741.95,
         "dev20": 1.25,
-        "dev60": 1.55,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7930,7 +7778,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-14",
         "close": 25465.94,
         "dev20": 0.08,
-        "dev60": 0.42,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7938,7 +7786,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-15",
         "close": 25547.08,
         "dev20": 0.32,
-        "dev60": 0.71,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7946,7 +7794,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-16",
         "close": 25529.26,
         "dev20": 0.08,
-        "dev60": 0.62,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7954,7 +7802,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-20",
         "close": 24987.57,
         "dev20": -2.04,
-        "dev60": -1.52,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7962,7 +7810,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-21",
         "close": 25326.58,
         "dev20": -0.71,
-        "dev60": -0.2,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7970,7 +7818,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-22",
         "close": 25518.35,
         "dev20": 0.03,
-        "dev60": 0.54,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7978,7 +7826,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-23",
         "close": 25605.47,
         "dev20": 0.37,
-        "dev60": 0.9,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7986,7 +7834,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-26",
         "close": 25713.21,
         "dev20": 0.78,
-        "dev60": 1.34,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7994,7 +7842,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-27",
         "close": 25939.74,
         "dev20": 1.61,
-        "dev60": 2.25,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8002,7 +7850,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-28",
         "close": 26022.79,
         "dev20": 1.84,
-        "dev60": 2.56,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8010,7 +7858,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-29",
         "close": 25884.3,
         "dev20": 1.21,
-        "dev60": 2.01,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8018,7 +7866,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-01-30",
         "close": 25552.39,
         "dev20": -0.15,
-        "dev60": 0.73,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8026,7 +7874,7 @@ window.MARKET_SENTIMENT_DATA = {
         "date": "2026-02-02",
         "close": 25738.61,
         "dev20": 0.48,
-        "dev60": 1.44,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8363,7 +8211,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 24045.53,
         "dev20": -0.72,
         "dev60": -3.48,
-        "dev120": -4.14,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8371,7 +8219,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 24192.17,
         "dev20": -0.02,
         "dev60": -2.8,
-        "dev120": -3.56,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8379,7 +8227,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 24202.37,
         "dev20": 0.18,
         "dev60": -2.67,
-        "dev120": -3.5,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8387,7 +8235,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 24903.17,
         "dev20": 3.09,
         "dev60": 0.2,
-        "dev120": -0.72,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8395,7 +8243,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 25082.09,
         "dev20": 3.81,
         "dev60": 0.97,
-        "dev120": -0.01,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8403,7 +8251,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 25116.34,
         "dev20": 3.82,
         "dev60": 1.15,
-        "dev120": 0.11,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8411,7 +8259,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 25383.72,
         "dev20": 4.71,
         "dev60": 2.23,
-        "dev120": 1.15,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8419,7 +8267,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 25842,
         "dev20": 6.34,
         "dev60": 4.06,
-        "dev120": 2.96,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8427,7 +8275,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26204.58,
         "dev20": 7.52,
         "dev60": 5.47,
-        "dev120": 4.36,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8435,7 +8283,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26333,
         "dev20": 7.63,
         "dev60": 5.89,
-        "dev120": 4.82,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8443,7 +8291,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26672.43,
         "dev20": 8.5,
         "dev60": 7.16,
-        "dev120": 6.12,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8451,7 +8299,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26590.34,
         "dev20": 7.58,
         "dev60": 6.75,
-        "dev120": 5.75,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8459,7 +8307,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26479.47,
         "dev20": 6.63,
         "dev60": 6.25,
-        "dev120": 5.29,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8467,7 +8315,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26937.27,
         "dev20": 7.84,
         "dev60": 7.99,
-        "dev120": 7.07,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8475,7 +8323,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 26782.62,
         "dev20": 6.66,
         "dev60": 7.31,
-        "dev120": 6.44,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8483,7 +8331,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 27303.67,
         "dev20": 7.94,
         "dev60": 9.31,
-        "dev120": 8.45,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8491,7 +8339,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 27305.68,
         "dev20": 7.06,
         "dev60": 9.21,
-        "dev120": 8.41,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8499,7 +8347,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 27029.01,
         "dev20": 5.14,
         "dev60": 8,
-        "dev120": 7.27,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -8507,7 +8355,7 @@ window.MARKET_SENTIMENT_DATA = {
         "close": 27186.99,
         "dev20": 5.05,
         "dev60": 8.53,
-        "dev120": 7.83,
+        "dev120": null,
         "dev200": null
       },
       {
@@ -9004,7 +8852,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -6.09,
         "dev60": -7.27,
         "dev120": -0.13,
-        "dev200": 2.72
+        "dev200": null
       },
       {
         "date": "2026-07-30",
@@ -9012,7 +8860,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -2.65,
         "dev60": -4.18,
         "dev120": 3.11,
-        "dev200": 6.1
+        "dev200": null
       },
       {
         "date": "2026-07-31",
@@ -9020,7 +8868,7 @@ window.MARKET_SENTIMENT_DATA = {
         "dev20": -1.89,
         "dev60": -3.62,
         "dev120": 3.63,
-        "dev200": 6.66
+        "dev200": null
       }
     ]
   }
