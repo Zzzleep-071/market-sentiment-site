@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T03:51:13.287Z",
+  "generatedAt": "2026-08-07T03:31:46.577Z",
   "asOf": "2026-08-05",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -22,7 +22,7 @@
     "sp500TwentyDayReturn": 3.2,
     "spyTwentyDayReturn": 3.2,
     "tenYearYield": 4.63,
-    "twoTenSpread": 0.43
+    "twoTenSpread": 0.45
   },
   "series": {
     "vixSpy": [
@@ -7559,158 +7559,6 @@
     ],
     "nasdaqDeviation": [
       {
-        "date": "2026-03-26",
-        "close": 23586.99,
-        "dev20": -3.98,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-03-27",
-        "close": 23132.77,
-        "dev20": -5.48,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-03-30",
-        "close": 22953.38,
-        "dev20": -5.82,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-03-31",
-        "close": 23740.19,
-        "dev20": -2.39,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-01",
-        "close": 24019.99,
-        "dev20": -1.02,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-02",
-        "close": 24045.53,
-        "dev20": -0.72,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-06",
-        "close": 24192.17,
-        "dev20": -0.02,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-07",
-        "close": 24202.37,
-        "dev20": 0.18,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-08",
-        "close": 24903.17,
-        "dev20": 3.09,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-09",
-        "close": 25082.09,
-        "dev20": 3.81,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-10",
-        "close": 25116.34,
-        "dev20": 3.82,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-13",
-        "close": 25383.72,
-        "dev20": 4.71,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-14",
-        "close": 25842,
-        "dev20": 6.34,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-15",
-        "close": 26204.58,
-        "dev20": 7.52,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-16",
-        "close": 26333,
-        "dev20": 7.63,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-17",
-        "close": 26672.43,
-        "dev20": 8.5,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-20",
-        "close": 26590.34,
-        "dev20": 7.58,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-21",
-        "close": 26479.47,
-        "dev20": 6.63,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-04-22",
-        "close": 26937.27,
-        "dev20": 7.84,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
         "date": "2026-04-23",
         "close": 26782.62,
         "dev20": 6.66,
@@ -7882,7 +7730,7 @@
         "date": "2026-05-22",
         "close": 29481.64,
         "dev20": 3.23,
-        "dev60": 12.79,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7890,7 +7738,7 @@
         "date": "2026-05-26",
         "close": 30001.32,
         "dev20": 4.56,
-        "dev60": 14.41,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7898,7 +7746,7 @@
         "date": "2026-05-27",
         "close": 29973.57,
         "dev20": 3.93,
-        "dev60": 13.94,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7906,7 +7754,7 @@
         "date": "2026-05-28",
         "close": 30223.89,
         "dev20": 4.25,
-        "dev60": 14.49,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7914,7 +7762,7 @@
         "date": "2026-05-29",
         "close": 30333.18,
         "dev20": 4.11,
-        "dev60": 14.53,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7922,7 +7770,7 @@
         "date": "2026-06-01",
         "close": 30513.86,
         "dev20": 4.23,
-        "dev60": 14.81,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7930,7 +7778,7 @@
         "date": "2026-06-02",
         "close": 30660.6,
         "dev20": 4.19,
-        "dev60": 14.93,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7938,7 +7786,7 @@
         "date": "2026-06-03",
         "close": 30571.24,
         "dev20": 3.44,
-        "dev60": 14.2,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7946,7 +7794,7 @@
         "date": "2026-06-04",
         "close": 30407.81,
         "dev20": 2.57,
-        "dev60": 13.2,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7954,7 +7802,7 @@
         "date": "2026-06-05",
         "close": 28957.6,
         "dev20": -2.38,
-        "dev60": 7.54,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7962,7 +7810,7 @@
         "date": "2026-06-08",
         "close": 29414.26,
         "dev20": -0.87,
-        "dev60": 8.9,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7970,7 +7818,7 @@
         "date": "2026-06-09",
         "close": 29084.5,
         "dev20": -1.95,
-        "dev60": 7.37,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7978,7 +7826,7 @@
         "date": "2026-06-10",
         "close": 28508.03,
         "dev20": -3.8,
-        "dev60": 4.99,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7986,7 +7834,7 @@
         "date": "2026-06-11",
         "close": 29446.18,
         "dev20": -0.65,
-        "dev60": 8.14,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -7994,7 +7842,7 @@
         "date": "2026-06-12",
         "close": 29635.95,
         "dev20": -0.01,
-        "dev60": 8.49,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8002,7 +7850,7 @@
         "date": "2026-06-15",
         "close": 30543.92,
         "dev20": 2.8,
-        "dev60": 11.39,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8010,7 +7858,7 @@
         "date": "2026-06-16",
         "close": 29968.13,
         "dev20": 0.7,
-        "dev60": 8.89,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8018,7 +7866,7 @@
         "date": "2026-06-17",
         "close": 29670.95,
         "dev20": -0.44,
-        "dev60": 7.46,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
@@ -8026,7 +7874,7 @@
         "date": "2026-06-18",
         "close": 30406.19,
         "dev20": 1.84,
-        "dev60": 9.69,
+        "dev60": null,
         "dev120": null,
         "dev200": null
       },
