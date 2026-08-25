@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:08:22.285Z",
+  "generatedAt": "2026-08-25T02:04:13.501Z",
   "asOf": "2026-08-21",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -21,7 +21,7 @@
     "vixFiveDayChange": 0.88,
     "sp500TwentyDayReturn": 3.5,
     "spyTwentyDayReturn": 3.5,
-    "tenYearYield": 4.69,
+    "tenYearYield": 4.74,
     "twoTenSpread": 0.5
   },
   "series": {
