@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-08-29T07:18:02.943Z",
+  "generatedAt": "2026-08-30T05:42:33.765Z",
   "asOf": "2026-08-28",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -7558,14 +7558,6 @@ window.MARKET_SENTIMENT_DATA = {
       }
     ],
     "nasdaqDeviation": [
-      {
-        "date": "2026-08-07",
-        "close": 29722.3,
-        "dev20": 3.24,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
       {
         "date": "2026-08-10",
         "close": 29621.8,
