@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-08-30T05:42:33.765Z",
+  "generatedAt": "2026-08-31T05:59:01.837Z",
   "asOf": "2026-08-28",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
