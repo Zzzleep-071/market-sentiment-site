@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T04:52:03.506Z",
+  "generatedAt": "2026-09-06T04:59:36.169Z",
   "asOf": "2026-09-04",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -7558,14 +7558,6 @@
       }
     ],
     "nasdaqDeviation": [
-      {
-        "date": "2026-08-14",
-        "close": 30046.14,
-        "dev20": 3.82,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
       {
         "date": "2026-08-17",
         "close": 29995.38,
