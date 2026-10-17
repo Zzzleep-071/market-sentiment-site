@@ -2581,7 +2581,7 @@
   },
   {
     "asOf": "2026-10-15",
-    "generatedAt": "2026-10-16T04:52:30.068Z",
+    "generatedAt": "2026-10-17T04:53:51.246Z",
     "metrics": {
       "vix": 16.46,
       "vixZone": "<20：常态区间",
@@ -2589,8 +2589,8 @@
       "vixFiveDayChange": 1.05,
       "sp500TwentyDayReturn": 1.4,
       "spyTwentyDayReturn": 1.4,
-      "tenYearYield": 5.19,
-      "twoTenSpread": 0.37
+      "tenYearYield": 5.1,
+      "twoTenSpread": 0.33
     },
     "latest": {
       "vixAndSp500": {

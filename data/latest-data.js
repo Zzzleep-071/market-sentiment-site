@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-10-16T04:52:30.068Z",
+  "generatedAt": "2026-10-17T04:53:51.246Z",
   "asOf": "2026-10-15",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -21,8 +21,8 @@ window.MARKET_SENTIMENT_DATA = {
     "vixFiveDayChange": 1.05,
     "sp500TwentyDayReturn": 1.4,
     "spyTwentyDayReturn": 1.4,
-    "tenYearYield": 5.19,
-    "twoTenSpread": 0.37
+    "tenYearYield": 5.1,
+    "twoTenSpread": 0.33
   },
   "series": {
     "vixSpy": [
