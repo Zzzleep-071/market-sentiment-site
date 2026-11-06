@@ -2878,5 +2878,35 @@
         "dev200": null
       }
     }
+  },
+  {
+    "asOf": "2026-11-04",
+    "generatedAt": "2026-11-06T07:15:24.332Z",
+    "metrics": {
+      "vix": 16.61,
+      "vixZone": "<20：常态区间",
+      "vixPercentile10y": 47,
+      "vixFiveDayChange": -0.3,
+      "sp500TwentyDayReturn": -1.5,
+      "spyTwentyDayReturn": -1.5,
+      "tenYearYield": 4.9,
+      "twoTenSpread": 0.32
+    },
+    "latest": {
+      "vixAndSp500": {
+        "date": "2026-11-04",
+        "vix": 16.61,
+        "marketClose": 7688.62,
+        "spyReturn": 64.28
+      },
+      "nasdaqDeviation": {
+        "date": "2026-11-04",
+        "close": 28437.17,
+        "dev20": -3.57,
+        "dev60": null,
+        "dev120": null,
+        "dev200": null
+      }
+    }
   }
 ]
