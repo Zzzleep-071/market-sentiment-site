@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-11-11T06:58:55.316Z",
+  "generatedAt": "2026-11-12T07:36:01.040Z",
   "asOf": "2026-11-10",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -7558,46 +7558,6 @@ window.MARKET_SENTIMENT_DATA = {
       }
     ],
     "nasdaqDeviation": [
-      {
-        "date": "2026-10-16",
-        "close": 29187.55,
-        "dev20": -4.38,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-10-19",
-        "close": 29529.34,
-        "dev20": -3.11,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-10-20",
-        "close": 29490.28,
-        "dev20": -3.04,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-10-21",
-        "close": 29822.52,
-        "dev20": -1.84,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
-      {
-        "date": "2026-10-22",
-        "close": 28958.69,
-        "dev20": -4.45,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
       {
         "date": "2026-10-23",
         "close": 28957.53,
