@@ -1,5 +1,5 @@
 window.MARKET_SENTIMENT_DATA = {
-  "generatedAt": "2026-11-19T07:48:31.032Z",
+  "generatedAt": "2026-11-20T07:40:10.035Z",
   "asOf": "2026-11-18",
   "dataQuality": "live",
   "nasdaqLabel": "纳指100",
@@ -21,8 +21,8 @@ window.MARKET_SENTIMENT_DATA = {
     "vixFiveDayChange": 7.07,
     "sp500TwentyDayReturn": -5.6,
     "spyTwentyDayReturn": -5.6,
-    "tenYearYield": 5.1,
-    "twoTenSpread": 0.3
+    "tenYearYield": 5.07,
+    "twoTenSpread": 0.27
   },
   "series": {
     "vixSpy": [
@@ -7558,14 +7558,6 @@ window.MARKET_SENTIMENT_DATA = {
       }
     ],
     "nasdaqDeviation": [
-      {
-        "date": "2026-10-29",
-        "close": 29402.51,
-        "dev20": -2.17,
-        "dev60": null,
-        "dev120": null,
-        "dev200": null
-      },
       {
         "date": "2026-10-30",
         "close": 28384.85,
